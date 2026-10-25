@@ -3,7 +3,7 @@ import { cvVariants } from "../variants";
 
 export function CvArchive() {
   return <main className="min-h-screen bg-[#f5f4f0] px-5 py-12 text-zinc-900"><div className="mx-auto max-w-4xl">
-    <Link href="/cv/jobs" className="text-sm text-zinc-500 hover:text-zinc-900">Back to jobs</Link>
+    <Link href="/jobs" className="text-sm text-zinc-500 hover:text-zinc-900">Back to jobs</Link>
     <h1 className="mt-8 text-4xl font-semibold tracking-tight">Your CV archive</h1>
     <p className="mt-4 max-w-2xl text-zinc-600">Older saved CV versions, kept separate from your job search archive.</p>
     <div className="mt-8 grid gap-3 sm:grid-cols-2">{cvVariants.map((variant) => <Link key={variant.slug} href={variant.path} className="rounded-xl border border-zinc-200 bg-white p-5 hover:border-zinc-400">

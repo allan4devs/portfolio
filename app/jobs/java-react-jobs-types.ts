@@ -1,8 +1,12 @@
-import type { ApplicationState, ApplicationStatus } from "./applications";
+import type { ApplicationState, ApplicationStatus } from "../(page_routes)/cv/applications";
 
 export type JobLead = {
   id: string;
   applicationSlug: string;
+  /** Other application keys retained when source records describe the same posting. */
+  applicationAliases?: string[];
+  /** Stable identifiers retained from merged source records. */
+  sourceIds?: string[];
   company: string;
   title: string;
   location: string;
@@ -59,6 +63,8 @@ export type JobRowModel = {
   hot: boolean;
   /** Board-only archive decision; original application status and notes stay intact. */
   archiveReason?: string;
+  /** HOT eligibility only; these jobs remain browsable in the backlog. */
+  hotExclusionReason?: string;
   auditRank?: number;
 };
 

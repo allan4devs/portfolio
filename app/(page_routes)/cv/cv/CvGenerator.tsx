@@ -85,7 +85,7 @@ export function CvGenerator({ initialJd = "" }: { initialJd?: string }) {
             <FileText size={18} /> CV Studio
           </Link>
           <div className="flex flex-wrap justify-end gap-5">
-            <Link href="/cv/jobs" className="text-zinc-600 hover:text-zinc-900">Jobs</Link>
+            <Link href="/jobs" className="text-zinc-600 hover:text-zinc-900">Jobs</Link>
             <Link href="/cv/scraper" className="text-zinc-600 hover:text-zinc-900">Import a job URL</Link>
             <Link href="/cv/cv-archive" className="text-zinc-600 hover:text-zinc-900">CV archive</Link>
           </div>

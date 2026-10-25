@@ -1,4 +1,4 @@
-import type { ApplicationState } from "./applications";
+import type { ApplicationState } from "../(page_routes)/cv/applications";
 import type {
   JobBoardView,
   JobLead,

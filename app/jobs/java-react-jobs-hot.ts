@@ -1,11 +1,11 @@
 import { HOT_JOB_IDS } from "./data/hot-jobs";
-import { HOT_DISMISSED_STORAGE_KEY, HOT_LIMIT, HOT_STORAGE_KEY } from "./java-react-jobs-constants";
+import { HOT_DISMISSED_STORAGE_KEY, HOT_LIMIT, HOT_ROTATED_STORAGE_KEY, HOT_STORAGE_KEY } from "./java-react-jobs-constants";
 import { isArchivedRow, jobPostingKey } from "./java-react-jobs-helpers";
 import type { JobRowModel } from "./java-react-jobs-types";
 import { compareAuditCandidates, hasApplicationHistory, isOctober2026Posting, jobCompanyKey, MIN_JOB_FIT } from "./java-react-jobs-audit";
 
-export function isHotCandidate(row: Pick<JobRowModel, "job" | "state" | "archiveReason">): boolean {
-  return !isArchivedRow(row) && !hasApplicationHistory(row) && row.job.rating10 >= MIN_JOB_FIT
+export function isHotCandidate(row: Pick<JobRowModel, "job" | "state" | "archiveReason" | "hotExclusionReason">): boolean {
+  return !row.hotExclusionReason && !isArchivedRow(row) && !hasApplicationHistory(row) && row.job.rating10 >= MIN_JOB_FIT
     && isOctober2026Posting(row.job) && row.job.listingStatus !== "closed"
     && Boolean(jobCompanyKey(row.job.company)) && Boolean(jobPostingKey(row.job.url));
 }
@@ -15,9 +15,9 @@ export function compareHotCandidates(a: JobRowModel, b: JobRowModel): number {
   return compareAuditCandidates(a, b);
 }
 
-/** Up to ten genuinely new October postings, one per company. Never recycle skipped jobs. */
-export function selectHotIds(rows: JobRowModel[], preferredIds: string[], dismissedIds: string[]): string[] {
-  const dismissed = new Set(dismissedIds);
+/** Rank the full backlog; rotation history only affects HOT, never archive membership. */
+export function rankHotCandidates(rows: JobRowModel[], preferredIds: string[], dismissedIds: string[], rotatedIds: string[] = []): string[] {
+  const dismissed = new Set([...dismissedIds, ...rotatedIds]);
   const blockedPostings = new Set(rows
     .filter((row) => hasApplicationHistory(row) || dismissed.has(row.job.id))
     .map((row) => jobPostingKey(row.job.url)));
@@ -41,9 +41,13 @@ export function selectHotIds(rows: JobRowModel[], preferredIds: string[], dismis
     selected.push(row.job.id);
     selectedPostings.add(key);
     selectedCompanies.add(company);
-    if (selected.length === HOT_LIMIT) break;
   }
   return selected;
+}
+
+/** Up to eight genuinely new October postings, one per company. */
+export function selectHotIds(rows: JobRowModel[], preferredIds: string[], dismissedIds: string[], rotatedIds: string[] = []): string[] {
+  return rankHotCandidates(rows, preferredIds, dismissedIds, rotatedIds).slice(0, HOT_LIMIT);
 }
 
 /** Browser override of the committed HOT seed; null means "use data/hot-jobs.ts". */
@@ -91,6 +95,25 @@ export function saveDismissedHotIds(ids: string[]): void {
   if (typeof window === "undefined") return;
   try {
     window.localStorage.setItem(HOT_DISMISSED_STORAGE_KEY, JSON.stringify([...new Set(ids)]));
+  } catch {
+    /* localStorage unavailable or full */
+  }
+}
+
+export function loadRotatedHotIds(): string[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const parsed: unknown = JSON.parse(window.localStorage.getItem(HOT_ROTATED_STORAGE_KEY) ?? "[]");
+    return Array.isArray(parsed) ? [...new Set(parsed.filter((id): id is string => typeof id === "string"))] : [];
+  } catch {
+    return [];
+  }
+}
+
+export function saveRotatedHotIds(ids: string[]): void {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(HOT_ROTATED_STORAGE_KEY, JSON.stringify([...new Set(ids)]));
   } catch {
     /* localStorage unavailable or full */
   }

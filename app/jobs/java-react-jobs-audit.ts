@@ -1,4 +1,3 @@
-import { HOT_LIMIT } from "./java-react-jobs-constants";
 import { jobPostingKey } from "./java-react-jobs-helpers";
 import type { JobLead, JobRowModel } from "./java-react-jobs-types";
 
@@ -39,7 +38,7 @@ export function hasApplicationHistory({ job, state }: Pick<JobRowModel, "job" | 
   return Boolean(job.seen || state.appliedOn?.trim()) || state.status !== "draft" || job.initialStatus !== "draft";
 }
 
-/** Recompute after local history hydrates. Archive membership never erases pipeline history. */
+/** HOT eligibility never hides unreviewed jobs from the backlog. */
 export function auditJobRows(rows: JobRowModel[], dismissedIds: string[] = []): JobRowModel[] {
   const dismissed = new Set(dismissedIds);
   const usedCompanies = new Set<string>();
@@ -60,26 +59,29 @@ export function auditJobRows(rows: JobRowModel[], dismissedIds: string[] = []): 
     const company = jobCompanyKey(job.company);
     const posting = jobPostingKey(job.url);
     let archiveReason: string | undefined;
+    let hotExclusionReason: string | undefined;
     if (job.seen) archiveReason = "Already viewed";
     else if (hasApplicationHistory(row)) archiveReason = `Application history: ${state.status === "draft" ? job.initialStatus : state.status}${state.appliedOn ? ` (${state.appliedOn})` : ""}`;
-    else if (usedCompanies.has(company) || (posting && usedPostings.has(posting))) archiveReason = "Company or posting already viewed / contacted";
-    else if (!Number.isFinite(job.rating10) || job.rating10 < MIN_JOB_FIT) archiveReason = "Below 50% deterministic fit";
-    else if (job.listingStatus === "closed") archiveReason = "Listing closed";
-    else if (!company || !posting) archiveReason = "Missing company or posting link";
-    else if (!isOctober2026Posting(job)) archiveReason = job.postedOn ? "Outside October 1–24, 2026" : "Publication date unverified";
-    else if (skippedCompanies.has(company) || dismissed.has(job.id)) archiveReason = "Skipped from HOT";
-    return { ...row, hot: false, archiveReason, auditRank: undefined };
+    else if (dismissed.has(job.id)) archiveReason = "Skipped from HOT";
+    if (!archiveReason) {
+      if (usedCompanies.has(company) || (posting && usedPostings.has(posting))) hotExclusionReason = "Company or posting already viewed / contacted";
+      else if (!Number.isFinite(job.rating10) || job.rating10 < MIN_JOB_FIT) hotExclusionReason = "Below 50% deterministic fit";
+      else if (job.listingStatus === "closed") hotExclusionReason = "Listing closed";
+      else if (!company || !posting) hotExclusionReason = "Missing company or posting link";
+      else if (!isOctober2026Posting(job)) hotExclusionReason = job.postedOn ? "Outside October 1–24, 2026" : "Publication date unverified";
+      else if (skippedCompanies.has(company)) hotExclusionReason = "Company skipped from HOT";
+    }
+    return { ...row, hot: false, archiveReason, hotExclusionReason, auditRank: undefined };
   });
 
   const selectedCompanies = new Set<string>();
   const selectedPostings = new Set<string>();
   let rank = 0;
-  for (const row of audited.filter((row) => !row.archiveReason).sort(compareAuditCandidates)) {
+  for (const row of audited.filter((row) => !row.archiveReason && !row.hotExclusionReason).sort(compareAuditCandidates)) {
     const company = jobCompanyKey(row.job.company);
     const posting = jobPostingKey(row.job.url)!;
-    if (selectedCompanies.has(company)) row.archiveReason = "Duplicate company — higher-ranked job retained";
-    else if (selectedPostings.has(posting)) row.archiveReason = "Duplicate posting — higher-ranked job retained";
-    else if (rank >= HOT_LIMIT) row.archiveReason = "Outside the top 10 October shortlist";
+    if (selectedCompanies.has(company)) row.hotExclusionReason = "Duplicate company — higher-ranked job retained";
+    else if (selectedPostings.has(posting)) row.hotExclusionReason = "Duplicate posting — higher-ranked job retained";
     else {
       row.auditRank = ++rank;
       selectedCompanies.add(company);

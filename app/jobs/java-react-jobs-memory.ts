@@ -18,19 +18,17 @@ export function readStoredJobs(defaults: JobLead[]): JobLead[] {
     }
 
     return defaults.map((fallback) => {
-      const saved = savedById.get(fallback.id);
-      if (!saved) return fallback;
-      const savedWasUntouched =
-        !saved.company?.trim() &&
-        !saved.title?.trim() &&
-        !saved.url?.trim() &&
-        (!saved.location?.trim() || saved.location === DEFAULT_REMOTE_LOCATION);
-      if (savedWasUntouched && (fallback.company || fallback.title || fallback.url)) return fallback;
+      const candidates = [...new Set([fallback.id, ...(fallback.sourceIds ?? [])])]
+        .flatMap((id) => savedById.has(id) ? [savedById.get(id)!] : []);
+      if (!candidates.length) return fallback;
       const restored = { ...fallback };
       for (const key of editableKeys) {
-        if (typeof saved[key] === "string") restored[key] = saved[key];
+        const saved = candidates.find((entry) => typeof entry[key] === "string" && entry[key]!.trim()
+          && (key !== "location" || entry[key] !== DEFAULT_REMOTE_LOCATION));
+        if (saved && typeof saved[key] === "string") restored[key] = saved[key];
       }
-      if (typeof saved.seen === "boolean") restored.seen = saved.seen;
+      if (candidates.some((entry) => entry.seen === true)) restored.seen = true;
+      else if (candidates.some((entry) => entry.seen === false)) restored.seen = false;
       return restored;
     });
   } catch {

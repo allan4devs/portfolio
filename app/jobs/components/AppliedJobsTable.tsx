@@ -3,8 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, BriefcaseBusiness, Search } from "lucide-react";
-import { STATUS_LABEL, STATUS_ORDER, STATUS_CLASS } from "../applications";
-import type { ApplicationStatus } from "../applications";
+import { STATUS_LABEL, STATUS_ORDER, STATUS_CLASS } from "../../(page_routes)/cv/applications";
+import type { ApplicationStatus } from "../../(page_routes)/cv/applications";
 import { useJobBoard } from "./JavaReactJobsContext";
 
 const APPLIED_STATUSES = new Set<ApplicationStatus>([
@@ -46,7 +46,7 @@ export function AppliedJobsTable() {
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
       <div className="mx-auto max-w-[1500px] px-4 py-6 sm:px-6 lg:px-8">
         <header className="rounded-2xl border border-zinc-800 bg-zinc-900/80 p-5">
-          <Link href="/cv/jobs" className="inline-flex items-center gap-2 text-xs font-semibold text-zinc-400 hover:text-teal-300">
+          <Link href="/jobs" className="inline-flex items-center gap-2 text-xs font-semibold text-zinc-400 hover:text-teal-300">
             <ArrowLeft size={14} /> Back to jobs
           </Link>
           <div className="mt-4 flex items-center gap-3">

@@ -148,7 +148,7 @@ async function run() {
   console.log(`Availability checks passed: ${checks} HTML/HTTP cases, full text, keyword evidence, authentication, same-origin requests, input limits, and legacy scanner compatibility. Fixture network mocked; no AI.`);
   if (process.argv.includes("--live")) {
     const liveLoad = createLoader();
-    const { createDefaultJobs } = liveLoad("app/(page_routes)/cv/java-react-jobs-data.ts");
+    const { createDefaultJobs } = liveLoad("app/jobs/java-react-jobs-data.ts");
     const liveCheck = liveLoad("lib/cv/job-availability/check.ts").checkJobAvailability;
     for (const id of ["J0012", "J0041"]) {
       const job = createDefaultJobs().find((candidate) => candidate.id === id);

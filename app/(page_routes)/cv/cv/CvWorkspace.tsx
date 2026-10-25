@@ -233,7 +233,7 @@ function WorkspaceNav({
         <Waypoints size={11} />
         Portfolio
       </Link>
-      <Link href="/cv/jobs" title="All software job applications" className={`${btn} ${plain}`}>
+      <Link href="/jobs" title="All software job applications" className={`${btn} ${plain}`}>
         <ListChecks size={11} />
         All jobs
       </Link>

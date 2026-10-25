@@ -11,14 +11,15 @@ import {
   type ReactNode,
   type SetStateAction,
 } from "react";
-import type { ApplicationState } from "../applications";
-import { useApplications } from "../useApplications";
+import type { ApplicationState } from "../../(page_routes)/cv/applications";
+import { useApplications } from "../../(page_routes)/cv/useApplications";
 import { createDefaultJobs } from "../java-react-jobs-data";
 import { calculateJobStats, isArchivedRow, jobPostingKey, selectJobRows, toJobRows } from "../java-react-jobs-helpers";
-import { formatHotIds, isHotCandidate, loadDismissedHotIds, loadHotIds, saveDismissedHotIds, saveHotIds, seedHotIds, selectHotIds } from "../java-react-jobs-hot";
+import { formatHotIds, isHotCandidate, loadDismissedHotIds, loadHotIds, loadRotatedHotIds, rankHotCandidates, saveDismissedHotIds, saveHotIds, saveRotatedHotIds, seedHotIds, selectHotIds } from "../java-react-jobs-hot";
 import { HOT_LIMIT } from "../java-react-jobs-constants";
 import { auditJobRows, jobCompanyKey } from "../java-react-jobs-audit";
 import { readStoredJobs, writeStoredJobs } from "../java-react-jobs-memory";
+import { resolveJobApplication } from "../java-react-jobs-applications";
 import type {
   JobBoardView,
   JobLead,
@@ -39,9 +40,12 @@ type JobBoardContextValue = {
   hotFromSeed: boolean;
   toggleHot: (id: string) => boolean;
   resetHot: () => void;
+  reloadHot: () => number;
+  remainingHotCount: number;
+  tracks: string[];
   hotExport: string;
   stats: JobStats;
-  auditCounts: { total: number; archived: number; selected: number };
+  auditCounts: { total: number; archived: number; backlog: number; selected: number };
   query: string;
   setQuery: Dispatch<SetStateAction<string>>;
   statusFilter: StatusFilter;
@@ -73,26 +77,35 @@ export function JobBoardProvider({ children, view }: { children: ReactNode; view
   const [sortMode, setSortMode] = useState<SortMode>("rating");
   const [preferredHotIds, setPreferredHotIds] = useState<string[]>(seedHotIds);
   const [dismissedHotIds, setDismissedHotIds] = useState<string[]>([]);
+  const [rotatedHotIds, setRotatedHotIds] = useState<string[]>([]);
   const [hotFromSeed, setHotFromSeed] = useState(true);
 
   useEffect(() => {
-    setJobs(readStoredJobs(createDefaultJobs()));
+    const defaults = createDefaultJobs();
+    setJobs(readStoredJobs(defaults));
+    const canonicalIds = new Map(defaults.flatMap((job) => [job.id, ...(job.sourceIds ?? [])].map((id) => [id, job.id] as const)));
+    const restoreIds = (ids: string[]) => [...new Set(ids.map((id) => canonicalIds.get(id) ?? id))];
     const storedHot = loadHotIds();
     if (storedHot) {
-      setPreferredHotIds(storedHot);
+      setPreferredHotIds(restoreIds(storedHot));
       setHotFromSeed(false);
     }
-    const dismissed = loadDismissedHotIds();
+    const dismissed = restoreIds(loadDismissedHotIds());
     setDismissedHotIds(dismissed);
-    if (dismissed.length) setHotFromSeed(false);
+    const rotated = restoreIds(loadRotatedHotIds());
+    setRotatedHotIds(rotated);
+    if (dismissed.length || rotated.length) setHotFromSeed(false);
     setStorageReady(true);
   }, []);
 
   const resetHot = useCallback(() => {
     saveHotIds(null);
     saveDismissedHotIds([]);
+    saveRotatedHotIds([]);
     setPreferredHotIds(seedHotIds());
     setDismissedHotIds([]);
+    setRotatedHotIds([]);
+    setOpenId(null);
     setHotFromSeed(true);
   }, []);
 
@@ -102,25 +115,16 @@ export function JobBoardProvider({ children, view }: { children: ReactNode; view
 
   const getApplication = useCallback(
     (job: JobLead): ApplicationState => {
-      const state = getStoredApplication(job.applicationSlug);
-      const saved = storedApplications[job.applicationSlug];
-      const hasSaved = (key: keyof ApplicationState): boolean =>
-        Boolean(saved && Object.prototype.hasOwnProperty.call(saved, key));
-      return {
-        ...state,
-        status: hasSaved("status") ? saved!.status : job.initialStatus,
-        stage: hasSaved("stage") ? saved!.stage : job.nextStep,
-        priority: hasSaved("priority") ? saved!.priority : job.initialPriority,
-        notes: hasSaved("notes") ? saved!.notes : job.sourceNotes,
-      };
+      return resolveJobApplication(job, storedApplications, getStoredApplication(job.applicationSlug));
     },
     [getStoredApplication, storedApplications],
   );
 
   const updateApplication = useCallback((slug: string, patch: Partial<ApplicationState>) => {
-    const job = jobs.find((candidate) => candidate.applicationSlug === slug);
+    const job = jobs.find((candidate) => candidate.applicationSlug === slug || candidate.applicationAliases?.includes(slug));
     const current = job ? getApplication(job) : getStoredApplication(slug);
-    updateStoredApplication(slug, { ...current, ...patch });
+    const merged = { ...current, ...patch };
+    for (const key of new Set([slug, ...(job ? [job.applicationSlug, ...(job.applicationAliases ?? [])] : [])])) updateStoredApplication(key, merged);
   }, [getApplication, getStoredApplication, jobs, updateStoredApplication]);
 
   const candidateRows = useMemo(
@@ -128,9 +132,27 @@ export function JobBoardProvider({ children, view }: { children: ReactNode; view
     [dismissedHotIds, getApplication, jobs],
   );
   const hotIds = useMemo(
-    () => selectHotIds(candidateRows, preferredHotIds, dismissedHotIds),
-    [candidateRows, dismissedHotIds, preferredHotIds],
+    () => selectHotIds(candidateRows, preferredHotIds, dismissedHotIds, rotatedHotIds),
+    [candidateRows, dismissedHotIds, preferredHotIds, rotatedHotIds],
   );
+
+  const remainingHotCount = useMemo(
+    () => rankHotCandidates(candidateRows, [], dismissedHotIds, [...rotatedHotIds, ...hotIds]).length,
+    [candidateRows, dismissedHotIds, hotIds, rotatedHotIds],
+  );
+
+  const reloadHot = useCallback(() => {
+    const nextRotated = [...new Set([...rotatedHotIds, ...hotIds])];
+    const nextIds = selectHotIds(candidateRows, [], dismissedHotIds, nextRotated);
+    if (!nextIds.length) return 0;
+    setPreferredHotIds(nextIds);
+    setRotatedHotIds(nextRotated);
+    setHotFromSeed(false);
+    setOpenId(null);
+    saveHotIds(nextIds);
+    saveRotatedHotIds(nextRotated);
+    return nextIds.length;
+  }, [candidateRows, dismissedHotIds, hotIds, rotatedHotIds]);
 
   const toggleHot = useCallback((id: string) => {
     const row = candidateRows.find((candidate) => candidate.job.id === id);
@@ -148,14 +170,17 @@ export function JobBoardProvider({ children, view }: { children: ReactNode; view
     const nextDismissed = isHot
       ? [...dismissedHotIds.filter((hotId) => !samePostingIds.has(hotId)), ...samePostingIds]
       : dismissedHotIds.filter((hotId) => !samePostingIds.has(hotId));
-    if (!isHot && !selectHotIds(candidateRows, nextPreferred, nextDismissed).includes(id)) return false;
+    const nextRotated = rotatedHotIds.filter((hotId) => !samePostingIds.has(hotId));
+    if (!isHot && !selectHotIds(candidateRows, nextPreferred, nextDismissed, nextRotated).includes(id)) return false;
     setPreferredHotIds(nextPreferred);
     setDismissedHotIds(nextDismissed);
+    setRotatedHotIds(nextRotated);
     setHotFromSeed(false);
     saveHotIds(nextPreferred);
     saveDismissedHotIds(nextDismissed);
+    saveRotatedHotIds(nextRotated);
     return true;
-  }, [candidateRows, dismissedHotIds, hotIds, preferredHotIds]);
+  }, [candidateRows, dismissedHotIds, hotIds, preferredHotIds, rotatedHotIds]);
 
   const allRows = useMemo(
     () => candidateRows.map((row) => ({ ...row, hot: hotIds.includes(row.job.id) })),
@@ -164,6 +189,10 @@ export function JobBoardProvider({ children, view }: { children: ReactNode; view
   const rows = useMemo(
     () => selectJobRows({ rows: allRows, query, statusFilter, trackFilter, minRating, sortMode, view }),
     [allRows, minRating, query, sortMode, statusFilter, trackFilter, view],
+  );
+  const tracks = useMemo(
+    () => [...new Set(allRows.filter((row) => (view === "archive") === isArchivedRow(row)).map(({ job }) => job.track).filter(Boolean))].sort(),
+    [allRows, view],
   );
   const hotRows = useMemo(
     () => {
@@ -183,7 +212,7 @@ export function JobBoardProvider({ children, view }: { children: ReactNode; view
   );
   const auditCounts = useMemo(() => {
     const archived = allRows.filter(isArchivedRow).length;
-    return { total: allRows.length, archived, selected: allRows.length - archived };
+    return { total: allRows.length, archived, backlog: allRows.length - archived, selected: allRows.filter(isHotCandidate).length };
   }, [allRows]);
 
   const value = useMemo<JobBoardContextValue>(
@@ -195,6 +224,9 @@ export function JobBoardProvider({ children, view }: { children: ReactNode; view
       hotFromSeed,
       toggleHot,
       resetHot,
+      reloadHot,
+      remainingHotCount,
+      tracks,
       hotExport,
       stats,
       auditCounts,
@@ -226,6 +258,8 @@ export function JobBoardProvider({ children, view }: { children: ReactNode; view
       query,
       ready,
       resetHot,
+      reloadHot,
+      remainingHotCount,
       rows,
       sortMode,
       stats,
@@ -233,6 +267,7 @@ export function JobBoardProvider({ children, view }: { children: ReactNode; view
       statusFilter,
       toggleHot,
       trackFilter,
+      tracks,
       updateApplication,
       view,
     ],

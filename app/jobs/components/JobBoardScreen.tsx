@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Archive, ArrowUp, BriefcaseBusiness, Copy, Filter, Flame, RotateCcw, Search } from "lucide-react";
-import { STATUS_LABEL, STATUS_ORDER, type ApplicationStatus } from "../applications";
-import { HOT_LIMIT } from "../java-react-jobs-constants";
+import { Archive, ArrowUp, BriefcaseBusiness, Copy, Filter, Flame, RefreshCw, RotateCcw, Search } from "lucide-react";
+import { STATUS_LABEL, STATUS_ORDER, type ApplicationStatus } from "../../(page_routes)/cv/applications";
+import { HOT_LIMIT, JOBS_PAGE_SIZE } from "../java-react-jobs-constants";
 import type { SortMode } from "../java-react-jobs-types";
 import { JobRow } from "./JobBoardRow";
 import { Stat } from "./JobBoardStat";
@@ -19,6 +19,9 @@ export function JobBoardScreen() {
     hotFromSeed,
     toggleHot,
     resetHot,
+    reloadHot,
+    remainingHotCount,
+    tracks,
     hotExport,
     auditCounts,
     stats,
@@ -40,6 +43,7 @@ export function JobBoardScreen() {
   } = useJobBoard();
   const [hotNotice, setHotNotice] = useState("");
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const [pagination, setPagination] = useState({ key: "", page: 1 });
 
   useEffect(() => {
     const updateScrollButton = () => setShowBackToTop(window.scrollY > 360);
@@ -48,7 +52,16 @@ export function JobBoardScreen() {
     return () => window.removeEventListener("scroll", updateScrollButton);
   }, []);
 
-  const tracks = [...new Set(rows.map(({ job }) => job.track).filter(Boolean))].sort();
+  const pageKey = JSON.stringify([view, query, statusFilter, trackFilter, minRating, sortMode]);
+  const pageCount = Math.max(1, Math.ceil(rows.length / JOBS_PAGE_SIZE));
+  const page = Math.min(pageCount, pagination.key === pageKey ? pagination.page : 1);
+  const pageStart = (page - 1) * JOBS_PAGE_SIZE;
+  const pageRows = rows.slice(pageStart, pageStart + JOBS_PAGE_SIZE);
+
+  function handleReloadHot() {
+    const count = reloadHot();
+    setHotNotice(count ? `Loaded ${count} next HOT ${count === 1 ? "job" : "jobs"}. Previous jobs remain in the backlog.` : "No more eligible jobs remain. Add new qualifying jobs or reset HOT preferences to start again.");
+  }
 
   function clearFilters() {
     setQuery("");
@@ -70,18 +83,18 @@ export function JobBoardScreen() {
     }
   }
 
-  function renderRow({ job, state, index, hot, archiveReason, auditRank }: (typeof rows)[number]) {
-    return <JobRow key={job.id} job={job} number={index + 1} state={state} hot={hot} archiveReason={archiveReason} auditRank={auditRank} open={openId === job.id} onToggle={() => toggleOpen(job.id)} onToggleHot={() => handleToggleHot(job.id)} onJobChange={(patch) => updateJob(job.id, patch)} onApplicationChange={(patch) => updateApplication(job.applicationSlug, patch)} />;
+  function renderRow({ job, state, index, hot, archiveReason, hotExclusionReason, auditRank }: (typeof rows)[number]) {
+    return <JobRow key={job.id} job={job} number={index + 1} state={state} hot={hot} archiveReason={archiveReason} hotExclusionReason={hotExclusionReason} auditRank={auditRank} open={openId === job.id} onToggle={() => toggleOpen(job.id)} onToggleHot={() => handleToggleHot(job.id)} onJobChange={(patch) => updateJob(job.id, patch)} onApplicationChange={(patch) => updateApplication(job.applicationSlug, patch)} />;
   }
 
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
-      <nav aria-label="CV workspace navigation" className="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/95 shadow-lg shadow-black/20 backdrop-blur-xl">
+      <nav aria-label="Jobs navigation" className="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/95 shadow-lg shadow-black/20 backdrop-blur-xl">
         <div className="mx-auto flex h-12 max-w-[1500px] items-center justify-between gap-3 px-4 sm:px-6 lg:px-8">
           <Link href="/cv" className="shrink-0 text-xs font-black uppercase tracking-[0.14em] text-teal-300">CV workspace</Link>
           <div className="flex min-w-0 items-center gap-1 overflow-x-auto">
-            <Link href="/cv/jobs" aria-current={view === "active" ? "page" : undefined} className={`shrink-0 rounded-lg px-3 py-2 text-xs font-bold ${view === "active" ? "bg-teal-500/15 text-teal-200" : "text-zinc-400 hover:bg-zinc-800 hover:text-white"}`}>Jobs</Link>
-            <Link href="/cv/archive" aria-current={view === "archive" ? "page" : undefined} className={`inline-flex shrink-0 items-center gap-1 rounded-lg px-3 py-2 text-xs font-bold ${view === "archive" ? "bg-teal-500/15 text-teal-200" : "text-zinc-400 hover:bg-zinc-800 hover:text-white"}`}><Archive size={13} /> Archive</Link>
+            <Link href="/jobs" aria-current={view === "active" ? "page" : undefined} className={`shrink-0 rounded-lg px-3 py-2 text-xs font-bold ${view === "active" ? "bg-teal-500/15 text-teal-200" : "text-zinc-400 hover:bg-zinc-800 hover:text-white"}`}>Jobs</Link>
+            <Link href="/jobs/archive" aria-current={view === "archive" ? "page" : undefined} className={`inline-flex shrink-0 items-center gap-1 rounded-lg px-3 py-2 text-xs font-bold ${view === "archive" ? "bg-teal-500/15 text-teal-200" : "text-zinc-400 hover:bg-zinc-800 hover:text-white"}`}><Archive size={13} /> Archive</Link>
             <Link href="/cv/cover-letter" className="shrink-0 rounded-lg px-3 py-2 text-xs font-semibold text-zinc-400 hover:bg-zinc-800 hover:text-white">Cover letter</Link>
             <Link href="/cv/stats" className="shrink-0 rounded-lg px-3 py-2 text-xs font-semibold text-zinc-400 hover:bg-zinc-800 hover:text-white">CV stats</Link>
           </div>
@@ -94,10 +107,10 @@ export function JobBoardScreen() {
               <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-teal-500/15 text-teal-300"><BriefcaseBusiness size={22} /></span>
               <div>
                 <p className="text-xs font-bold uppercase tracking-[0.18em] text-teal-300">CV workspace</p>
-                <h1 className="text-2xl font-bold text-white">{view === "archive" ? "Job archive" : "October 2026 shortlist"}</h1>
+                <h1 className="text-2xl font-bold text-white">{view === "archive" ? "Job archive" : "Jobs"}</h1>
               </div>
             </div>
-            <p className="max-w-md text-right text-xs leading-relaxed text-zinc-500">New, unviewed and unapplied October 2026 postings, one per company, with at least 50% deterministic fit. Application history autosaves in this browser.</p>
+            <p className="max-w-md text-right text-xs leading-relaxed text-zinc-500">All saved job targets from the job catalog, CVs and MongoDB. HOT highlights new October 2026 postings with at least 50% fit. Application history autosaves in this browser.</p>
           </div>
           <div className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-5">
             <Stat label="Visible records" value={stats.filled} tone="teal" />
@@ -106,7 +119,7 @@ export function JobBoardScreen() {
             <Stat label="Active" value={stats.active} tone="emerald" />
             <Stat label="Offers" value={stats.offers} tone="amber" />
           </div>
-          {ready ? <p className="mt-3 text-xs text-zinc-400">Audited {auditCounts.total} records: {auditCounts.selected} shortlisted and {auditCounts.archived} in Archive. Application statuses and dates are preserved.</p> : null}
+          {ready ? <p className="mt-3 text-xs text-zinc-400">{auditCounts.total.toLocaleString()} saved jobs: {auditCounts.backlog.toLocaleString()} unreviewed, {auditCounts.selected.toLocaleString()} HOT-eligible and {auditCounts.archived.toLocaleString()} in Archive. Reloading HOT keeps every job and its application history.</p> : null}
         </header>
 
         <section className="sticky top-12 z-40 mt-5 rounded-xl border border-zinc-800 bg-zinc-950/95 p-3 shadow-xl shadow-black/30 backdrop-blur-xl" aria-label="Filter job records">
@@ -146,28 +159,41 @@ export function JobBoardScreen() {
             </label>
             <button type="button" onClick={clearFilters} className="inline-flex items-center justify-center gap-2 rounded-lg border border-zinc-700 px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-800"><RotateCcw size={14} /> Clear</button>
           </div>
-          <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-zinc-500"><Filter size={13} />{ready ? `${rows.length} matching records` : "Loading saved jobs…"}<span className="text-zinc-700">•</span> {view === "active" ? "HOT shows the full shortlist independently of filters. Use filters to search Archive." : "Changes are saved in this browser."}</div>
+          <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-zinc-500"><Filter size={13} />{ready ? `${rows.length.toLocaleString()} matching records` : "Loading saved jobs…"}<span className="text-zinc-700">•</span> {view === "active" ? "Filters search the backlog. HOT stays independent of filters." : "Changes are saved in this browser."}</div>
         </section>
 
         {ready && view === "active" ? <section className="mt-4 rounded-xl border border-orange-500/30 bg-orange-500/5 p-3" aria-label="HOT jobs">
           <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
             <p className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.16em] text-orange-300"><Flame size={14} /> HOT jobs · {hotRows.length}/{HOT_LIMIT} <span className="font-semibold normal-case tracking-normal text-zinc-500">October 2026 ranking</span></p>
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
+              <button type="button" onClick={handleReloadHot} disabled={remainingHotCount === 0} className="inline-flex items-center gap-1 rounded-lg border border-orange-400/60 bg-orange-500/10 px-3 py-1.5 text-xs font-semibold text-orange-100 hover:bg-orange-500/20 disabled:cursor-not-allowed disabled:opacity-40"><RefreshCw size={13} /> Reload next {HOT_LIMIT}</button>
               <button type="button" onClick={copyHotIds} className="inline-flex items-center gap-1 rounded-lg border border-orange-500/40 px-2 py-1.5 text-[11px] font-semibold text-orange-200 hover:bg-orange-500/10"><Copy size={12} /> Copy HOT ids</button>
               {hotFromSeed ? null : <button type="button" onClick={resetHot} className="inline-flex items-center gap-1 rounded-lg border border-zinc-700 px-2 py-1.5 text-[11px] font-semibold text-zinc-400 hover:bg-zinc-800"><RotateCcw size={12} /> Reset HOT preferences</button>}
             </div>
           </div>
-          <p className="mb-3 text-xs leading-relaxed text-zinc-400">Up to {HOT_LIMIT} new October postings, ranked by fit and freshness, with one per company. Mark reviewed jobs Seen or Archived; the flame dismisses a job from this shortlist. Older, viewed, applied and dismissed jobs stay in Archive. Check listings marked Verify before applying.</p>
+          <p className="mb-3 text-xs leading-relaxed text-zinc-400">Up to {HOT_LIMIT} new October postings, ranked by fit and freshness, with one per company. Reload replaces this batch with the next jobs and keeps previous batches in the backlog. Mark reviewed jobs Seen or Archived; the flame dismisses a job from this shortlist. Check listings marked Verify before applying.</p>
+          <p className="mb-3 text-xs text-zinc-400">{remainingHotCount.toLocaleString()} more eligible {remainingHotCount === 1 ? "job" : "jobs"} waiting. {remainingHotCount === 0 ? "End of the queue. Add qualifying jobs or reset HOT preferences to start again." : remainingHotCount < HOT_LIMIT ? `The next batch has ${remainingHotCount} ${remainingHotCount === 1 ? "job" : "jobs"}.` : `Next reload loads ${HOT_LIMIT}.`}</p>
           {hotNotice ? <p className="mb-2 text-[11px] text-orange-200" role="status">{hotNotice}</p> : null}
           <div className="space-y-2">
             {hotRows.length ? hotRows.map(renderRow) : <p className="rounded-lg border border-dashed border-zinc-700 p-4 text-center text-xs text-zinc-500">No eligible new October 2026 postings remain. New postings need a source publication date to join the shortlist.</p>}
           </div>
-          {hotRows.length < HOT_LIMIT ? <p className="mt-3 text-xs text-zinc-400">Only {hotRows.length} jobs currently meet every shortlist rule. The list stays below {HOT_LIMIT} until more new October postings qualify.</p> : null}
+          {hotRows.length < HOT_LIMIT ? <p className="mt-3 text-xs text-zinc-400">{hotRows.length} eligible jobs remain in this batch. Previous batches stay in the backlog; resetting HOT preferences makes them eligible for HOT again.</p> : null}
         </section> : null}
 
-        {!ready ? <p className="p-10 text-center text-sm text-zinc-400">Loading saved jobs…</p> : view === "archive" ? <section className="mt-4 space-y-2" aria-label="Archived job records">
-          {rows.length ? rows.map(renderRow) : <div className="rounded-xl border border-dashed border-zinc-700 p-10 text-center text-sm text-zinc-400">No archived jobs match these filters.</div>}
-        </section> : null}
+        {!ready ? <p className="p-10 text-center text-sm text-zinc-400">Loading saved jobs…</p> : <section className="mt-4 space-y-2" aria-label={view === "archive" ? "Archived job records" : "Job backlog"}>
+          <div className="flex flex-wrap items-center justify-between gap-2 py-2">
+            <h2 className="text-sm font-bold text-zinc-200">{view === "archive" ? "Archived jobs" : "Backlog"} · {rows.length.toLocaleString()}</h2>
+            <p className="text-xs text-zinc-500">{view === "active" ? "Jobs outside the current HOT batch. " : ""}{JOBS_PAGE_SIZE} jobs per page.</p>
+          </div>
+          {pageRows.length ? pageRows.map(renderRow) : <div className="rounded-xl border border-dashed border-zinc-700 p-10 text-center text-sm text-zinc-400">{view === "archive" ? "No archived jobs match these filters." : "No backlog jobs match these filters."}</div>}
+          {rows.length ? <nav aria-label="Job pagination" className="flex flex-wrap items-center justify-between gap-3 py-3 text-xs text-zinc-400">
+            <p aria-live="polite">{(pageStart + 1).toLocaleString()}–{Math.min(pageStart + JOBS_PAGE_SIZE, rows.length).toLocaleString()} of {rows.length.toLocaleString()} jobs · Page {page.toLocaleString()} of {pageCount.toLocaleString()}</p>
+            <div className="flex gap-2">
+              <button type="button" disabled={page === 1} onClick={() => setPagination({ key: pageKey, page: page - 1 })} className="rounded-lg border border-zinc-700 px-3 py-2 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-40">Previous</button>
+              <button type="button" disabled={page === pageCount} onClick={() => setPagination({ key: pageKey, page: page + 1 })} className="rounded-lg border border-zinc-700 px-3 py-2 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-40">Next</button>
+            </div>
+          </nav> : null}
+        </section>}
       </div>
       {showBackToTop ? (
         <button

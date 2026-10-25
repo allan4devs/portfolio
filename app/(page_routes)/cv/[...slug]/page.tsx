@@ -64,10 +64,8 @@ export default async function CvSlugPage({
     return <CvProfileEditor />;
   }
 
-  if (route === "archive" || route === "jobs") {
-    const { JavaReactJobsClient } = await import("../components/JavaReactJobsClient");
-    return <JavaReactJobsClient view={route === "archive" ? "archive" : "active"} />;
-  }
+  if (route === "jobs" || route === "java-react-jobs") redirect("/jobs");
+  if (route === "archive") redirect("/jobs/archive");
   if (route === "cv-archive") {
     const { CvArchive } = await import("../cv/CvArchive");
     return <CvArchive />;
@@ -89,9 +87,6 @@ export default async function CvSlugPage({
   if (route === "cover-letter") {
     const { CoverLetterWorkspace } = await import("../cover/CoverLetterWorkspace");
     return <CoverLetterWorkspace />;
-  }
-  if (route === "java-react-jobs") {
-    redirect("/cv/jobs");
   }
   if (route === "stats") {
     const { default: CvStatsPage } = await import("../cv/CvStatsPage");

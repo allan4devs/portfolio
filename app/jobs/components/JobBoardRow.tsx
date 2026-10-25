@@ -8,7 +8,7 @@ import {
   STATUS_ORDER,
   type ApplicationState,
   type ApplicationStatus,
-} from "../applications";
+} from "../../(page_routes)/cv/applications";
 import { isFilledJob } from "../java-react-jobs-helpers";
 import { isHotCandidate } from "../java-react-jobs-hot";
 import type { JobLead, JobLeadPatch } from "../java-react-jobs-types";
@@ -22,6 +22,7 @@ export function JobRow({
   state,
   hot,
   archiveReason,
+  hotExclusionReason,
   auditRank,
   open,
   onToggle,
@@ -34,6 +35,7 @@ export function JobRow({
   state: ApplicationState;
   hot: boolean;
   archiveReason?: string;
+  hotExclusionReason?: string;
   auditRank?: number;
   open: boolean;
   onToggle: () => void;
@@ -42,7 +44,7 @@ export function JobRow({
   onApplicationChange: (patch: Partial<ApplicationState>) => void;
 }) {
   const filled = isFilledJob(job);
-  const canPin = isHotCandidate({ job, state, archiveReason });
+  const canPin = isHotCandidate({ job, state, archiveReason, hotExclusionReason });
   return (
     <article className={`[content-visibility:auto] rounded-xl border bg-zinc-900/70 transition-colors ${hot ? "border-orange-500/50 hover:border-orange-400" : "border-zinc-800 hover:border-zinc-700"}`}>
       <div className="grid items-center gap-3 p-3 md:grid-cols-[42px_minmax(230px,1.4fr)_minmax(180px,0.9fr)_150px_auto]">
@@ -76,6 +78,7 @@ export function JobRow({
           <p className="mt-0.5 truncate text-xs text-zinc-400">{job.title || "Add the next verified opportunity"}</p>
           <p className="mt-1 truncate text-[10px] font-semibold uppercase tracking-wide text-zinc-600">{job.track}<span className="normal-case tracking-normal text-zinc-500"> · {job.ratingReason}</span></p>
           {archiveReason ? <p className="mt-1 text-[11px] leading-snug text-amber-300">Archived: {archiveReason}</p> : null}
+          {!archiveReason && hotExclusionReason ? <p className="mt-1 text-[11px] leading-snug text-zinc-500">Outside HOT: {hotExclusionReason}</p> : null}
         </button>
 
         <div className="min-w-0">
@@ -97,7 +100,7 @@ export function JobRow({
         </select>
 
         <div className="flex items-center justify-end gap-1">
-          <button type="button" onClick={onToggleHot} disabled={!canPin && !hot} aria-pressed={hot} title={!canPin && !hot ? archiveReason || "This job does not meet the October shortlist rules" : hot ? "Dismiss from HOT and move to Archive" : "Prioritize this eligible October job in HOT"} aria-label={hot ? `Dismiss job ${number} from HOT` : `Mark job ${number} as HOT`} className={`inline-flex h-8 w-8 items-center justify-center rounded-lg border disabled:cursor-not-allowed disabled:opacity-40 ${hot ? "border-orange-500 bg-orange-500/15 text-orange-300" : "border-zinc-700 text-zinc-500 hover:border-orange-500 hover:text-orange-300"}`}>
+          <button type="button" onClick={onToggleHot} disabled={!canPin && !hot} aria-pressed={hot} title={!canPin && !hot ? archiveReason || hotExclusionReason || "This job does not meet the October shortlist rules" : hot ? "Dismiss from HOT and move to Archive" : "Prioritize this eligible October job in HOT"} aria-label={hot ? `Dismiss job ${number} from HOT` : `Mark job ${number} as HOT`} className={`inline-flex h-8 w-8 items-center justify-center rounded-lg border disabled:cursor-not-allowed disabled:opacity-40 ${hot ? "border-orange-500 bg-orange-500/15 text-orange-300" : "border-zinc-700 text-zinc-500 hover:border-orange-500 hover:text-orange-300"}`}>
             <Flame size={14} />
           </button>
           <label title={job.seen ? "Clear seen mark; shortlist rules still apply" : "Mark as seen / old / completed"} className="inline-flex h-8 items-center gap-1 rounded-lg border border-zinc-700 px-2 text-[11px] font-semibold text-zinc-400 hover:border-teal-500 hover:text-teal-300">
