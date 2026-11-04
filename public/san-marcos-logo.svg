@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 367 95" role="img" aria-labelledby="title desc">
+  <title id="title">San Marcos</title>
+  <desc id="desc">Logo de San Marcos en azul y naranja</desc>
+  <rect width="367" height="95" fill="#fff"/>
+  <g transform="translate(38 20)">
+    <path fill="#123e73" d="M0 0h18v23l12 12V0h18v48L30 30 18 42V19L0 0Z"/>
+    <path fill="#f5a400" d="M0 42V20l18 18v14c0 7 5 11 12 11h12c-7 8-18 11-29 6C5 64 0 55 0 42Z"/>
+  </g>
+  <text x="91" y="61" fill="#123e73" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="700" letter-spacing="-2">San Marcos</text>
+</svg>
