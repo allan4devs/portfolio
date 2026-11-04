@@ -1,0 +1,4735 @@
+{
+  "target": 1000,
+  "checkedOn": "2026-10-29",
+  "totalCompanies": 1000,
+  "startingCompanies": 367,
+  "importedProfiles": 671,
+  "addedCompanies": 633,
+  "candidatesReviewed": 1024,
+  "candidatesWithReachablePages": 839,
+  "eligibleCompanyPool": 1023,
+  "nearshore": 50,
+  "withCareersLinks": 605,
+  "withTargetTechnology": 878,
+  "technologies": {
+    "Java": 426,
+    "React": 635,
+    "Python": 457,
+    "Node.js": 322,
+    "JavaScript": 620,
+    "TypeScript": 332
+  },
+  "roles": {
+    "Full stack": 403,
+    "Backend": 193,
+    "Frontend": 143
+  },
+  "levels": {
+    "Mid-level": 33,
+    "Junior": 30,
+    "Senior": 467
+  },
+  "employerBoardsWithRoleEvidence": 155,
+  "source": "https://github.com/remoteintech/remote-jobs",
+  "sourceCommit": "fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189",
+  "limitations": "Company and career links were checked, not every vacancy or country eligibility. Directory technology and geography may be historical. Seniority signals are not guarantees of a current matching opening.",
+  "selected": [
+    {
+      "key": "kraken.com",
+      "name": "Kraken",
+      "source": "https://jobs.ashbyhq.com/kraken.com",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/kraken.com",
+      "score": 102
+    },
+    {
+      "key": "pinterest.com",
+      "name": "Pinterest",
+      "source": "https://boards.greenhouse.io/pinterest",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs?content=true",
+      "score": 100
+    },
+    {
+      "key": "coreweave.com",
+      "name": "CoreWeave",
+      "source": "https://boards.greenhouse.io/coreweave",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=true",
+      "score": 98
+    },
+    {
+      "key": "affirm.com",
+      "name": "Affirm",
+      "source": "https://boards.greenhouse.io/affirm",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/affirm/jobs?content=true",
+      "score": 92
+    },
+    {
+      "key": "instamobile.io",
+      "name": "Instamobile",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/instamobile.md",
+      "officialSource": "https://dopebase.com/blog/essential-react-native-developer-skills-job-success",
+      "score": 92
+    },
+    {
+      "key": "brex.com",
+      "name": "Brex",
+      "source": "https://boards.greenhouse.io/brex",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/brex/jobs?content=true",
+      "score": 90
+    },
+    {
+      "key": "fivetran.com",
+      "name": "Fivetran",
+      "source": "https://boards.greenhouse.io/fivetran",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/fivetran/jobs?content=true",
+      "score": 90
+    },
+    {
+      "key": "robinhood.com",
+      "name": "Robinhood",
+      "source": "https://boards.greenhouse.io/robinhood",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs?content=true",
+      "score": 90
+    },
+    {
+      "key": "abnormal.ai",
+      "name": "Abnormal AI",
+      "source": "https://boards.greenhouse.io/abnormalsecurity",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/abnormalsecurity/jobs?content=true",
+      "score": 88
+    },
+    {
+      "key": "crusoe.ai",
+      "name": "Crusoe",
+      "source": "https://jobs.ashbyhq.com/Crusoe",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/Crusoe",
+      "score": 88
+    },
+    {
+      "key": "homedepot.com",
+      "name": "The Home Depot",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/the-home-depot.md",
+      "officialSource": "https://careers.homedepot.com/career-areas/technology/",
+      "score": 88
+    },
+    {
+      "key": "drata.com",
+      "name": "Drata",
+      "source": "https://jobs.ashbyhq.com/drata",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/drata",
+      "score": 86
+    },
+    {
+      "key": "glean.com",
+      "name": "Glean",
+      "source": "https://boards.greenhouse.io/gleanwork",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs?content=true",
+      "score": 74
+    },
+    {
+      "key": "mistral.ai",
+      "name": "Mistral AI",
+      "source": "https://jobs.ashbyhq.com/mistral.ai",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai",
+      "score": 74
+    },
+    {
+      "key": "openai.com",
+      "name": "OpenAI",
+      "source": "https://jobs.ashbyhq.com/openai",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/openai",
+      "score": 74
+    },
+    {
+      "key": "ramp.com",
+      "name": "Ramp",
+      "source": "https://jobs.ashbyhq.com/ramp",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/ramp",
+      "score": 74
+    },
+    {
+      "key": "roblox.com",
+      "name": "Roblox",
+      "source": "https://boards.greenhouse.io/roblox",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "score": 74
+    },
+    {
+      "key": "anthropic.com",
+      "name": "Anthropic",
+      "source": "https://boards.greenhouse.io/anthropic",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+      "score": 72
+    },
+    {
+      "key": "coderabbit.ai",
+      "name": "CodeRabbit",
+      "source": "https://jobs.ashbyhq.com/coderabbit",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/coderabbit",
+      "score": 72
+    },
+    {
+      "key": "wiz.io",
+      "name": "Wiz",
+      "source": "https://boards.greenhouse.io/wizinc",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/wizinc/jobs?content=true",
+      "score": 72
+    },
+    {
+      "key": "datacamp.com",
+      "name": "DataCamp",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/datacamp.md",
+      "officialSource": "https://www.datacamp.com/careers",
+      "score": 71
+    },
+    {
+      "key": "alchemy.com",
+      "name": "Alchemy",
+      "source": "https://jobs.ashbyhq.com/alchemy",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/alchemy",
+      "score": 70
+    },
+    {
+      "key": "catonetworks.com",
+      "name": "Cato Networks",
+      "source": "https://boards.greenhouse.io/catonetworks",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/catonetworks/jobs?content=true",
+      "score": 70
+    },
+    {
+      "key": "datadoghq.com",
+      "name": "Datadog",
+      "source": "https://boards.greenhouse.io/datadog",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "score": 70
+    },
+    {
+      "key": "deepgram.com",
+      "name": "Deepgram",
+      "source": "https://jobs.ashbyhq.com/deepgram",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/deepgram",
+      "score": 70
+    },
+    {
+      "key": "factory.ai",
+      "name": "Factory",
+      "source": "https://jobs.ashbyhq.com/factory",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/factory",
+      "score": 70
+    },
+    {
+      "key": "figma.com",
+      "name": "Figma",
+      "source": "https://boards.greenhouse.io/figma",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+      "score": 70
+    },
+    {
+      "key": "lovable.dev",
+      "name": "Lovable",
+      "source": "https://jobs.ashbyhq.com/lovable",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/lovable",
+      "score": 70
+    },
+    {
+      "key": "scale.com",
+      "name": "Scale AI",
+      "source": "https://boards.greenhouse.io/scaleai",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true",
+      "score": 70
+    },
+    {
+      "key": "gusto.com",
+      "name": "Gusto",
+      "source": "https://boards.greenhouse.io/gusto",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/gusto/jobs?content=true",
+      "score": 68
+    },
+    {
+      "key": "notion.so",
+      "name": "Notion",
+      "source": "https://jobs.ashbyhq.com/notion",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/notion",
+      "score": 68
+    },
+    {
+      "key": "workos.com",
+      "name": "WorkOS",
+      "source": "https://jobs.ashbyhq.com/workos",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/workos",
+      "score": 68
+    },
+    {
+      "key": "writer.com",
+      "name": "Writer",
+      "source": "https://jobs.ashbyhq.com/writer",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/writer",
+      "score": 68
+    },
+    {
+      "key": "bigdataboutique.com",
+      "name": "BigData Boutique",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bigdata-boutique.md",
+      "officialSource": "https://bigdataboutique.com/careers",
+      "score": 66
+    },
+    {
+      "key": "oddball.io",
+      "name": "Oddball",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/oddball.md",
+      "officialSource": "https://oddball.io/company/careers/",
+      "score": 65
+    },
+    {
+      "key": "allydvm.com",
+      "name": "ALLYDVM",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/allydvm.md",
+      "officialSource": "https://weworkremotely.com/",
+      "score": 64
+    },
+    {
+      "key": "kake.co",
+      "name": "Kake",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kake.md",
+      "officialSource": "https://kake.co/jobs",
+      "score": 64
+    },
+    {
+      "key": "outsourcingdev.com",
+      "name": "OutsourcingDev",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/outsourcingdev.md",
+      "officialSource": "https://www.outsourcingdev.com/careers/",
+      "score": 64
+    },
+    {
+      "key": "temporal.io",
+      "name": "Temporal",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/temporal.md",
+      "officialSource": "https://temporal.io/careers",
+      "score": 64
+    },
+    {
+      "key": "revenuecat.com",
+      "name": "RevenueCat",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/revenuecat.md",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/revenuecat",
+      "score": 63
+    },
+    {
+      "key": "bairesdev.com",
+      "name": "Bairesdev",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bairesdev.md",
+      "officialSource": "https://www.bairesdev.com/join-us/",
+      "score": 62
+    },
+    {
+      "key": "harvey.ai",
+      "name": "Harvey",
+      "source": "https://jobs.ashbyhq.com/harvey",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/harvey",
+      "score": 62
+    },
+    {
+      "key": "lyft.com",
+      "name": "Lyft",
+      "source": "https://boards.greenhouse.io/lyft",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/lyft/jobs?content=true",
+      "score": 62
+    },
+    {
+      "key": "palantir.com",
+      "name": "Palantir",
+      "source": "https://jobs.lever.co/palantir",
+      "officialSource": "https://api.lever.co/v0/postings/palantir?mode=json",
+      "score": 62
+    },
+    {
+      "key": "redditinc.com",
+      "name": "Reddit",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/reddit.md",
+      "officialSource": "https://redditinc.com/careers",
+      "score": 62
+    },
+    {
+      "key": "tatvasoft.com",
+      "name": "TatvaSoft",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/tatvasoft.md",
+      "officialSource": "https://www.tatvasoft.com/career",
+      "score": 62
+    },
+    {
+      "key": "udacity.com",
+      "name": "Udacity",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/udacity.md",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/udacity/jobs?content=true",
+      "score": 61
+    },
+    {
+      "key": "airbnb.com",
+      "name": "Airbnb",
+      "source": "https://boards.greenhouse.io/airbnb",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
+      "score": 60
+    },
+    {
+      "key": "boldare.com",
+      "name": "Boldare",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/boldare.md",
+      "officialSource": "https://www.boldare.com/career/",
+      "score": 60
+    },
+    {
+      "key": "cohere.com",
+      "name": "Cohere",
+      "source": "https://jobs.ashbyhq.com/cohere",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/cohere",
+      "score": 60
+    },
+    {
+      "key": "coinbase.com",
+      "name": "Coinbase",
+      "source": "https://boards.greenhouse.io/coinbase",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true",
+      "score": 60
+    },
+    {
+      "key": "mercury.com",
+      "name": "Mercury",
+      "source": "https://job-boards.greenhouse.io/mercury",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/mercury/jobs?content=true",
+      "score": 60
+    },
+    {
+      "key": "serpapi.com",
+      "name": "SerpApi",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/serpapi.md",
+      "officialSource": "https://serpapi.com/careers",
+      "score": 60
+    },
+    {
+      "key": "surevine.com",
+      "name": "Surevine",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/surevine.md",
+      "officialSource": "https://surevine.com/careers",
+      "score": 59
+    },
+    {
+      "key": "bounteous.com",
+      "name": "Bounteous",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bounteous.md",
+      "officialSource": "https://www.bounteous.com/careers/",
+      "score": 58
+    },
+    {
+      "key": "coforma.io",
+      "name": "Coforma",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/coforma.md",
+      "officialSource": "https://coforma.io/careers",
+      "score": 58
+    },
+    {
+      "key": "datastax.com",
+      "name": "DataStax",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/datastax.md",
+      "officialSource": "https://www.ibm.com/products/datastax",
+      "score": 58
+    },
+    {
+      "key": "fireblocks.com",
+      "name": "Fireblocks",
+      "source": "https://boards.greenhouse.io/fireblocks",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/fireblocks/jobs?content=true",
+      "score": 58
+    },
+    {
+      "key": "firehire.ai",
+      "name": "FireHire",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/firehire.md",
+      "officialSource": "https://www.firehire.ai/talent",
+      "score": 58
+    },
+    {
+      "key": "fireworks.ai",
+      "name": "Fireworks AI",
+      "source": "https://jobs.ashbyhq.com/fireworks",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/fireworks",
+      "score": 58
+    },
+    {
+      "key": "gemini.com",
+      "name": "Gemini",
+      "source": "https://boards.greenhouse.io/gemini",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/gemini/jobs?content=true",
+      "score": 58
+    },
+    {
+      "key": "ghostinspector.com",
+      "name": "Ghost Inspector",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ghost-inspector.md",
+      "officialSource": "https://ghostinspector.com/jobs/",
+      "score": 58
+    },
+    {
+      "key": "invesco.com",
+      "name": "Invesco",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/invesco.md",
+      "officialSource": "https://careers.invesco.com/",
+      "score": 58
+    },
+    {
+      "key": "perplexity.ai",
+      "name": "Perplexity",
+      "source": "https://jobs.ashbyhq.com/perplexity",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/perplexity",
+      "score": 58
+    },
+    {
+      "key": "pika.art",
+      "name": "Pika",
+      "source": "https://jobs.ashbyhq.com/pika",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/pika",
+      "score": 58
+    },
+    {
+      "key": "runpod.io",
+      "name": "Runpod",
+      "source": "https://jobs.ashbyhq.com/runpod",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/runpod",
+      "score": 58
+    },
+    {
+      "key": "vanta.com",
+      "name": "Vanta",
+      "source": "https://jobs.ashbyhq.com/vanta",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/vanta",
+      "score": 58
+    },
+    {
+      "key": "wizeline.com",
+      "name": "Wizeline",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wizeline.md",
+      "officialSource": "https://www.wizeline.ai/careers/",
+      "score": 58
+    },
+    {
+      "key": "xapo.com",
+      "name": "Xapo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/xapo.md",
+      "officialSource": "https://www.xapobank.com/en/careers",
+      "score": 58
+    },
+    {
+      "key": "coodesh.com",
+      "name": "Coodesh",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/coodesh.md",
+      "officialSource": "https://www.linkedin.com/company/coodesh",
+      "score": 57
+    },
+    {
+      "key": "scopicsoftware.com",
+      "name": "Scopic Software",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/scopic-software.md",
+      "officialSource": "https://scopicsoftware.com/careers/",
+      "score": 57
+    },
+    {
+      "key": "toptal.com",
+      "name": "Toptal",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/toptal.md",
+      "officialSource": "https://www.toptal.com/careers",
+      "score": 57
+    },
+    {
+      "key": "bigid.com",
+      "name": "BigID",
+      "source": "https://boards.greenhouse.io/bigid",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/bigid/jobs?content=true",
+      "score": 56
+    },
+    {
+      "key": "browserbase.com",
+      "name": "Browserbase",
+      "source": "https://jobs.ashbyhq.com/browserbase",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/browserbase",
+      "score": 56
+    },
+    {
+      "key": "chime.com",
+      "name": "Chime",
+      "source": "https://boards.greenhouse.io/chime",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/chime/jobs?content=true",
+      "score": 56
+    },
+    {
+      "key": "cognition.ai",
+      "name": "Cognition",
+      "source": "https://jobs.ashbyhq.com/cognition",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/cognition",
+      "score": 56
+    },
+    {
+      "key": "cursor.com",
+      "name": "Cursor",
+      "source": "https://jobs.ashbyhq.com/cursor",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/cursor",
+      "score": 56
+    },
+    {
+      "key": "mystenlabs.com",
+      "name": "Mysten Labs",
+      "source": "https://jobs.ashbyhq.com/mystenlabs",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/mystenlabs",
+      "score": 56
+    },
+    {
+      "key": "replit.com",
+      "name": "Replit",
+      "source": "https://jobs.ashbyhq.com/replit",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/replit",
+      "score": 56
+    },
+    {
+      "key": "sambanova.ai",
+      "name": "SambaNova",
+      "source": "https://boards.greenhouse.io/sambanovasystems",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/sambanovasystems/jobs?content=true",
+      "score": 56
+    },
+    {
+      "key": "singlestore.com",
+      "name": "SingleStore",
+      "source": "https://boards.greenhouse.io/singlestore",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/singlestore/jobs?content=true",
+      "score": 56
+    },
+    {
+      "key": "skyrocketventures.com",
+      "name": "Skyrocket Ventures",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/skyrocket-ventures.md",
+      "officialSource": "https://www.linkedin.com/jobs/senior-lead-software-engineer-jobs",
+      "score": 56
+    },
+    {
+      "key": "starburst.io",
+      "name": "Starburst",
+      "source": "https://boards.greenhouse.io/starburst",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/starburst/jobs?content=true",
+      "score": 56
+    },
+    {
+      "key": "supabase.com",
+      "name": "Supabase",
+      "source": "https://jobs.ashbyhq.com/supabase",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/supabase",
+      "score": 56
+    },
+    {
+      "key": "applaudostudios.com",
+      "name": "Applaudo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/applaudo.md",
+      "officialSource": "https://www.applaudo.com/",
+      "score": 55
+    },
+    {
+      "key": "chatgen.ai",
+      "name": "ChatGen",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/chatgen.md",
+      "officialSource": "https://www.linkedin.com/company/chatgenai",
+      "score": 55
+    },
+    {
+      "key": "codeait.com",
+      "name": "Codea IT",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/codea-it.md",
+      "officialSource": "https://www.codeait.com/",
+      "score": 53
+    },
+    {
+      "key": "getmindful.com",
+      "name": "Mindful",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mindful.md",
+      "officialSource": "https://jobs.medallia.com/",
+      "score": 53
+    },
+    {
+      "key": "teravisiontech.com",
+      "name": "Teravision Technologies",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/teravision-technologies.md",
+      "officialSource": "https://www.teravisiontech.com/",
+      "score": 53
+    },
+    {
+      "key": "code-b.dev",
+      "name": "Code B Solutions",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/code-b-solutions.md",
+      "officialSource": "https://code-b.dev/",
+      "score": 52
+    },
+    {
+      "key": "plaid.com",
+      "name": "Plaid",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/plaid.md",
+      "officialSource": "https://plaid.com/careers/",
+      "score": 52
+    },
+    {
+      "key": "raycast.com",
+      "name": "Raycast",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/raycast.md",
+      "officialSource": "https://www.raycast.com/careers",
+      "score": 52
+    },
+    {
+      "key": "zemosolabs.com",
+      "name": "Zemoso",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/zemoso.md",
+      "officialSource": "https://www.zemosolabs.com/careers",
+      "score": 52
+    },
+    {
+      "key": "carecru.com",
+      "name": "CareCru",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/carecru.md",
+      "officialSource": "https://www.linkedin.com/company/carecru",
+      "score": 50
+    },
+    {
+      "key": "keen.io",
+      "name": "Keen IO",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/keen-io.md",
+      "officialSource": "https://www.scaleworks.com/join-the-team",
+      "score": 50
+    },
+    {
+      "key": "langchain.com",
+      "name": "LangChain",
+      "source": "https://jobs.ashbyhq.com/langchain",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+      "score": 50
+    },
+    {
+      "key": "replit.com",
+      "name": "Replit",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/replit.md",
+      "officialSource": "https://replit.com/careers",
+      "score": 50
+    },
+    {
+      "key": "scribehow.com",
+      "name": "Scribe",
+      "source": "https://jobs.ashbyhq.com/scribe",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/scribe",
+      "score": 50
+    },
+    {
+      "key": "wirefuture.com",
+      "name": "WireFuture",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wirefuture.md",
+      "officialSource": "https://wirefuture.com/careers",
+      "score": 50
+    },
+    {
+      "key": "zapier.com",
+      "name": "Zapier",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/zapier.md",
+      "officialSource": "https://zapier.com/jobs",
+      "score": 50
+    },
+    {
+      "key": "appen.com",
+      "name": "Appen",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/appen.md",
+      "officialSource": "https://api.lever.co/v0/postings/appen-2?mode=json",
+      "score": 49
+    },
+    {
+      "key": "circleci.com",
+      "name": "CircleCI",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/circleci.md",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/circleci/jobs?content=true",
+      "score": 49
+    },
+    {
+      "key": "luxor.tech",
+      "name": "Luxor Technology",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/luxor.md",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/luxor",
+      "score": 49
+    },
+    {
+      "key": "metamask.io",
+      "name": "MetaMask",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/metamask.md",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/consensys/jobs?content=true",
+      "score": 49
+    },
+    {
+      "key": "modernhealth.com",
+      "name": "Modern Health",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/modern-health.md",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/modernhealth/jobs?content=true",
+      "score": 49
+    },
+    {
+      "key": "baseten.co",
+      "name": "Baseten",
+      "source": "https://jobs.ashbyhq.com/baseten",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/baseten",
+      "score": 48
+    },
+    {
+      "key": "calendly.com",
+      "name": "Calendly",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/calendly.md",
+      "officialSource": "https://calendly.com/careers",
+      "score": 48
+    },
+    {
+      "key": "elevenlabs.io",
+      "name": "ElevenLabs",
+      "source": "https://jobs.ashbyhq.com/elevenlabs",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
+      "score": 48
+    },
+    {
+      "key": "epsyhealth.com",
+      "name": "Epsy Health",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/epsy-health.md",
+      "officialSource": "https://www.epsyhealth.com/careers",
+      "score": 48
+    },
+    {
+      "key": "livekindred.com",
+      "name": "Kindred",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kindred.md",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/kindred",
+      "score": 48
+    },
+    {
+      "key": "klaviyo.com",
+      "name": "Klaviyo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/klaviyo.md",
+      "officialSource": "https://www.klaviyo.com/careers#open-roles",
+      "score": 48
+    },
+    {
+      "key": "mvpmule.com",
+      "name": "MVPMule",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mvpmule.md",
+      "officialSource": "https://mvpmule.com",
+      "score": 48
+    },
+    {
+      "key": "nearform.com",
+      "name": "Nearform",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/nearform.md",
+      "officialSource": "https://nearform.com/careers/",
+      "score": 48
+    },
+    {
+      "key": "semgrep.dev",
+      "name": "Semgrep",
+      "source": "https://jobs.ashbyhq.com/semgrep",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/semgrep",
+      "score": 48
+    },
+    {
+      "key": "suno.com",
+      "name": "Suno",
+      "source": "https://jobs.ashbyhq.com/suno",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/suno",
+      "score": 48
+    },
+    {
+      "key": "together.ai",
+      "name": "Together AI",
+      "source": "https://boards.greenhouse.io/togetherai",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/togetherai/jobs?content=true",
+      "score": 48
+    },
+    {
+      "key": "crossover.com",
+      "name": "Crossover",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/crossover.md",
+      "officialSource": "https://www.crossover.com/jobs",
+      "score": 47
+    },
+    {
+      "key": "meduzzen.com",
+      "name": "Meduzzen",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/meduzzen.md",
+      "officialSource": "https://meduzzen.com/careers/",
+      "score": 47
+    },
+    {
+      "key": "willings.co.jp",
+      "name": "Willings Inc",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/willings-inc.md",
+      "officialSource": "https://willings-inc.com/en/join-us",
+      "score": 47
+    },
+    {
+      "key": "acquia.com",
+      "name": "Acquia",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/acquia.md",
+      "officialSource": "https://www.acquia.com/careers/open-positions",
+      "score": 46
+    },
+    {
+      "key": "andela.com",
+      "name": "Andela",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/andela.md",
+      "officialSource": "https://www.andela.com/for-talent",
+      "score": 46
+    },
+    {
+      "key": "argyle.com",
+      "name": "Argyle",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/argyle.md",
+      "officialSource": "https://www.argyle.com/careers",
+      "score": 46
+    },
+    {
+      "key": "automattic.com",
+      "name": "Automattic",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/automattic.md",
+      "officialSource": "https://automattic.com/work-with-us/",
+      "score": 46
+    },
+    {
+      "key": "bitzesty.com",
+      "name": "Bit Zesty",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bit-zesty.md",
+      "officialSource": "https://bitzesty.com/careers/",
+      "score": 46
+    },
+    {
+      "key": "brikl.com",
+      "name": "Brikl",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/brikl.md",
+      "officialSource": "https://www.brikl.com/jobs",
+      "score": 46
+    },
+    {
+      "key": "cabify.com",
+      "name": "Cabify",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cabify.md",
+      "officialSource": "https://cabify.careers/es/",
+      "score": 46
+    },
+    {
+      "key": "chess.com",
+      "name": "Chess",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/chess.md",
+      "officialSource": "https://www.chess.com/jobs",
+      "score": 46
+    },
+    {
+      "key": "consensys.net",
+      "name": "ConsenSys Inc",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/consensys.md",
+      "officialSource": "https://consensys.com/",
+      "score": 46
+    },
+    {
+      "key": "e2b.dev",
+      "name": "E2B",
+      "source": "https://jobs.ashbyhq.com/e2b",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/e2b",
+      "score": 46
+    },
+    {
+      "key": "gremlin.com",
+      "name": "Gremlin",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gremlin.md",
+      "officialSource": "https://www.gremlin.com/team",
+      "score": 46
+    },
+    {
+      "key": "heroku.com",
+      "name": "Heroku",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/heroku.md",
+      "officialSource": "https://www.heroku.com/careers/",
+      "score": 46
+    },
+    {
+      "key": "kinsta.com",
+      "name": "Kinsta",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kinsta.md",
+      "officialSource": "https://kinsta.com/careers/",
+      "score": 46
+    },
+    {
+      "key": "llamaindex.ai",
+      "name": "LlamaIndex",
+      "source": "https://jobs.ashbyhq.com/llamaindex",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/llamaindex",
+      "score": 46
+    },
+    {
+      "key": "marsbased.com",
+      "name": "MarsBased",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/marsbased.md",
+      "officialSource": "https://marsbased.com/jobs",
+      "score": 46
+    },
+    {
+      "key": "modal.com",
+      "name": "Modal",
+      "source": "https://jobs.ashbyhq.com/modal",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/modal",
+      "score": 46
+    },
+    {
+      "key": "powerschool.com",
+      "name": "PowerSchool",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/powerschool.md",
+      "officialSource": "https://www.powerschool.com/company/careers/",
+      "score": 46
+    },
+    {
+      "key": "procurify.com",
+      "name": "Procurify",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/procurify.md",
+      "officialSource": "https://www.procurify.com/careers/",
+      "score": 46
+    },
+    {
+      "key": "questdb.io",
+      "name": "QuestDB",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/questdb.md",
+      "officialSource": "https://questdb.com/careers/",
+      "score": 46
+    },
+    {
+      "key": "goraft.tech",
+      "name": "Raft",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/raft.md",
+      "officialSource": "https://teamraft.com/",
+      "score": 46
+    },
+    {
+      "key": "redliolabs.com",
+      "name": "Redlio Labs",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/redlio-labs.md",
+      "officialSource": "https://redliolabs.com/careers",
+      "score": 46
+    },
+    {
+      "key": "remotemore.com",
+      "name": "RemoteMore",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/remotemore.md",
+      "officialSource": "https://remotemore.com/careers/",
+      "score": 46
+    },
+    {
+      "key": "safeguardglobal.com",
+      "name": "Safeguard Global",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/safeguard-global.md",
+      "officialSource": "https://www.safeguardglobal.com/company/careers/",
+      "score": 46
+    },
+    {
+      "key": "sardine.ai",
+      "name": "Sardine.ai",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/sardine-ai.md",
+      "officialSource": "https://www.sardine.ai/careers",
+      "score": 46
+    },
+    {
+      "key": "securityscorecard.com",
+      "name": "SecurityScorecard",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/securityscorecard.md",
+      "officialSource": "https://securityscorecard.com/company/careers/",
+      "score": 46
+    },
+    {
+      "key": "soshace.com",
+      "name": "Soshace, LLC.",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/soshace.md",
+      "officialSource": "https://soshace.com/careers",
+      "score": 46
+    },
+    {
+      "key": "getspruce.com",
+      "name": "Spruce",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/spruce.md",
+      "officialSource": "https://getspruce.com/careers/",
+      "score": 46
+    },
+    {
+      "key": "stickermule.com",
+      "name": "Sticker Mule",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/sticker-mule.md",
+      "officialSource": "https://www.stickermule.com/careers",
+      "score": 46
+    },
+    {
+      "key": "trigger.dev",
+      "name": "Trigger.dev",
+      "source": "https://jobs.ashbyhq.com/triggerdev",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/triggerdev",
+      "score": 46
+    },
+    {
+      "key": "typeface.ai",
+      "name": "Typeface",
+      "source": "https://boards.greenhouse.io/typeface",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/typeface/jobs?content=true",
+      "score": 46
+    },
+    {
+      "key": "verygoodsecurity.com",
+      "name": "VGS",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/vgs.md",
+      "officialSource": "https://www.verygoodsecurity.com/careers",
+      "score": 46
+    },
+    {
+      "key": "wellsfargo.com",
+      "name": "Wells Fargo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wells-fargo.md",
+      "officialSource": "https://www.wellsfargojobs.com/?utm_medium=www-redirect&utm_source=about--careers--index",
+      "score": 46
+    },
+    {
+      "key": "peoplelogic.ai",
+      "name": "Plai",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/plai.md",
+      "officialSource": "https://peoplelogic.ai/",
+      "score": 45
+    },
+    {
+      "key": "x-team.com",
+      "name": "X-Team",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/x-team.md",
+      "officialSource": "https://x-team.com/",
+      "score": 45
+    },
+    {
+      "key": "zolar.de",
+      "name": "Zolar",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/zolar.md",
+      "officialSource": "https://zolar.de/",
+      "score": 45
+    },
+    {
+      "key": "anyscale.com",
+      "name": "Anyscale",
+      "source": "https://jobs.ashbyhq.com/anyscale",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/anyscale",
+      "score": 44
+    },
+    {
+      "key": "aptoslabs.com",
+      "name": "Aptos Labs",
+      "source": "https://job-boards.greenhouse.io/aptoslabs",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/aptoslabs/jobs?content=true",
+      "score": 44
+    },
+    {
+      "key": "collibra.com",
+      "name": "Collibra",
+      "source": "https://boards.greenhouse.io/collibra",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/collibra/jobs?content=true",
+      "score": 44
+    },
+    {
+      "key": "descript.com",
+      "name": "Descript",
+      "source": "https://boards.greenhouse.io/descript",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/descript/jobs?content=true",
+      "score": 44
+    },
+    {
+      "key": "inngest.com",
+      "name": "Inngest",
+      "source": "https://jobs.ashbyhq.com/inngest",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/inngest",
+      "score": 44
+    },
+    {
+      "key": "orca.security",
+      "name": "Orca Security",
+      "source": "https://boards.greenhouse.io/orcasecurity",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/orcasecurity/jobs?content=true",
+      "score": 44
+    },
+    {
+      "key": "socket.dev",
+      "name": "Socket",
+      "source": "https://jobs.ashbyhq.com/socket",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/socket",
+      "score": 44
+    },
+    {
+      "key": "dynapictures.com",
+      "name": "DynaPictures",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dynapictures.md",
+      "officialSource": "https://dynapictures.com",
+      "score": 43
+    },
+    {
+      "key": "withintent.com",
+      "name": "Intent",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/intent.md",
+      "officialSource": "https://www.withintent.com/careers/",
+      "score": 43
+    },
+    {
+      "key": "softwaremill.com",
+      "name": "SoftwareMill",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/softwaremill.md",
+      "officialSource": "https://softwaremill.com/join-us/",
+      "score": 43
+    },
+    {
+      "key": "airbyte.com",
+      "name": "Airbyte",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/airbyte.md",
+      "officialSource": "https://airbyte.com/company/careers",
+      "score": 41
+    },
+    {
+      "key": "astronomer.io",
+      "name": "Astronomer",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/astronomer.md",
+      "officialSource": "https://recruitee.com/",
+      "score": 41
+    },
+    {
+      "key": "bilsteingroup.com",
+      "name": "bilstein group",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bilstein-group.md",
+      "officialSource": "https://bilsteingroup.com/en/career/",
+      "score": 41
+    },
+    {
+      "key": "firehydrant.com",
+      "name": "Blameless",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/blameless.md",
+      "officialSource": "https://firehydrant.com/",
+      "score": 41
+    },
+    {
+      "key": "casumo.com",
+      "name": "Casumo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/casumo.md",
+      "officialSource": "https://www.casumocareers.com/",
+      "score": 41
+    },
+    {
+      "key": "org.br",
+      "name": "FDTE",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fdte.md",
+      "officialSource": "https://www.fdte.org.br/",
+      "score": 41
+    },
+    {
+      "key": "gmbapi.com",
+      "name": "GMBapi",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gmbapi.md",
+      "officialSource": "https://gmbapi.com/vacancies/",
+      "score": 41
+    },
+    {
+      "key": "linepluscorp.com",
+      "name": "LINE Plus Corporation",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/line-plus-corporation.md",
+      "officialSource": "https://careers.linecorp.com/",
+      "score": 41
+    },
+    {
+      "key": "mayvenstudios.com",
+      "name": "Mayven Studios",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mayven-studios.md",
+      "officialSource": "https://mayvenstudios.com",
+      "score": 41
+    },
+    {
+      "key": "merico.dev",
+      "name": "Merico",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/merico.md",
+      "officialSource": "https://www.devinsight.ai/",
+      "score": 41
+    },
+    {
+      "key": "gopaktor.com",
+      "name": "Paktor",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/paktor.md",
+      "officialSource": "https://gopaktor.com:443/",
+      "score": 41
+    },
+    {
+      "key": "prominentedge.com",
+      "name": "Prominent Edge",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/prominent-edge.md",
+      "officialSource": "https://prominentedge.com/careers",
+      "score": 41
+    },
+    {
+      "key": "superplayer.company",
+      "name": "Superplayer & Co",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/superplayer-and-co.md",
+      "officialSource": "https://superplayer.company",
+      "score": 41
+    },
+    {
+      "key": "tide.co",
+      "name": "Tide",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/tide.md",
+      "officialSource": "https://www.tide.co/careers/#jobs",
+      "score": 41
+    },
+    {
+      "key": "veryfi.com",
+      "name": "Veryfi",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/veryfi.md",
+      "officialSource": "https://www.veryfi.com/about",
+      "score": 41
+    },
+    {
+      "key": "atozdebug.com",
+      "name": "ATOZDEBUG",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/atozdebug.md",
+      "officialSource": "https://www.linkedin.com/company/atozdebug/",
+      "score": 40
+    },
+    {
+      "key": "coinbase.com",
+      "name": "Coinbase",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/coinbase.md",
+      "officialSource": "https://www.coinbase.com/careers/positions",
+      "score": 40
+    },
+    {
+      "key": "positiwise.com",
+      "name": "Positiwise",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/positiwise.md",
+      "officialSource": "https://positiwise.com/careers",
+      "score": 40
+    },
+    {
+      "key": "15five.com",
+      "name": "15Five",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/15five.md",
+      "officialSource": "https://www.15five.com/about/careers",
+      "score": 38
+    },
+    {
+      "key": "3blocks.io",
+      "name": "3Blocks",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/3blocks.md",
+      "officialSource": "https://www.linkedin.com/company/3blocks-io",
+      "score": 38
+    },
+    {
+      "key": "creex.team",
+      "name": "CREEX TEAM",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/creex-team.md",
+      "officialSource": "https://creex.team",
+      "score": 38
+    },
+    {
+      "key": "dashlane.com",
+      "name": "Dashlane",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dashlane.md",
+      "officialSource": "https://www.dashlane.com/about/careers",
+      "score": 38
+    },
+    {
+      "key": "drupaljedi.com",
+      "name": "Drupal Jedi",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/drupal-jedi.md",
+      "officialSource": "https://drupaljedi.com/careers/",
+      "score": 38
+    },
+    {
+      "key": "generalassemb.ly",
+      "name": "General Assembly",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/general-assembly.md",
+      "officialSource": "https://www.generalassemb.ly/careers",
+      "score": 38
+    },
+    {
+      "key": "linear.app",
+      "name": "Linear",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/linear.md",
+      "officialSource": "https://linear.app/careers",
+      "score": 38
+    },
+    {
+      "key": "posthog.com",
+      "name": "PostHog",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/posthog.md",
+      "officialSource": "https://posthog.com/careers",
+      "score": 38
+    },
+    {
+      "key": "primotly.com",
+      "name": "Primotly",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/primotly.md",
+      "officialSource": "https://primotly.com/",
+      "score": 38
+    },
+    {
+      "key": "retool.com",
+      "name": "Retool",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/retool.md",
+      "officialSource": "https://retool.com/careers",
+      "score": 38
+    },
+    {
+      "key": "scalac.io",
+      "name": "Scalac",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/scalac.md",
+      "officialSource": "https://scalac.io/careers/",
+      "score": 38
+    },
+    {
+      "key": "teamtreehouse.com",
+      "name": "Treehouse",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/treehouse.md",
+      "officialSource": "https://teamtreehouse.com/jobs",
+      "score": 38
+    },
+    {
+      "key": "weareuncapped.com",
+      "name": "Uncapped",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/uncapped.md",
+      "officialSource": "https://www.weareuncapped.com/careers",
+      "score": 38
+    },
+    {
+      "key": "wallethub.com",
+      "name": "WalletHub",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wallethub.md",
+      "officialSource": "https://wallethub.com/jobs/",
+      "score": 38
+    },
+    {
+      "key": "workos.com",
+      "name": "WorkOS",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/workos.md",
+      "officialSource": "https://workos.com/careers",
+      "score": 38
+    },
+    {
+      "key": "anomali.com",
+      "name": "Anomali",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/anomali.md",
+      "officialSource": "https://api.lever.co/v0/postings/anomali?mode=json",
+      "score": 37
+    },
+    {
+      "key": "aerolab.co",
+      "name": "Aerolab",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/aerolab.md",
+      "officialSource": "https://aerolab.co/careers",
+      "score": 36
+    },
+    {
+      "key": "airgarage.com",
+      "name": "AirGarage",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/airgarage.md",
+      "officialSource": "https://www.airgarage.com/careers",
+      "score": 36
+    },
+    {
+      "key": "bitovi.com",
+      "name": "Bitovi",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bitovi.md",
+      "officialSource": "https://www.bitovi.com/about/jobs",
+      "score": 36
+    },
+    {
+      "key": "bluecatnetworks.com",
+      "name": "BlueCat Networks",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bluecat-networks.md",
+      "officialSource": "https://bluecatnetworks.com/careers/",
+      "score": 36
+    },
+    {
+      "key": "capitalonecareers.com",
+      "name": "Capital One",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/capital-one.md",
+      "officialSource": "https://www.capitalonecareers.com/tech",
+      "score": 36
+    },
+    {
+      "key": "comet.co",
+      "name": "Comet",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/comet.md",
+      "officialSource": "https://www.comet.co/",
+      "score": 36
+    },
+    {
+      "key": "fiverr.com",
+      "name": "Fiverr",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fiverr.md",
+      "officialSource": "https://www.fiverr.com/",
+      "score": 36
+    },
+    {
+      "key": "istemai.com",
+      "name": "I-Stem",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/i-stem.md",
+      "officialSource": "https://www.istemai.com/",
+      "score": 36
+    },
+    {
+      "key": "iopipe.com",
+      "name": "IOpipe",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/iopipe.md",
+      "officialSource": "https://www.iopipe.com",
+      "score": 36
+    },
+    {
+      "key": "meant4.com",
+      "name": "Meant4",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/meant4.md",
+      "officialSource": "https://meant4.com/jobs/",
+      "score": 36
+    },
+    {
+      "key": "nozbe.com",
+      "name": "Nozbe",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/nozbe.md",
+      "officialSource": "https://nozbe.com/job",
+      "score": 36
+    },
+    {
+      "key": "railscarma.com",
+      "name": "Railscarma",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/railscarma.md",
+      "officialSource": "https://www.railscarma.com/careers/.",
+      "score": 36
+    },
+    {
+      "key": "rebelmouse.com",
+      "name": "RebelMouse",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/rebelmouse.md",
+      "officialSource": "https://www.linkedin.com/company/rebelmouse",
+      "score": 36
+    },
+    {
+      "key": "resend.com",
+      "name": "Resend",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/resend.md",
+      "officialSource": "https://resend.com/careers",
+      "score": 36
+    },
+    {
+      "key": "smmile.com",
+      "name": "Smmile Digital",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/smmile-digital.md",
+      "officialSource": "https://www.smmile.com/",
+      "score": 36
+    },
+    {
+      "key": "spoqa.co.kr",
+      "name": "Spoqa, Inc.",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/spoqa.md",
+      "officialSource": "https://spoqa.co.kr/",
+      "score": 36
+    },
+    {
+      "key": "strapi.io",
+      "name": "Strapi",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/strapi.md",
+      "officialSource": "https://strapi.io/careers",
+      "score": 36
+    },
+    {
+      "key": "svix.com",
+      "name": "Svix",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/svix.md",
+      "officialSource": "https://www.svix.com/careers/",
+      "score": 36
+    },
+    {
+      "key": "uhurunetwork.com",
+      "name": "Uhuru",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/uhuru.md",
+      "officialSource": "https://uhurunetwork.com/digital-marketing-careers/",
+      "score": 36
+    },
+    {
+      "key": "vercel.com",
+      "name": "Vercel",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/vercel.md",
+      "officialSource": "https://vercel.com/careers",
+      "score": 36
+    },
+    {
+      "key": "vervesys.com",
+      "name": "Verve Systems",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/verve-systems.md",
+      "officialSource": "https://www.vervesys.com/company/contact-us/",
+      "score": 36
+    },
+    {
+      "key": "virtahealth.com",
+      "name": "Virta Health",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/virta-health.md",
+      "officialSource": "https://www.virtahealth.com/careers",
+      "score": 36
+    },
+    {
+      "key": "90seconds.com",
+      "name": "90 Seconds",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/90-seconds.md",
+      "officialSource": "https://90seconds.com/about/careers/",
+      "score": 34
+    },
+    {
+      "key": "ae.studio",
+      "name": "AEStudio",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/aestudio.md",
+      "officialSource": "https://ae.studio/join-us",
+      "score": 34
+    },
+    {
+      "key": "amazon.jobs",
+      "name": "Amazon",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/amazon.md",
+      "officialSource": "https://www.amazon.jobs/en/",
+      "score": 34
+    },
+    {
+      "key": "aaico.com",
+      "name": "Applied AI Company (AAICO)",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/applied-ai-company-aaico.md",
+      "officialSource": "https://www.aaico.com/",
+      "score": 34
+    },
+    {
+      "key": "artandlogic.com",
+      "name": "Art & Logic",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/art-and-logic.md",
+      "officialSource": "https://artandlogic.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "auth0.com",
+      "name": "Auth0",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/auth0.md",
+      "officialSource": "https://www.okta.com/company/careers/",
+      "score": 34
+    },
+    {
+      "key": "carmatec.com",
+      "name": "Carmatec",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/carmatec.md",
+      "officialSource": "https://www.carmatec.com/careers/.",
+      "score": 34
+    },
+    {
+      "key": "charitywater.org",
+      "name": "charity: water",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/charity-water.md",
+      "officialSource": "https://www.charitywater.org/about/jobs",
+      "score": 34
+    },
+    {
+      "key": "lumenalta.com",
+      "name": "Clevertech",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/clevertech.md",
+      "officialSource": "https://lumenalta.com/remote-jobs",
+      "score": 34
+    },
+    {
+      "key": "close.com",
+      "name": "Close",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/close.md",
+      "officialSource": "https://close.com/careers",
+      "score": 34
+    },
+    {
+      "key": "cognizant.com",
+      "name": "Cognizant",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cognizant.md",
+      "officialSource": "https://careers.cognizant.com/india-en/",
+      "score": 34
+    },
+    {
+      "key": "crazygames.com",
+      "name": "CrazyGames",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/crazygames.md",
+      "officialSource": "https://jobs.crazygames.com/",
+      "score": 34
+    },
+    {
+      "key": "cueup.io",
+      "name": "Cueup",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cueup.md",
+      "officialSource": "https://cueup.io",
+      "score": 34
+    },
+    {
+      "key": "cvshealth.com",
+      "name": "CVS Health",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cvs-health.md",
+      "officialSource": "https://jobs.cvshealth.com/us/en/home",
+      "score": 34
+    },
+    {
+      "key": "datarobot.com",
+      "name": "DataRobot",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/datarobot.md",
+      "officialSource": "https://www.datarobot.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "discord.com",
+      "name": "Discord",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/discord.md",
+      "officialSource": "https://discord.com/careers",
+      "score": 34
+    },
+    {
+      "key": "doist.com",
+      "name": "Doist",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/doist.md",
+      "officialSource": "https://www.todoist.com/careers",
+      "score": 34
+    },
+    {
+      "key": "dropbox.com",
+      "name": "Dropbox",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dropbox.md",
+      "officialSource": "https://www.dropbox.jobs/en/",
+      "score": 34
+    },
+    {
+      "key": "ebury.com",
+      "name": "Ebury",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ebury.md",
+      "officialSource": "https://ebury.com/company/careers",
+      "score": 34
+    },
+    {
+      "key": "faithlife.com",
+      "name": "Faithlife",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/faithlife.md",
+      "officialSource": "https://www.logos.com/careers?ssi=0",
+      "score": 34
+    },
+    {
+      "key": "fingerprint.com",
+      "name": "Fingerprint",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fingerprint.md",
+      "officialSource": "https://fingerprint.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "firstpoint.com.tr",
+      "name": "First Point",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/first-point.md",
+      "officialSource": "https://firstpoint.com.tr/#careers",
+      "score": 34
+    },
+    {
+      "key": "nearform.com",
+      "name": "Formidable",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/formidable.md",
+      "officialSource": "https://nearform.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "functionize.com",
+      "name": "Functionize",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/functionize.md",
+      "officialSource": "https://www.functionize.com/careers",
+      "score": 34
+    },
+    {
+      "key": "gaggle.net",
+      "name": "Gaggle",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gaggle.md",
+      "officialSource": "https://www.gaggle.net/careers",
+      "score": 34
+    },
+    {
+      "key": "gft.com",
+      "name": "GFT",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gft.md",
+      "officialSource": "https://jobs.gft.com/",
+      "score": 34
+    },
+    {
+      "key": "helpscout.com",
+      "name": "Help Scout",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/help-scout.md",
+      "officialSource": "https://www.helpscout.com/company/careers/",
+      "score": 34
+    },
+    {
+      "key": "ibm.com",
+      "name": "IBM",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ibm.md",
+      "officialSource": "https://www.ibm.com/careers",
+      "score": 34
+    },
+    {
+      "key": "ifit.com",
+      "name": "iFit",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ifit.md",
+      "officialSource": "https://www.ifit.com/about-us?brand=ifit",
+      "score": 34
+    },
+    {
+      "key": "intuit.com",
+      "name": "Intuit Inc.",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/intuit.md",
+      "officialSource": "https://www.intuit.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "joor.com",
+      "name": "JOOR",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/joor.md",
+      "officialSource": "https://www.joor.com/careers",
+      "score": 34
+    },
+    {
+      "key": "jupiterone.com",
+      "name": "JupiterOne",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/jupiterone.md",
+      "officialSource": "https://www.jupiterone.com/careers",
+      "score": 34
+    },
+    {
+      "key": "kentik.com",
+      "name": "Kentik Technologies Inc.",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kentik.md",
+      "officialSource": "https://www.kentik.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "kickbacksystems.com",
+      "name": "KickBack Rewards Systems",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kickback-rewards-systems.md",
+      "officialSource": "https://ignite-retail.com/",
+      "score": 34
+    },
+    {
+      "key": "kiprosh.com",
+      "name": "Kiprosh",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kiprosh.md",
+      "officialSource": "https://kiprosh.com/careers",
+      "score": 34
+    },
+    {
+      "key": "15five.com",
+      "name": "Kona",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kona.md",
+      "officialSource": "https://www.15five.com/about/careers",
+      "score": 34
+    },
+    {
+      "key": "labelbox.com",
+      "name": "Labelbox",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/labelbox.md",
+      "officialSource": "https://labelbox.com/company/careers/",
+      "score": 34
+    },
+    {
+      "key": "laterpay.net",
+      "name": "LaterPay",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/laterpay.md",
+      "officialSource": "https://supertab.co/",
+      "score": 34
+    },
+    {
+      "key": "liveperson.com",
+      "name": "LivePerson",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/liveperson.md",
+      "officialSource": "https://www.liveperson.com/company/careers/",
+      "score": 34
+    },
+    {
+      "key": "mapbox.com",
+      "name": "Mapbox",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mapbox.md",
+      "officialSource": "https://www.mapbox.com/careers",
+      "score": 34
+    },
+    {
+      "key": "marcopolo.me",
+      "name": "Marco Polo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/marco-polo.md",
+      "officialSource": "https://www.marcopolo.me/jobs",
+      "score": 34
+    },
+    {
+      "key": "microsoft.com",
+      "name": "Microsoft",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/microsoft.md",
+      "officialSource": "https://careers.microsoft.com/v2/global/en/home.html",
+      "score": 34
+    },
+    {
+      "key": "monthly.com",
+      "name": "Monthly",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/monthly.md",
+      "officialSource": "https://studio.com/careers",
+      "score": 34
+    },
+    {
+      "key": "nuna.com",
+      "name": "Nuna Inc",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/nuna.md",
+      "officialSource": "https://www.nuna.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "oreilly.com",
+      "name": "O'Reilly Online Learning",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/oreilly-online-learning.md",
+      "officialSource": "https://www.oreilly.com/careers",
+      "score": 34
+    },
+    {
+      "key": "ocient.com",
+      "name": "Ocient",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ocient.md",
+      "officialSource": "https://ocient.com/job-postings/",
+      "score": 34
+    },
+    {
+      "key": "okta.com",
+      "name": "Okta",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/okta.md",
+      "officialSource": "https://www.okta.com/company/careers/",
+      "score": 34
+    },
+    {
+      "key": "ombulabs.com",
+      "name": "Ombu Labs",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ombu-labs.md",
+      "officialSource": "https://www.ombulabs.ai/jobs",
+      "score": 34
+    },
+    {
+      "key": "omniti.com",
+      "name": "OmniTI",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/omniti.md",
+      "officialSource": "https://omniti.com/is/hiring.html",
+      "score": 34
+    },
+    {
+      "key": "onthegosystems.com",
+      "name": "On The Go Systems",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/on-the-go-systems.md",
+      "officialSource": "https://onthegosystems.com/jobs/",
+      "score": 34
+    },
+    {
+      "key": "onna.com",
+      "name": "Onna",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/onna.md",
+      "officialSource": "https://www.onna.com/",
+      "score": 34
+    },
+    {
+      "key": "oysterhr.com",
+      "name": "Oyster HR",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/oyster-hr.md",
+      "officialSource": "https://www.oysterhr.com/careers",
+      "score": 34
+    },
+    {
+      "key": "parexel.com",
+      "name": "Parexel",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/parexel.md",
+      "officialSource": "https://jobs.parexel.com/en",
+      "score": 34
+    },
+    {
+      "key": "pex.com",
+      "name": "Pex",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/pex.md",
+      "officialSource": "https://pex.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "pnc.com",
+      "name": "PNC Financial Services",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/pnc-financial-services.md",
+      "officialSource": "https://careers.pnc.com/global/en",
+      "score": 34
+    },
+    {
+      "key": "primer.io",
+      "name": "Primer",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/primer.md",
+      "officialSource": "https://primer.io/careers",
+      "score": 34
+    },
+    {
+      "key": "quicktrials.com",
+      "name": "QuickTrials",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/quicktrials.md",
+      "officialSource": "https://www.quicktrials.com/open-jobs/",
+      "score": 34
+    },
+    {
+      "key": "ramp.com",
+      "name": "Ramp",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ramp.md",
+      "officialSource": "https://ramp.com/careers",
+      "score": 34
+    },
+    {
+      "key": "refundid.com",
+      "name": "Refundid",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/refundid.md",
+      "officialSource": "https://www.linkedin.com/company/refundid",
+      "score": 34
+    },
+    {
+      "key": "reneespace.com",
+      "name": "Renée Space",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/renee-space.md",
+      "officialSource": "https://www.reneespace.com/careers",
+      "score": 34
+    },
+    {
+      "key": "roadpass.com",
+      "name": "Roadpass Digital",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/roadpass-digital.md",
+      "officialSource": "https://roadtrippers.applytojob.com/apply",
+      "score": 34
+    },
+    {
+      "key": "scandit.com",
+      "name": "Scandit",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/scandit.md",
+      "officialSource": "https://www.scandit.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "signeasy.com",
+      "name": "SignEasy",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/signeasy.md",
+      "officialSource": "https://signeasy.com/careers",
+      "score": 34
+    },
+    {
+      "key": "simpletexting.com",
+      "name": "SimpleTexting",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/simpletexting.md",
+      "officialSource": "https://simpletexting.com",
+      "score": 34
+    },
+    {
+      "key": "smugmug.com",
+      "name": "SmugMug",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/smugmug.md",
+      "officialSource": "https://jobs.smugmug.com/",
+      "score": 34
+    },
+    {
+      "key": "stormx.io",
+      "name": "StormX",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/stormx.md",
+      "officialSource": "https://www.stormx.io/",
+      "score": 34
+    },
+    {
+      "key": "syde.com",
+      "name": "Syde",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/syde.md",
+      "officialSource": "https://syde.com/career/",
+      "score": 34
+    },
+    {
+      "key": "tag1consulting.com",
+      "name": "Tag1 Consulting",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/tag1-consulting.md",
+      "officialSource": "https://www.linkedin.com/company/tag1consulting",
+      "score": 34
+    },
+    {
+      "key": "goteleport.com",
+      "name": "Teleport",
+      "source": "https://jobs.ashbyhq.com/goteleport",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/goteleport",
+      "score": 34
+    },
+    {
+      "key": "testdouble.com",
+      "name": "Test Double",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/test-double.md",
+      "officialSource": "https://testdouble.hire.trakstar.com/",
+      "score": 34
+    },
+    {
+      "key": "thinkful.com",
+      "name": "Thinkful",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/thinkful.md",
+      "officialSource": "https://www.chegg.com/skills/",
+      "score": 34
+    },
+    {
+      "key": "thorn.org",
+      "name": "Thorn",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/thorn.md",
+      "officialSource": "https://www.thorn.org/careers/",
+      "score": 34
+    },
+    {
+      "key": "transloadit.com",
+      "name": "Transloadit",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/transloadit.md",
+      "officialSource": "https://x.com/transloadit",
+      "score": 34
+    },
+    {
+      "key": "treez.io",
+      "name": "Treez",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/treez.md",
+      "officialSource": "https://www.treez.io/careers",
+      "score": 34
+    },
+    {
+      "key": "twilio.com",
+      "name": "Twilio",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/twilio.md",
+      "officialSource": "https://jobs.twilio.com/careers",
+      "score": 34
+    },
+    {
+      "key": "upcell.io",
+      "name": "upcell",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/upcell.md",
+      "officialSource": "https://www.upcell.io/about",
+      "score": 34
+    },
+    {
+      "key": "usaa.com",
+      "name": "USAA",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/usaa.md",
+      "officialSource": "https://www.usaajobs.com/",
+      "score": 34
+    },
+    {
+      "key": "wolve.com",
+      "name": "Wolverine Trading",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wolverine-trading.md",
+      "officialSource": "https://www.wolve.com/careers",
+      "score": 34
+    },
+    {
+      "key": "xwp.co",
+      "name": "XWP",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/xwp.md",
+      "officialSource": "https://www.linkedin.com/company/xwp",
+      "score": 34
+    },
+    {
+      "key": "yahooinc.com",
+      "name": "Yahoo!",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/yahoo.md",
+      "officialSource": "https://www.yahooinc.com/careers/",
+      "score": 34
+    },
+    {
+      "key": "yodo1.com",
+      "name": "Yodo1",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/yodo1.md",
+      "officialSource": "https://www.yodo1.com/en/careers",
+      "score": 34
+    },
+    {
+      "key": "compuco.io",
+      "name": "Compucorp",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/compucorp.md",
+      "officialSource": "https://www.compuco.io",
+      "score": 33
+    },
+    {
+      "key": "hashex.org",
+      "name": "Hashex",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hashex.md",
+      "officialSource": "https://hashex.org/company/careers/",
+      "score": 33
+    },
+    {
+      "key": "pragma.co",
+      "name": "Pragma",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/pragma.md",
+      "officialSource": "https://www.pragma.co/es/carrera/vacantes/",
+      "score": 33
+    },
+    {
+      "key": "thirdiron.com",
+      "name": "Third Iron",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/third-iron.md",
+      "officialSource": "https://thirdiron.applytojob.com/",
+      "score": 33
+    },
+    {
+      "key": "toasttab.com",
+      "name": "Toast",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/toast.md",
+      "officialSource": "https://careers.toasttab.com/",
+      "score": 33
+    },
+    {
+      "key": "urlaunched.com",
+      "name": "You are launched",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/you-are-launched.md",
+      "officialSource": "https://www.urlaunched.com/",
+      "score": 33
+    },
+    {
+      "key": "abridge.com",
+      "name": "Abridge",
+      "source": "https://jobs.ashbyhq.com/abridge",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/abridge",
+      "score": 32
+    },
+    {
+      "key": "cartesia.ai",
+      "name": "Cartesia",
+      "source": "https://jobs.ashbyhq.com/cartesia",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/cartesia",
+      "score": 32
+    },
+    {
+      "key": "motherduck.com",
+      "name": "MotherDuck",
+      "source": "https://jobs.ashbyhq.com/MotherDuck",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/MotherDuck",
+      "score": 32
+    },
+    {
+      "key": "planetscale.com",
+      "name": "PlanetScale",
+      "source": "https://job-boards.greenhouse.io/planetscale",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/planetscale/jobs?content=true",
+      "score": 32
+    },
+    {
+      "key": "prefect.io",
+      "name": "Prefect",
+      "source": "https://jobs.ashbyhq.com/prefect",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/prefect",
+      "score": 32
+    },
+    {
+      "key": "secureframe.com",
+      "name": "Secureframe",
+      "source": "https://jobs.ashbyhq.com/secureframe",
+      "officialSource": "https://api.ashbyhq.com/posting-api/job-board/secureframe",
+      "score": 32
+    },
+    {
+      "key": "tailscale.com",
+      "name": "Tailscale",
+      "source": "https://boards.greenhouse.io/tailscale",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/tailscale/jobs?content=true",
+      "score": 32
+    },
+    {
+      "key": "calamari.io",
+      "name": "Calamari",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/calamari.md",
+      "officialSource": "https://www.calamari.pl/kariera",
+      "score": 31
+    },
+    {
+      "key": "hyperiondev.com",
+      "name": "Hyperion Development South Africa",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hyperion.md",
+      "officialSource": "https://www.hyperiondev.com/jobs/",
+      "score": 31
+    },
+    {
+      "key": "kissmetrics.com",
+      "name": "KissMetrics",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kissmetrics.md",
+      "officialSource": "https://neilpatel.com/",
+      "score": 31
+    },
+    {
+      "key": "mercari.com",
+      "name": "Mercari",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mercari.md",
+      "officialSource": "https://careers.mercari.com/en/jobs/engineering/?utm_source=remoteintech.company&utm_medium=Referral&utm_campaign=remote-in-tech",
+      "score": 31
+    },
+    {
+      "key": "mux.com",
+      "name": "Mux",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mux.md",
+      "officialSource": "https://www.mux.com/jobs",
+      "score": 31
+    },
+    {
+      "key": "pagepro.co",
+      "name": "Pagepro",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/pagepro.md",
+      "officialSource": "https://pagepro.co",
+      "score": 31
+    },
+    {
+      "key": "prezi.com",
+      "name": "Prezi",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/prezi.md",
+      "officialSource": "https://prezi.com/jobs/",
+      "score": 31
+    },
+    {
+      "key": "rendrhq.com",
+      "name": "Rendr Software Group",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/rendr-software-group.md",
+      "officialSource": "https://www.rendrhq.com/about",
+      "score": 31
+    },
+    {
+      "key": "sadapay.pk",
+      "name": "SadaPay",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/sadapay.md",
+      "officialSource": "https://sadapay.pk/careers",
+      "score": 31
+    },
+    {
+      "key": "42technologies.com",
+      "name": "42 Technologies",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/42-technologies.md",
+      "officialSource": "https://www.42technologies.com/",
+      "score": 29
+    },
+    {
+      "key": "aiir.com",
+      "name": "Aiir",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/aiir.md",
+      "officialSource": "https://aiir.com/about/working-at-aiir/",
+      "score": 29
+    },
+    {
+      "key": "alamisharia.co.id",
+      "name": "Alami",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/alami.md",
+      "officialSource": "https://alamisharia.co.id/en/career/",
+      "score": 29
+    },
+    {
+      "key": "bugfender.com",
+      "name": "Bugfender",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bugfender.md",
+      "officialSource": "https://bugfender.com/",
+      "score": 29
+    },
+    {
+      "key": "clootrack.com",
+      "name": "Clootrack",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/clootrack.md",
+      "officialSource": "https://www.clootrack.com/careers",
+      "score": 29
+    },
+    {
+      "key": "cloudlinux.com",
+      "name": "CloudLinux",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cloudlinux.md",
+      "officialSource": "https://cloudlinux.com/about-us-company-jobs",
+      "score": 29
+    },
+    {
+      "key": "codingcops.com",
+      "name": "CodingCops",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/codingcops.md",
+      "officialSource": "https://codingcops.com/",
+      "score": 29
+    },
+    {
+      "key": "connexa.com",
+      "name": "Connexa",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/connexa.md",
+      "officialSource": "https://www.connexa.com/",
+      "score": 29
+    },
+    {
+      "key": "continu.com",
+      "name": "Continu",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/continu.md",
+      "officialSource": "https://www.continu.com/",
+      "score": 29
+    },
+    {
+      "key": "corgibytes.com",
+      "name": "Corgibytes",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/corgibytes.md",
+      "officialSource": "https://corgibytes.com/careers/",
+      "score": 29
+    },
+    {
+      "key": "devspotlight.com",
+      "name": "Dev Spotlight",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dev-spotlight.md",
+      "officialSource": "https://www.devspotlight.com",
+      "score": 29
+    },
+    {
+      "key": "doit.com",
+      "name": "Doit",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/doit.md",
+      "officialSource": "https://careers.doit.com/jobs",
+      "score": 29
+    },
+    {
+      "key": "ebsco.com",
+      "name": "EBSCO Information Services",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ebsco-information-services.md",
+      "officialSource": "https://careers.ebscoind.com/ebscoinformationservices",
+      "score": 29
+    },
+    {
+      "key": "elastic.co",
+      "name": "Elastic",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/elastic.md",
+      "officialSource": "https://www.elastic.co/careers",
+      "score": 29
+    },
+    {
+      "key": "elsewhen.com",
+      "name": "Elsewhen",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/elsewhen.md",
+      "officialSource": "https://careers.elsewhen.com/jobs",
+      "score": 29
+    },
+    {
+      "key": "equalexperts.com",
+      "name": "Equal Experts Portugal",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/equal-experts-portugal.md",
+      "officialSource": "https://www.equalexperts.com/contact-us/",
+      "score": 29
+    },
+    {
+      "key": "evrone.com",
+      "name": "Evrone",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/evrone.md",
+      "officialSource": "https://evrone.com",
+      "score": 29
+    },
+    {
+      "key": "fleetio.com",
+      "name": "fleetio",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fleetio.md",
+      "officialSource": "https://www.fleetio.com/",
+      "score": 29
+    },
+    {
+      "key": "fohandboh.com",
+      "name": "Foh&Boh",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/foh-and-boh.md",
+      "officialSource": "https://fohandboh.com/",
+      "score": 29
+    },
+    {
+      "key": "geo-jobe.com",
+      "name": "GEO Jobe",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/geo-jobe.md",
+      "officialSource": "https://geo-jobe.com/",
+      "score": 29
+    },
+    {
+      "key": "gitbook.com",
+      "name": "Gitbook",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gitbook.md",
+      "officialSource": "https://www.gitbook.com/careers",
+      "score": 29
+    },
+    {
+      "key": "gojob.com",
+      "name": "Gojob",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gojob.md",
+      "officialSource": "https://www.welcometothejungle.com/fr/companies/gojob",
+      "score": 29
+    },
+    {
+      "key": "grubhub.com",
+      "name": "Grubhub",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/grubhub.md",
+      "officialSource": "https://careers.grubhub.com/",
+      "score": 29
+    },
+    {
+      "key": "heetch.com",
+      "name": "Heetch",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/heetch.md",
+      "officialSource": "https://www.heetch.com/jobs",
+      "score": 29
+    },
+    {
+      "key": "iterative.ai",
+      "name": "Iterative",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/iterative.md",
+      "officialSource": "https://www.datachain.ai/",
+      "score": 29
+    },
+    {
+      "key": "iruuza-inc.com",
+      "name": "Jitera",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/jitera.md",
+      "officialSource": "https://jitera.com/",
+      "score": 29
+    },
+    {
+      "key": "kuali.co",
+      "name": "Kuali",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kuali.md",
+      "officialSource": "https://www.kuali.co/",
+      "score": 29
+    },
+    {
+      "key": "madisoft.it",
+      "name": "Madisoft",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/madisoft.md",
+      "officialSource": "https://labs.madisoft.it/entra-nel-team/",
+      "score": 29
+    },
+    {
+      "key": "massivepixel.io",
+      "name": "Massive Pixel Creation",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/massive-pixel-creation.md",
+      "officialSource": "https://massivepixel.io/careers/",
+      "score": 29
+    },
+    {
+      "key": "maxicus.com",
+      "name": "Maxicus",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/maxicus.md",
+      "officialSource": "https://remoters.net/jobs/maxicus/",
+      "score": 29
+    },
+    {
+      "key": "meteorops.com",
+      "name": "MeteorOps",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/meteorops.md",
+      "officialSource": "https://meteorops.com/careers",
+      "score": 29
+    },
+    {
+      "key": "nexttrucking.com",
+      "name": "NEXT",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/next.md",
+      "officialSource": "https://nexttrucking.com/",
+      "score": 29
+    },
+    {
+      "key": "oreilly.com",
+      "name": "O'Reilly Media",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/oreilly-media.md",
+      "officialSource": "https://www.oreilly.com/careers",
+      "score": 29
+    },
+    {
+      "key": "olark.com",
+      "name": "Olark",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/olark.md",
+      "officialSource": "https://www.olark.com/jobs",
+      "score": 29
+    },
+    {
+      "key": "myollie.com",
+      "name": "Ollie",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ollie.md",
+      "officialSource": "https://api.lever.co/v0/postings/myollie?mode=json",
+      "score": 29
+    },
+    {
+      "key": "olo.com",
+      "name": "Olo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/olo.md",
+      "officialSource": "https://www.olo.com/",
+      "score": 29
+    },
+    {
+      "key": "ne.jp",
+      "name": "PayPay Corporation",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/paypay.md",
+      "officialSource": "https://about.paypay.ne.jp/career/en/",
+      "score": 29
+    },
+    {
+      "key": "platformbuilders.io",
+      "name": "Platform Builders",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/platform-builders.md",
+      "officialSource": "https://www.platformbuilders.io/",
+      "score": 29
+    },
+    {
+      "key": "qatium.com",
+      "name": "Qatium",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/qatium.md",
+      "officialSource": "https://recruitee.com/",
+      "score": 29
+    },
+    {
+      "key": "reboot.studio",
+      "name": "Reboot Studio",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/reboot-studio.md",
+      "officialSource": "https://reboot.studio",
+      "score": 29
+    },
+    {
+      "key": "redoxengine.com",
+      "name": "Redox",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/redox.md",
+      "officialSource": "https://redoxengine.com/company/careers/",
+      "score": 29
+    },
+    {
+      "key": "researchsquare.com",
+      "name": "Research Square",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/research-square.md",
+      "officialSource": "https://www.researchsquare.com/",
+      "score": 29
+    },
+    {
+      "key": "roundproxies.com",
+      "name": "Roundproxies",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/roundproxies.md",
+      "officialSource": "https://roundproxies.com",
+      "score": 29
+    },
+    {
+      "key": "scaloy.com",
+      "name": "Scaloy Technology LLP",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/scaloy.md",
+      "officialSource": "https://scaloy.com/",
+      "score": 29
+    },
+    {
+      "key": "scrapingbee.com",
+      "name": "ScrapingBee",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/scrapingbee.md",
+      "officialSource": "https://www.scrapingbee.com/",
+      "score": 29
+    },
+    {
+      "key": "sixtostart.com",
+      "name": "Six to Start",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/six-to-start.md",
+      "officialSource": "https://zombiesrungame.com/",
+      "score": 29
+    },
+    {
+      "key": "ted.com",
+      "name": "TED",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ted.md",
+      "officialSource": "https://www.ted.com/",
+      "score": 29
+    },
+    {
+      "key": "thecrafterslab.eu",
+      "name": "The Crafters Lab",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/the-crafters-lab.md",
+      "officialSource": "https://thecrafterslab.eu",
+      "score": 29
+    },
+    {
+      "key": "timespothq.com",
+      "name": "TimeSpot",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/timespot.md",
+      "officialSource": "https://timespothq.com/",
+      "score": 29
+    },
+    {
+      "key": "truelogicsoftware.com",
+      "name": "Truelogic",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/truelogic.md",
+      "officialSource": "https://www.truelogic.io/",
+      "score": 29
+    },
+    {
+      "key": "vivo.com.br",
+      "name": "Vivo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/vivo.md",
+      "officialSource": "https://vivo.gupy.io",
+      "score": 29
+    },
+    {
+      "key": "webrunners.de",
+      "name": "Webrunners GmbH",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/webrunners.md",
+      "officialSource": "https://www.webrunners.de/jobs/",
+      "score": 29
+    },
+    {
+      "key": "zaneffi.com",
+      "name": "Zaneffi",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/zaneffi.md",
+      "officialSource": "https://zaneffi.com/",
+      "score": 29
+    },
+    {
+      "key": "alan.com",
+      "name": "Alan",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/alan.md",
+      "officialSource": "https://alan.com/",
+      "score": 28
+    },
+    {
+      "key": "getimpala.com",
+      "name": "Impala",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/impala.md",
+      "officialSource": "https://getimpala.com/",
+      "score": 28
+    },
+    {
+      "key": "ycombinator.com",
+      "name": "Swif.ai",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/swif-ai.md",
+      "officialSource": "https://www.ycombinator.com/companies/swif-ai/jobs",
+      "score": 28
+    },
+    {
+      "key": "ambaum.com",
+      "name": "Ambaum",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ambaum.md",
+      "officialSource": "https://ambaum.com/careers",
+      "score": 26
+    },
+    {
+      "key": "brainstormforce.com",
+      "name": "Brainstorm Force",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/brainstorm-force.md",
+      "officialSource": "https://brainstormforce.com/join/",
+      "score": 26
+    },
+    {
+      "key": "calibreapp.com",
+      "name": "Calibre",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/calibre.md",
+      "officialSource": "https://calibreapp.com/careers",
+      "score": 26
+    },
+    {
+      "key": "evilmartians.com",
+      "name": "Evil Martians",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/evil-martians.md",
+      "officialSource": "https://evilmartians.com",
+      "score": 26
+    },
+    {
+      "key": "hotjar.com",
+      "name": "Hotjar",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hotjar.md",
+      "officialSource": "https://contentsquare.com/careers/",
+      "score": 26
+    },
+    {
+      "key": "kestra.io",
+      "name": "Kestra",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kestra.md",
+      "officialSource": "https://kestra.io/careers",
+      "score": 26
+    },
+    {
+      "key": "mailerlite.com",
+      "name": "MailerLite",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mailerlite.md",
+      "officialSource": "https://www.mailerlite.com/jobs",
+      "score": 26
+    },
+    {
+      "key": "pluralsight.com",
+      "name": "Pluralsight",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/pluralsight.md",
+      "officialSource": "https://www.pluralsight.com/careers",
+      "score": 26
+    },
+    {
+      "key": "railway.com",
+      "name": "Railway",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/railway.md",
+      "officialSource": "https://railway.com/careers",
+      "score": 26
+    },
+    {
+      "key": "roadtrippers.com",
+      "name": "Roadtrippers",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/roadtrippers.md",
+      "officialSource": "https://roadtrippers.com/careers/",
+      "score": 26
+    },
+    {
+      "key": "shopify.com",
+      "name": "Shopify",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/shopify.md",
+      "officialSource": "https://www.shopify.com/careers",
+      "score": 26
+    },
+    {
+      "key": "sourcegraph.com",
+      "name": "Sourcegraph",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/sourcegraph.md",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs?content=true",
+      "score": 25
+    },
+    {
+      "key": "adaface.com",
+      "name": "Adaface",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/adaface.md",
+      "officialSource": "https://www.adaface.com",
+      "score": 24
+    },
+    {
+      "key": "alley.co",
+      "name": "Alley",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/alley.md",
+      "officialSource": "https://alley.com/careers/",
+      "score": 24
+    },
+    {
+      "key": "arkency.com",
+      "name": "Arkency",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/arkency.md",
+      "officialSource": "https://arkency.com/join-our-team/",
+      "score": 24
+    },
+    {
+      "key": "axelerant.com",
+      "name": "Axelerant",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/axelerant.md",
+      "officialSource": "https://www.axelerant.com/careers",
+      "score": 24
+    },
+    {
+      "key": "brave.com",
+      "name": "Brave",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/brave.md",
+      "officialSource": "https://brave.com/careers/",
+      "score": 24
+    },
+    {
+      "key": "circonus.com",
+      "name": "Circonus",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/circonus.md",
+      "officialSource": "https://www.apica.io/",
+      "score": 24
+    },
+    {
+      "key": "eyeo.com",
+      "name": "Eyeo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/eyeo.md",
+      "officialSource": "https://eyeo.com/",
+      "score": 24
+    },
+    {
+      "key": "fly.io",
+      "name": "Fly.io",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fly-io.md",
+      "officialSource": "https://fly.io/jobs/",
+      "score": 24
+    },
+    {
+      "key": "geckoboard.com",
+      "name": "Geckoboard",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/geckoboard.md",
+      "officialSource": "https://www.geckoboard.com/about/careers/",
+      "score": 24
+    },
+    {
+      "key": "headway.io",
+      "name": "Headway",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/headway.md",
+      "officialSource": "https://www.headway.io/careers",
+      "score": 24
+    },
+    {
+      "key": "hireology.com",
+      "name": "Hireology",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hireology.md",
+      "officialSource": "https://www.hireology.com/careers",
+      "score": 24
+    },
+    {
+      "key": "iclinic.com.br",
+      "name": "iClinic",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/iclinic.md",
+      "officialSource": "https://iclinic.com.br/",
+      "score": 24
+    },
+    {
+      "key": "journy.io",
+      "name": "journy.io",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/journy-io.md",
+      "officialSource": "https://www.journy.io",
+      "score": 24
+    },
+    {
+      "key": "logrocket.com",
+      "name": "LogRocket",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/logrocket.md",
+      "officialSource": "https://logrocket.com/careers",
+      "score": 24
+    },
+    {
+      "key": "mattermost.com",
+      "name": "Mattermost",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mattermost.md",
+      "officialSource": "https://mattermost.com/company/careers/",
+      "score": 24
+    },
+    {
+      "key": "packlink.com",
+      "name": "Packlink",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/packlink.md",
+      "officialSource": "https://www.packlink.com/en-GB/",
+      "score": 24
+    },
+    {
+      "key": "panther.com",
+      "name": "Panther Labs",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/panther-labs.md",
+      "officialSource": "https://panther.com/",
+      "score": 24
+    },
+    {
+      "key": "pleo.io",
+      "name": "Pleo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/pleo.md",
+      "officialSource": "https://www.pleo.io/en/careers",
+      "score": 24
+    },
+    {
+      "key": "predictmobile.com",
+      "name": "Predict Mobile",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/predict-mobile.md",
+      "officialSource": "https://predictmobile.com",
+      "score": 24
+    },
+    {
+      "key": "render.com",
+      "name": "Render",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/render.md",
+      "officialSource": "https://render.com/careers",
+      "score": 24
+    },
+    {
+      "key": "scribd.com",
+      "name": "Scribd",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/scribd.md",
+      "officialSource": "https://www.scribdinc.com/careers",
+      "score": 24
+    },
+    {
+      "key": "taskade.com",
+      "name": "Taskade",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/taskade.md",
+      "officialSource": "https://www.taskade.com/contact",
+      "score": 24
+    },
+    {
+      "key": "theoremone.co",
+      "name": "TheoremOne",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/theoremone.md",
+      "officialSource": "https://www.theoremone.co/",
+      "score": 24
+    },
+    {
+      "key": "webscrapinghq.com",
+      "name": "WebScrapingHQ",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/webscrapinghq.md",
+      "officialSource": "https://www.webscrapinghq.com",
+      "score": 24
+    },
+    {
+      "key": "publisherdesk.com",
+      "name": "The Publisher Desk",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/the-publisher-desk.md",
+      "officialSource": "https://www.linkedin.com/company/publisher-desk",
+      "score": 23
+    },
+    {
+      "key": "webikon.sk",
+      "name": "Webikon",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/webikon.md",
+      "officialSource": "https://webikon.sk/o-nas/#kariera",
+      "score": 23
+    },
+    {
+      "key": "bazaarvoice.com",
+      "name": "addstructure",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/addstructure.md",
+      "officialSource": "https://www.bazaarvoice.com",
+      "score": 22
+    },
+    {
+      "key": "akka.io",
+      "name": "Akka",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/akka.md",
+      "officialSource": "https://akka.io/contact-us",
+      "score": 22
+    },
+    {
+      "key": "algorand.com",
+      "name": "Algorand",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/algorand.md",
+      "officialSource": "https://algorand.co/algorand-foundation/careers",
+      "score": 22
+    },
+    {
+      "key": "aliceplatform.com",
+      "name": "ALICE",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/alice.md",
+      "officialSource": "https://actabl.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "alight.com",
+      "name": "Alight Solutions",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/alight-solutions.md",
+      "officialSource": "https://careers.alight.com/us/en",
+      "score": 22
+    },
+    {
+      "key": "audiense.com",
+      "name": "Audiense",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/audiense.md",
+      "officialSource": "https://www.audiense.com/about/careers/",
+      "score": 22
+    },
+    {
+      "key": "beenverified.com",
+      "name": "BeenVerified",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/beenverified.md",
+      "officialSource": "https://www.ltvco.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "betterup.com",
+      "name": "BetterUp",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/betterup.md",
+      "officialSource": "https://www.betterup.com/about-us/careers",
+      "score": 22
+    },
+    {
+      "key": "beyondpricing.com",
+      "name": "BeyondPricing",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/beyondpricing.md",
+      "officialSource": "https://beyondpricing.com/about/careers",
+      "score": 22
+    },
+    {
+      "key": "capital-placement.com",
+      "name": "Capital Placement",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/capital-placement.md",
+      "officialSource": "https://capital-placement.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "cardsagainsthumanity.com",
+      "name": "Cards Against Humanity",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cards-against-humanity.md",
+      "officialSource": "https://www.cardsagainsthumanity.com/careers",
+      "score": 22
+    },
+    {
+      "key": "chainlinklabs.com",
+      "name": "ChainLink Labs",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/chainlink.md",
+      "officialSource": "https://chainlinklabs.com/careers",
+      "score": 22
+    },
+    {
+      "key": "civicactions.com",
+      "name": "CivicActions",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/civicactions.md",
+      "officialSource": "https://civicactions.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "clickup.com",
+      "name": "ClickUp",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/clickup.md",
+      "officialSource": "https://clickup.com/careers",
+      "score": 22
+    },
+    {
+      "key": "cloudbees.com",
+      "name": "CloudBees",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cloudbees.md",
+      "officialSource": "https://www.cloudbees.com/careers",
+      "score": 22
+    },
+    {
+      "key": "codepen.io",
+      "name": "CodePen",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/codepen.md",
+      "officialSource": "https://blog.codepen.io",
+      "score": 22
+    },
+    {
+      "key": "coursera.org",
+      "name": "Coursera",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/coursera.md",
+      "officialSource": "https://careers.coursera.com/homepage",
+      "score": 22
+    },
+    {
+      "key": "mycwt.com",
+      "name": "CWT",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cwt.md",
+      "officialSource": "https://www.mycwt.com/",
+      "score": 22
+    },
+    {
+      "key": "dappradar.com",
+      "name": "DappRadar",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dappradar.md",
+      "officialSource": "https://dappradar.com/careers",
+      "score": 22
+    },
+    {
+      "key": "datasciencedojo.com",
+      "name": "Data Science Dojo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/data-science-dojo.md",
+      "officialSource": "https://datasciencedojo.com/about/careers/",
+      "score": 22
+    },
+    {
+      "key": "digitalocean.com",
+      "name": "DigitalOcean",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/digitalocean.md",
+      "officialSource": "https://www.digitalocean.com/careers",
+      "score": 22
+    },
+    {
+      "key": "docker.com",
+      "name": "Docker",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/docker.md",
+      "officialSource": "https://www.docker.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "doximity.com",
+      "name": "Doximity",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/doximity.md",
+      "officialSource": "https://workat.doximity.com/",
+      "score": 22
+    },
+    {
+      "key": "duckduckgo.com",
+      "name": "DuckDuckGo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/duckduckgo.md",
+      "officialSource": "https://duckduckgo.com/hiring",
+      "score": 22
+    },
+    {
+      "key": "edify.cr",
+      "name": "Edify",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/edify.md",
+      "officialSource": "https://edify.cr/careers/open-positions/",
+      "score": 22
+    },
+    {
+      "key": "envoy.com",
+      "name": "Envoy",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/envoy.md",
+      "officialSource": "https://envoy.com/",
+      "score": 22
+    },
+    {
+      "key": "epilocal.com",
+      "name": "Epilocal",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/epilocal.md",
+      "officialSource": "https://www.epilocal.com/contact",
+      "score": 22
+    },
+    {
+      "key": "fivexl.io",
+      "name": "FivexL",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fivexl.md",
+      "officialSource": "https://fivexl.io/#contact",
+      "score": 22
+    },
+    {
+      "key": "flexera.com",
+      "name": "Flexera",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/flexera.md",
+      "officialSource": "https://www.flexera.com/about-us/careers",
+      "score": 22
+    },
+    {
+      "key": "flightaware.com",
+      "name": "FlightAware",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/flightaware.md",
+      "officialSource": "https://www.flightaware.com/about/careers/",
+      "score": 22
+    },
+    {
+      "key": "getflowpath.com",
+      "name": "FlowPath",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/flowpath.md",
+      "officialSource": "https://www.getflowpath.com/",
+      "score": 22
+    },
+    {
+      "key": "fourkitchens.com",
+      "name": "Four Kitchens",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/four-kitchens.md",
+      "officialSource": "https://www.fourkitchens.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "ghost.org",
+      "name": "Ghost",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/the-ghost-foundation.md",
+      "officialSource": "https://careers.ghost.org/",
+      "score": 22
+    },
+    {
+      "key": "godaddy.com",
+      "name": "GoDaddy",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/godaddy.md",
+      "officialSource": "https://careers.godaddy/",
+      "score": 22
+    },
+    {
+      "key": "gohiring.com",
+      "name": "GoHiring",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gohiring.md",
+      "officialSource": "https://gohiring.com/jobs/",
+      "score": 22
+    },
+    {
+      "key": "groovehq.com",
+      "name": "Groove HQ",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/groove.md",
+      "officialSource": "https://helply.com/about",
+      "score": 22
+    },
+    {
+      "key": "getharvest.com",
+      "name": "Harvest",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/harvest.md",
+      "officialSource": "https://www.getharvest.com/careers",
+      "score": 22
+    },
+    {
+      "key": "homevalet.co",
+      "name": "HomeValet, Inc",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/homevalet.md",
+      "officialSource": "https://www.homevalet.co/",
+      "score": 22
+    },
+    {
+      "key": "honeybadger.io",
+      "name": "Honeybadger",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/honeybadger.md",
+      "officialSource": "https://www.honeybadger.io/careers/",
+      "score": 22
+    },
+    {
+      "key": "hubspot.com",
+      "name": "Hubspot",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hubspot.md",
+      "officialSource": "https://www.hubspot.com/careers/jobs?hubs_signup-url=www.hubspot.com%2Fcareers%2Fremote&hubs_signup-cta=careers-location-hero&page=1",
+      "score": 22
+    },
+    {
+      "key": "hypothes.is",
+      "name": "Hypothesis",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hypothesis.md",
+      "officialSource": "https://web.hypothes.is/jobs/",
+      "score": 22
+    },
+    {
+      "key": "incsub.com",
+      "name": "Incsub",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/incsub.md",
+      "officialSource": "https://incsub.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "inter.link",
+      "name": "Inter.link",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/inter-link.md",
+      "officialSource": "https://inter.link/about-interlink/careers/",
+      "score": 22
+    },
+    {
+      "key": "ironin.it",
+      "name": "iRonin",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ironin.md",
+      "officialSource": "https://careers.ironin.it/",
+      "score": 22
+    },
+    {
+      "key": "kraken.com",
+      "name": "Kraken",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kraken.md",
+      "officialSource": "https://www.kraken.com/careers",
+      "score": 22
+    },
+    {
+      "key": "launchpotato.com",
+      "name": "Launch Potato",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/launch-potato.md",
+      "officialSource": "https://launchpotato.com/careers",
+      "score": 22
+    },
+    {
+      "key": "leadfeeder.com",
+      "name": "Leadfeeder",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/leadfeeder.md",
+      "officialSource": "https://www.leadfeeder.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "locusrobotics.com",
+      "name": "Locus Robotics",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/locus-robotics.md",
+      "officialSource": "https://locusrobotics.com/company/careers/",
+      "score": 22
+    },
+    {
+      "key": "mariadb.com",
+      "name": "MariaDB",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mariadb.md",
+      "officialSource": "https://mariadb.com/about-us/careers/",
+      "score": 22
+    },
+    {
+      "key": "memory.ai",
+      "name": "Memory",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/memory.md",
+      "officialSource": "https://www.timely.com/jobs/",
+      "score": 22
+    },
+    {
+      "key": "mixmax.com",
+      "name": "Mixmax",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mixmax.md",
+      "officialSource": "https://www.mixmax.com/",
+      "score": 22
+    },
+    {
+      "key": "mixrank.com",
+      "name": "MixRank",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mixrank.md",
+      "officialSource": "https://www.ycombinator.com/companies/mixrank",
+      "score": 22
+    },
+    {
+      "key": "tri.be",
+      "name": "Modern Tribe",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/modern-tribe.md",
+      "officialSource": "https://moderntribeagency.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "nagarro.com",
+      "name": "Nagarro",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/nagarro.md",
+      "officialSource": "https://www.nagarro.com/en/careers",
+      "score": 22
+    },
+    {
+      "key": "nuharborsecurity.com",
+      "name": "Nuharbor Security",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/nuharbor-security.md",
+      "officialSource": "https://nuharbor.com/",
+      "score": 22
+    },
+    {
+      "key": "octopus.com",
+      "name": "Octopus Deploy",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/octopus-deploy.md",
+      "officialSource": "https://octopus.com/company/careers",
+      "score": 22
+    },
+    {
+      "key": "openzeppelin.com",
+      "name": "OpenZeppelin",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/openzeppelin.md",
+      "officialSource": "https://www.openzeppelin.com/careers",
+      "score": 22
+    },
+    {
+      "key": "optoro.com",
+      "name": "Optoro",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/optoro.md",
+      "officialSource": "https://blueyonder.com/optoro",
+      "score": 22
+    },
+    {
+      "key": "oracle.com",
+      "name": "Oracle",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/oracle.md",
+      "officialSource": "https://www.oracle.com/in/careers/",
+      "score": 22
+    },
+    {
+      "key": "parabol.co",
+      "name": "Parabol",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/parabol.md",
+      "officialSource": "https://www.parabol.co/join/speculative-application/",
+      "score": 22
+    },
+    {
+      "key": "payu.com",
+      "name": "PayU",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/payu.md",
+      "officialSource": "https://corporate.payu.com/job-board/",
+      "score": 22
+    },
+    {
+      "key": "precisionnutrition.com",
+      "name": "Precision Nutrition",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/precision-nutrition.md",
+      "officialSource": "https://www.precisionnutrition.com/jobs",
+      "score": 22
+    },
+    {
+      "key": "prezly.com",
+      "name": "Prezly",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/prezly.md",
+      "officialSource": "https://careers.prezly.com/",
+      "score": 22
+    },
+    {
+      "key": "prisma.io",
+      "name": "Prisma",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/prisma.md",
+      "officialSource": "https://www.prisma.io/company/careers",
+      "score": 22
+    },
+    {
+      "key": "rakuten.com",
+      "name": "Rakuten Travel Xchange",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/rakuten-travel-xchange.md",
+      "officialSource": "https://solutions.travel.rakuten.com/",
+      "score": 22
+    },
+    {
+      "key": "rechargepayments.com",
+      "name": "ReCharge Payments",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/recharge.md",
+      "officialSource": "https://getrecharge.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "scylladb.com",
+      "name": "ScyllaDB",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/scylladb.md",
+      "officialSource": "https://www.scylladb.com/company/careers/",
+      "score": 22
+    },
+    {
+      "key": "searchapi.io",
+      "name": "SearchApi",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/searchapi.md",
+      "officialSource": "https://www.searchapi.io/careers",
+      "score": 22
+    },
+    {
+      "key": "seeq.com",
+      "name": "Seeq",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/seeq.md",
+      "officialSource": "https://www.seeq.com/company/careers/",
+      "score": 22
+    },
+    {
+      "key": "getsession.com",
+      "name": "Session",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/session.md",
+      "officialSource": "https://getsession.com/about",
+      "score": 22
+    },
+    {
+      "key": "smile.io",
+      "name": "Smile.io",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/smile.md",
+      "officialSource": "https://smile.io/careers",
+      "score": 22
+    },
+    {
+      "key": "sonatype.com",
+      "name": "Sonatype",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/sonatype.md",
+      "officialSource": "https://www.sonatype.com/company/careers",
+      "score": 22
+    },
+    {
+      "key": "stitchfix.com",
+      "name": "Stitch Fix",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/stitch-fix.md",
+      "officialSource": "https://www.stitchfix.com/careers/jobs",
+      "score": 22
+    },
+    {
+      "key": "streamnative.io",
+      "name": "StreamNative",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/streamnative.md",
+      "officialSource": "https://streamnative.io/careers/",
+      "score": 22
+    },
+    {
+      "key": "supabase.com",
+      "name": "Supabase",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/supabase.md",
+      "officialSource": "https://supabase.com/careers",
+      "score": 22
+    },
+    {
+      "key": "swimlane.com",
+      "name": "Swimlane",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/swimlane.md",
+      "officialSource": "https://swimlane.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "sysdig.com",
+      "name": "Sysdig",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/sysdig.md",
+      "officialSource": "https://www.sysdig.com/careers/open-positions",
+      "score": 22
+    },
+    {
+      "key": "tailscale.com",
+      "name": "Tailscale",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/tailscale.md",
+      "officialSource": "https://tailscale.com/careers",
+      "score": 22
+    },
+    {
+      "key": "teamsnap.com",
+      "name": "TeamSnap",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/teamsnap.md",
+      "officialSource": "https://www.teamsnap.com/company/careers",
+      "score": 22
+    },
+    {
+      "key": "telerik.com",
+      "name": "Telerik",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/telerik.md",
+      "officialSource": "https://www.progress.com/company/careers",
+      "score": 22
+    },
+    {
+      "key": "testgorilla.com",
+      "name": "TestGorilla",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/testgorilla.md",
+      "officialSource": "https://www.testgorilla.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "theplanetgroup.com",
+      "name": "The Planet Group",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/the-planet-group.md",
+      "officialSource": "https://www.theplanetgroup.com/",
+      "score": 22
+    },
+    {
+      "key": "trello.com",
+      "name": "Trello",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/trello.md",
+      "officialSource": "https://www.atlassian.com/company/careers",
+      "score": 22
+    },
+    {
+      "key": "truss.works",
+      "name": "TrussWorks",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/trussworks.md",
+      "officialSource": "https://truss.works/jobs",
+      "score": 22
+    },
+    {
+      "key": "uship.com",
+      "name": "uShip",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/uship.md",
+      "officialSource": "https://www.uship.com/about/careers/",
+      "score": 22
+    },
+    {
+      "key": "varnish-software.com",
+      "name": "Varnish Software",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/varnish-software.md",
+      "officialSource": "https://varnish-software.teamtailor.com/",
+      "score": 22
+    },
+    {
+      "key": "wikihow.com",
+      "name": "WikiHow",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wikihow.md",
+      "officialSource": "https://www.wikihow.com/wikiHow:Jobs",
+      "score": 22
+    },
+    {
+      "key": "wyeworks.com",
+      "name": "Wyeworks",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wyeworks.md",
+      "officialSource": "https://www.wyeworks.com/careers/",
+      "score": 22
+    },
+    {
+      "key": "yonder.io",
+      "name": "Yonder",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/yonder.md",
+      "officialSource": "https://www.linkedin.com/company/yonder.io",
+      "score": 22
+    },
+    {
+      "key": "zenrows.com",
+      "name": "ZenRows",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/zenrows.md",
+      "officialSource": "https://www.zenrows.com/",
+      "score": 22
+    },
+    {
+      "key": "zip.co",
+      "name": "Zip Co",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/zip-co.md",
+      "officialSource": "https://zip.co/about-us",
+      "score": 22
+    },
+    {
+      "key": "flowing.it",
+      "name": "Flowing",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/flowing.md",
+      "officialSource": "https://www.claranet.com/it/",
+      "score": 21
+    },
+    {
+      "key": "grafana.com",
+      "name": "Grafana Labs",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/grafana.md",
+      "officialSource": "https://grafana.com/careers/",
+      "score": 21
+    },
+    {
+      "key": "joyent.com",
+      "name": "Joyent",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/joyent.md",
+      "officialSource": "https://www.joyent.com/careers/",
+      "score": 21
+    },
+    {
+      "key": "madewithlove.com",
+      "name": "madewithlove",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/madewithlove.md",
+      "officialSource": "https://madewithlove.com/about/careers/",
+      "score": 21
+    },
+    {
+      "key": "mtcmedia.co.uk",
+      "name": "mtc.",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/mtc.md",
+      "officialSource": "https://www.mtc.co.uk/careers/",
+      "score": 21
+    },
+    {
+      "key": "yazio.com",
+      "name": "YAZIO",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/yazio.md",
+      "officialSource": "https://www.yazio.com/en/jobs",
+      "score": 21
+    },
+    {
+      "key": "ably.io",
+      "name": "Ably",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ably.md",
+      "officialSource": "https://ably.com/careers",
+      "score": 19
+    },
+    {
+      "key": "broadwing.io",
+      "name": "Broadwing",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/broadwing.md",
+      "officialSource": "https://broadwing.io",
+      "score": 19
+    },
+    {
+      "key": "chromatic.com",
+      "name": "Chroma",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/chroma.md",
+      "officialSource": "https://www.chromatic.com/company/careers",
+      "score": 19
+    },
+    {
+      "key": "datawebot.com",
+      "name": "datawebot",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/datawebot.md",
+      "officialSource": "https://www.datawebot.com/careers",
+      "score": 19
+    },
+    {
+      "key": "ecosmic.space",
+      "name": "Ecosmic",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ecosmic.md",
+      "officialSource": "https://www.ecosmic.space/",
+      "score": 19
+    },
+    {
+      "key": "emsisoft.com",
+      "name": "Emsisoft",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/emsisoft.md",
+      "officialSource": "https://www.emsisoft.com/en/careers/",
+      "score": 19
+    },
+    {
+      "key": "previousnext.com.au",
+      "name": "PreviousNext",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/previousnext.md",
+      "officialSource": "https://www.previousnext.com.au/",
+      "score": 19
+    },
+    {
+      "key": "1password.com",
+      "name": "1Password",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/1password.md",
+      "officialSource": "https://1password.com/careers",
+      "score": 17
+    },
+    {
+      "key": "abstractapi.com",
+      "name": "Abstract",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/abstract.md",
+      "officialSource": "https://www.abstractapi.com/",
+      "score": 17
+    },
+    {
+      "key": "aha.io",
+      "name": "Aha!",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/aha.md",
+      "officialSource": "https://www.aha.io/company/careers/current-openings",
+      "score": 17
+    },
+    {
+      "key": "appinio.com",
+      "name": "Appinio",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/appinio.md",
+      "officialSource": "https://www.appinio.com/en/careers",
+      "score": 17
+    },
+    {
+      "key": "artefactual.com",
+      "name": "Artefactual Systems Inc.",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/artefactual.md",
+      "officialSource": "https://www.artefactual.com/careers",
+      "score": 17
+    },
+    {
+      "key": "bill.com",
+      "name": "Bill",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bill.md",
+      "officialSource": "https://www.bill.com/careers",
+      "score": 17
+    },
+    {
+      "key": "hellobonsai.com",
+      "name": "Bonsai",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bonsai.md",
+      "officialSource": "https://www.hellobonsai.com/",
+      "score": 17
+    },
+    {
+      "key": "britecore.com",
+      "name": "BriteCore",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/britecore.md",
+      "officialSource": "https://www.britecore.com/company/careers",
+      "score": 17
+    },
+    {
+      "key": "capmo.com",
+      "name": "Capmo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/capmo.md",
+      "officialSource": "https://capmo.jobs.personio.de",
+      "score": 17
+    },
+    {
+      "key": "conversio.com",
+      "name": "Conversio",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/conversio.md",
+      "officialSource": "https://conversio.com",
+      "score": 17
+    },
+    {
+      "key": "cosmic-chimps.com",
+      "name": "Cosmic Chimps",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cosmic-chimps.md",
+      "officialSource": "https://es.linkedin.com/company/cosmic-chimps",
+      "score": 17
+    },
+    {
+      "key": "dave.com",
+      "name": "Dave",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dave.md",
+      "officialSource": "https://dave.com/careers",
+      "score": 17
+    },
+    {
+      "key": "dronedeploy.com",
+      "name": "DroneDeploy",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dronedeploy.md",
+      "officialSource": "https://dronedeploy.com",
+      "score": 17
+    },
+    {
+      "key": "embraer.com",
+      "name": "Embraer",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/embraer.md",
+      "officialSource": "https://embraer.com/corporate-careers/en/",
+      "score": 17
+    },
+    {
+      "key": "employmenthero.com",
+      "name": "Employment Hero",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/employment-hero.md",
+      "officialSource": "https://employmenthero.com/careers/",
+      "score": 17
+    },
+    {
+      "key": "engineyard.com",
+      "name": "EngineYard (Support Team)",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/engineyard.md",
+      "officialSource": "https://www.engineyard.com",
+      "score": 17
+    },
+    {
+      "key": "entrision.com",
+      "name": "Entrision",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/entrision.md",
+      "officialSource": "https://entrision.com",
+      "score": 17
+    },
+    {
+      "key": "envato.com",
+      "name": "Envato",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/envato.md",
+      "officialSource": "https://api.lever.co/v0/postings/envato-2?mode=json",
+      "score": 17
+    },
+    {
+      "key": "etch.co",
+      "name": "Etch",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/etch.md",
+      "officialSource": "https://etch.co/jobs",
+      "score": 17
+    },
+    {
+      "key": "exoscale.com",
+      "name": "Exoscale",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/exoscale.md",
+      "officialSource": "https://www.exoscale.com/jobs/",
+      "score": 17
+    },
+    {
+      "key": "factorialhr.com",
+      "name": "FactorialHR",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/factorialhr.md",
+      "officialSource": "https://careers.factorial.com/",
+      "score": 17
+    },
+    {
+      "key": "fraudio.com",
+      "name": "Fraudio",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fraudio.md",
+      "officialSource": "https://nl.linkedin.com/company/fraudio",
+      "score": 17
+    },
+    {
+      "key": "fylehq.com",
+      "name": "Fyle",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fyle.md",
+      "officialSource": "https://www.fylehq.com/company/team/join",
+      "score": 17
+    },
+    {
+      "key": "greenstitch.io",
+      "name": "GreenStitch.io",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/greenstitch-io.md",
+      "officialSource": "https://greenstitch.io/#/about-us",
+      "score": 17
+    },
+    {
+      "key": "gridium.com",
+      "name": "Gridium",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gridium.md",
+      "officialSource": "https://gridium.com/about/working-at-gridium/",
+      "score": 17
+    },
+    {
+      "key": "heap.io",
+      "name": "Heap",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/heap.md",
+      "officialSource": "https://www.heap.io/",
+      "score": 17
+    },
+    {
+      "key": "hopper.com",
+      "name": "Hopper",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hopper.md",
+      "officialSource": "https://www.hopper.com/careers",
+      "score": 17
+    },
+    {
+      "key": "infinite.red",
+      "name": "Infinite Red",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/infinite-red.md",
+      "officialSource": "https://infinite.red",
+      "score": 17
+    },
+    {
+      "key": "instamobile.io",
+      "name": "iOS App Templates",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ios-app-templates.md",
+      "officialSource": "https://dopebase.com/contact-us",
+      "score": 17
+    },
+    {
+      "key": "ipinfo.io",
+      "name": "IPInfo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ipinfo.md",
+      "officialSource": "https://ipinfo.io/jobs",
+      "score": 17
+    },
+    {
+      "key": "iwantmyname.com",
+      "name": "iwantmyname",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/iwantmyname.md",
+      "officialSource": "https://iwantmyname.com/en/",
+      "score": 17
+    },
+    {
+      "key": "jitbit.com",
+      "name": "Jitbit",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/jitbit.md",
+      "officialSource": "https://www.jitbit.com/",
+      "score": 17
+    },
+    {
+      "key": "kea.ai",
+      "name": "kea",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kea.md",
+      "officialSource": "https://kea.ai",
+      "score": 17
+    },
+    {
+      "key": "kodify.io",
+      "name": "Kodify",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/kodify.md",
+      "officialSource": "https://www.linkedin.com/jobs/search?f_C=2771097&locationType=Y&trk=careers_promo_module_see_jobs",
+      "score": 17
+    },
+    {
+      "key": "lambertlabs.com",
+      "name": "Lambert Labs",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/lambert-labs.md",
+      "officialSource": "https://lambertlabs.com/about-us/careers/",
+      "score": 17
+    },
+    {
+      "key": "leadershipsuccess.co",
+      "name": "Leadership Success",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/leadership-success.md",
+      "officialSource": "https://www.leadershipsuccess.co/",
+      "score": 17
+    },
+    {
+      "key": "ltvco.com",
+      "name": "Lifetime Value Company",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/lifetime-value-company.md",
+      "officialSource": "https://www.ltvco.com/",
+      "score": 17
+    },
+    {
+      "key": "lincolnloop.com",
+      "name": "Lincoln Loop",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/lincoln-loop.md",
+      "officialSource": "https://lincolnloop.com",
+      "score": 17
+    },
+    {
+      "key": "link11.com",
+      "name": "Link11",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/link11.md",
+      "officialSource": "https://www.link11.com/en/career/",
+      "score": 17
+    },
+    {
+      "key": "log.dog",
+      "name": "LogDog",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/logdog.md",
+      "officialSource": "https://log.dog",
+      "score": 17
+    },
+    {
+      "key": "maintainnow.app",
+      "name": "MaintainNow",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/maintainnow.md",
+      "officialSource": "https://www.maintainnow.app",
+      "score": 17
+    },
+    {
+      "key": "manifold.co",
+      "name": "Manifold",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/manifold.md",
+      "officialSource": "https://snyk.io/manifold/",
+      "score": 17
+    },
+    {
+      "key": "molteo.com",
+      "name": "Molteo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/molteo.md",
+      "officialSource": "https://molteo.com/",
+      "score": 17
+    },
+    {
+      "key": "netris.io",
+      "name": "Netris",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/netris.md",
+      "officialSource": "https://netris.io/",
+      "score": 17
+    },
+    {
+      "key": "nodesource.com",
+      "name": "NodeSource",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/nodesource.md",
+      "officialSource": "https://nodesource.com/",
+      "score": 17
+    },
+    {
+      "key": "ollieorder.com",
+      "name": "Ollie Order",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ollie-order.md",
+      "officialSource": "https://getollie.com/",
+      "score": 17
+    },
+    {
+      "key": "payfully.co",
+      "name": "Payfully",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/payfully.md",
+      "officialSource": "https://www.gettongo.com/",
+      "score": 17
+    },
+    {
+      "key": "plex.tv",
+      "name": "Plex",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/plex.md",
+      "officialSource": "https://www.plex.tv/careers/",
+      "score": 17
+    },
+    {
+      "key": "puppet.com",
+      "name": "Puppet",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/puppet.md",
+      "officialSource": "https://www.perforce.com/careers",
+      "score": 17
+    },
+    {
+      "key": "quantifyhq.com",
+      "name": "Quantify",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/quantify.md",
+      "officialSource": "https://quantifyhq.com",
+      "score": 17
+    },
+    {
+      "key": "rackspace.com",
+      "name": "Rackspace",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/rackspace.md",
+      "officialSource": "https://www.rackspace.com:443/",
+      "score": 17
+    },
+    {
+      "key": "salesforce.com",
+      "name": "Salesforce",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/salesforce.md",
+      "officialSource": "https://www.salesforce.com/mx/?ir=1&bc=OTH",
+      "score": 17
+    },
+    {
+      "key": "shareup.app",
+      "name": "Shareup",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/shareup.md",
+      "officialSource": "https://shareup.app/jobs/",
+      "score": 17
+    },
+    {
+      "key": "getshogun.com",
+      "name": "Shogun",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/shogun.md",
+      "officialSource": "https://getshogun.com",
+      "score": 17
+    },
+    {
+      "key": "slack.com",
+      "name": "Slack",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/slack.md",
+      "officialSource": "https://slack.com/careers",
+      "score": 17
+    },
+    {
+      "key": "tuftandneedle.com",
+      "name": "Tuft & Needle",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/tuft-and-needle.md",
+      "officialSource": "https://www.tuftandneedle.com/",
+      "score": 17
+    },
+    {
+      "key": "vastlimits.com",
+      "name": "vast limits",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/vast-limits.md",
+      "officialSource": "https://www.citrix.com/platform/uberagent.html",
+      "score": 17
+    },
+    {
+      "key": "voiio.de",
+      "name": "voiio",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/voiio.md",
+      "officialSource": "https://voiio.de/karriere",
+      "score": 17
+    },
+    {
+      "key": "vshn.ch",
+      "name": "VSHN AG",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/vshn.md",
+      "officialSource": "https://www.vshn.ch/jobs/",
+      "score": 17
+    },
+    {
+      "key": "wikimediafoundation.org",
+      "name": "Wikimedia Foundation",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wikimedia-foundation.md",
+      "officialSource": "https://wikimediafoundation.org/jobs/",
+      "score": 17
+    },
+    {
+      "key": "youcanbook.me",
+      "name": "YouCanBook.me Ltd",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/youcanbook-me.md",
+      "officialSource": "https://youcanbook.me/jobs",
+      "score": 17
+    },
+    {
+      "key": "zeit.io",
+      "name": "Zeit.io",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/zeit-io.md",
+      "officialSource": "https://zeit.io/en/blog",
+      "score": 17
+    },
+    {
+      "key": "enjoei.com.br",
+      "name": "Enjoei",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/enjoei.md",
+      "officialSource": "https://www.enjoei.com.br/",
+      "score": 16
+    },
+    {
+      "key": "implisense.com",
+      "name": "Implisense",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/implisense.md",
+      "officialSource": "https://implisense.com/de/",
+      "score": 16
+    },
+    {
+      "key": "influxdata.com",
+      "name": "InfluxData",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/influxdata.md",
+      "officialSource": "https://www.influxdata.com/",
+      "score": 16
+    },
+    {
+      "key": "fuelmade.com",
+      "name": "Fuel Made",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fuel-made.md",
+      "officialSource": "https://jobs.fuelmade.com/jobs",
+      "score": 14
+    },
+    {
+      "key": "leadiq.com",
+      "name": "LeadIQ",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/leadiq.md",
+      "officialSource": "https://leadiq.com/careers",
+      "score": 14
+    },
+    {
+      "key": "zup.com.br",
+      "name": "Zup",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/zup.md",
+      "officialSource": "https://boards-api.greenhouse.io/v1/boards/zupinnovation/jobs?content=true",
+      "score": 14
+    },
+    {
+      "key": "bitnami.com",
+      "name": "Bitnami",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bitnami.md",
+      "officialSource": "https://bitnami.com/",
+      "score": 12
+    },
+    {
+      "key": "bitwarden.com",
+      "name": "Bitwarden",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bitwarden.md",
+      "officialSource": "https://bitwarden.com/careers/",
+      "score": 12
+    },
+    {
+      "key": "canonical.com",
+      "name": "Canonical",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/canonical.md",
+      "officialSource": "https://canonical.com/careers/all",
+      "score": 12
+    },
+    {
+      "key": "convert.com",
+      "name": "Convert",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/convert.md",
+      "officialSource": "https://www.convert.com/jobs/",
+      "score": 12
+    },
+    {
+      "key": "customer.io",
+      "name": "Customer.io",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/customer-io.md",
+      "officialSource": "https://customer.io/careers",
+      "score": 12
+    },
+    {
+      "key": "dribbble.com",
+      "name": "Dribbble",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dribbble.md",
+      "officialSource": "https://dribbble.com/careers",
+      "score": 12
+    },
+    {
+      "key": "ffwagency.com",
+      "name": "FFW Agency",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/ffw-agency.md",
+      "officialSource": "https://www.jakala.com/",
+      "score": 12
+    },
+    {
+      "key": "figma.com",
+      "name": "Figma",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/figma.md",
+      "officialSource": "https://www.figma.com/careers/",
+      "score": 12
+    },
+    {
+      "key": "hanzo.co",
+      "name": "Hanzo Archives",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hanzo.md",
+      "officialSource": "https://hanzo.co",
+      "score": 12
+    },
+    {
+      "key": "happycog.com",
+      "name": "Happy Cog",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/happy-cog.md",
+      "officialSource": "https://www.happycog.com/careers/",
+      "score": 12
+    },
+    {
+      "key": "komoot.com",
+      "name": "Komoot",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/komoot.md",
+      "officialSource": "https://www.komoot.com",
+      "score": 12
+    },
+    {
+      "key": "lambdaschool.com",
+      "name": "Lambda School",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/lambda-school.md",
+      "officialSource": "https://www.bloomtech.com/careers",
+      "score": 12
+    },
+    {
+      "key": "olist.com",
+      "name": "Olist",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/olist.md",
+      "officialSource": "https://olist.com/",
+      "score": 12
+    },
+    {
+      "key": "phantombuster.com",
+      "name": "PhantomBuster",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/phantombuster.md",
+      "officialSource": "https://careers.phantombuster.com/jobs",
+      "score": 12
+    },
+    {
+      "key": "procenge.com.br",
+      "name": "Procenge",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/procenge.md",
+      "officialSource": "https://procenge.com.br/",
+      "score": 12
+    },
+    {
+      "key": "rocket.chat",
+      "name": "Rocket.Chat",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/rocket-chat.md",
+      "officialSource": "https://www.rocket.chat/jobs",
+      "score": 12
+    },
+    {
+      "key": "taledo.com",
+      "name": "Taledo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/taledo.md",
+      "officialSource": "https://www.taledo.com/de/",
+      "score": 12
+    },
+    {
+      "key": "timedoctor.com",
+      "name": "Time Doctor",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/time-doctor.md",
+      "officialSource": "https://www.timedoctor.com/careers",
+      "score": 12
+    },
+    {
+      "key": "wemake.services",
+      "name": "wemake.services",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wemake-services.md",
+      "officialSource": "https://wemake.services/",
+      "score": 12
+    },
+    {
+      "key": "asana.com",
+      "name": "Asana",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/asana.md",
+      "officialSource": "https://asana.com/jobs",
+      "score": 10
+    },
+    {
+      "key": "bandzoogle.com",
+      "name": "Bandzoogle",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bandzoogle.md",
+      "officialSource": "https://bandzoogle.com/jobs",
+      "score": 10
+    },
+    {
+      "key": "baremetrics.com",
+      "name": "Baremetrics",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/baremetrics.md",
+      "officialSource": "https://baremetrics.com/",
+      "score": 10
+    },
+    {
+      "key": "37signals.com",
+      "name": "Basecamp",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/basecamp.md",
+      "officialSource": "https://37signals.com/jobs",
+      "score": 10
+    },
+    {
+      "key": "bestpractical.com",
+      "name": "Best Practical Solutions",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/best-practical-solutions.md",
+      "officialSource": "https://requesttracker.com/careers/",
+      "score": 10
+    },
+    {
+      "key": "brightfunds.org",
+      "name": "Bright Funds",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/bright-funds.md",
+      "officialSource": "https://www.brightfunds.org/jobs",
+      "score": 10
+    },
+    {
+      "key": "buffer.com",
+      "name": "Buffer",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/buffer.md",
+      "officialSource": "https://buffer.com/journey",
+      "score": 10
+    },
+    {
+      "key": "caremessage.org",
+      "name": "CareMessage",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/caremessage.md",
+      "officialSource": "https://www.caremessage.org/about-us/careers//",
+      "score": 10
+    },
+    {
+      "key": "daktronics.com",
+      "name": "Daktronics",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/daktronics.md",
+      "officialSource": "https://www.daktronics.com/en-us/employment/careers",
+      "score": 10
+    },
+    {
+      "key": "discourse.org",
+      "name": "Discourse",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/discourse.md",
+      "officialSource": "https://www.discourse.org/",
+      "score": 10
+    },
+    {
+      "key": "dnsimple.com",
+      "name": "DNSimple",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dnsimple.md",
+      "officialSource": "https://dnsimple.com/",
+      "score": 10
+    },
+    {
+      "key": "etsy.com",
+      "name": "Etsy",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/etsy.md",
+      "officialSource": "https://careers.etsy.com/",
+      "score": 10
+    },
+    {
+      "key": "fairwinds.com",
+      "name": "Fairwinds Ops",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fairwinds.md",
+      "officialSource": "https://www.fairwinds.com/careers",
+      "score": 10
+    },
+    {
+      "key": "gofmx.com",
+      "name": "FMX",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/fmx.md",
+      "officialSource": "https://www.gofmx.com/careers/",
+      "score": 10
+    },
+    {
+      "key": "github.com",
+      "name": "GitHub",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/github.md",
+      "officialSource": "https://www.github.careers/careers-home",
+      "score": 10
+    },
+    {
+      "key": "glennwebsitedesign.com",
+      "name": "Glenn Website Design",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/glenn-website-design.md",
+      "officialSource": "https://glennwebsitedesign.com/contact/",
+      "score": 10
+    },
+    {
+      "key": "conveyhealthsolutions.com",
+      "name": "Gorman Health Group",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gorman-health-group.md",
+      "officialSource": "https://conveyhealthsolutions.com/careers/",
+      "score": 10
+    },
+    {
+      "key": "hubstaff.com",
+      "name": "Hubstaff",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hubstaff.md",
+      "officialSource": "https://hubstaff.com/jobs",
+      "score": 10
+    },
+    {
+      "key": "hugo.events",
+      "name": "Hugo",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hugo.md",
+      "officialSource": "https://hugo.events/en/careers",
+      "score": 10
+    },
+    {
+      "key": "humanmade.com",
+      "name": "Human Made",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/human-made.md",
+      "officialSource": "https://humanmade.com/careers/",
+      "score": 10
+    },
+    {
+      "key": "igalia.com",
+      "name": "Igalia",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/igalia.md",
+      "officialSource": "https://www.igalia.com/jobs/",
+      "score": 10
+    },
+    {
+      "key": "inquicker.com",
+      "name": "InQuicker",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/inquicker.md",
+      "officialSource": "https://inquicker.com",
+      "score": 10
+    },
+    {
+      "key": "ifsight.com",
+      "name": "Interpersonal Frequency (I.F.)",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/interpersonal-frequency-i-f.md",
+      "officialSource": "https://www.ifsight.com/",
+      "score": 10
+    },
+    {
+      "key": "khanacademy.org",
+      "name": "Khan Academy",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/khan-academy.md",
+      "officialSource": "https://www.khanacademy.org/careers",
+      "score": 10
+    },
+    {
+      "key": "koding.com",
+      "name": "Koding",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/koding.md",
+      "officialSource": "https://www.koding.com/about",
+      "score": 10
+    },
+    {
+      "key": "lionsher.com",
+      "name": "LionSher",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/lionsher.md",
+      "officialSource": "https://lionsher.com/careers/",
+      "score": 10
+    },
+    {
+      "key": "messagebird.com",
+      "name": "messagebird",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/messagebird.md",
+      "officialSource": "https://bird.com/careers",
+      "score": 10
+    },
+    {
+      "key": "pagerduty.com",
+      "name": "PagerDuty",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/pagerduty.md",
+      "officialSource": "https://careers.pagerduty.com/",
+      "score": 10
+    },
+    {
+      "key": "particular.net",
+      "name": "Particular Software",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/particular-software.md",
+      "officialSource": "https://particular.net/careers",
+      "score": 10
+    },
+    {
+      "key": "payscale.com",
+      "name": "PayScale",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/payscale.md",
+      "officialSource": "https://jobs.smartrecruiters.com/PayScale/743999782844766-associate-software-engineer-remote-",
+      "score": 10
+    },
+    {
+      "key": "polygon.technology",
+      "name": "Polygon",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/polygon.md",
+      "officialSource": "https://polygon.technology/careers",
+      "score": 10
+    },
+    {
+      "key": "recurly.com",
+      "name": "Recurly",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/recurly.md",
+      "officialSource": "https://recurly.com:443/careers/",
+      "score": 10
+    },
+    {
+      "key": "redhat.com",
+      "name": "Red Hat",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/red-hat.md",
+      "officialSource": "https://www.redhat.com/en/jobs",
+      "score": 10
+    },
+    {
+      "key": "redmonk.com",
+      "name": "RedMonk",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/redmonk.md",
+      "officialSource": "https://redmonk.com/about/",
+      "score": 10
+    },
+    {
+      "key": "seoinc.com",
+      "name": "SEO Inc.",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/seo-inc.md",
+      "officialSource": "https://www.seoinc.com/seo-company/careers/",
+      "score": 10
+    },
+    {
+      "key": "simplabs.com",
+      "name": "simplabs",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/simplabs.md",
+      "officialSource": "https://x.com/simplabs",
+      "score": 10
+    },
+    {
+      "key": "soostone.com",
+      "name": "Soostone",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/soostone.md",
+      "officialSource": "https://www.soostone.com/contact",
+      "score": 10
+    },
+    {
+      "key": "spreaker.com",
+      "name": "Spreaker",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/spreaker.md",
+      "officialSource": "https://careers.spreaker.com/opportunities/",
+      "score": 10
+    },
+    {
+      "key": "studysoup.com",
+      "name": "StudySoup",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/studysoup.md",
+      "officialSource": "https://studysoup.com/apply",
+      "score": 10
+    },
+    {
+      "key": "taxjar.com",
+      "name": "TaxJar",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/taxjar.md",
+      "officialSource": "https://www.taxjar.com/",
+      "score": 10
+    },
+    {
+      "key": "travis-ci.org",
+      "name": "Travis CI",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/travis-ci.md",
+      "officialSource": "https://de.linkedin.com/company/travis-ci",
+      "score": 10
+    },
+    {
+      "key": "tyk.io",
+      "name": "Tyk",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/tyk.md",
+      "officialSource": "https://flexa.careers/companies/tyk",
+      "score": 10
+    },
+    {
+      "key": "valimail.com",
+      "name": "Valimail",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/valimail.md",
+      "officialSource": "https://www.valimail.com/careers/",
+      "score": 10
+    },
+    {
+      "key": "veeva.com",
+      "name": "Veeva Systems",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/veeva.md",
+      "officialSource": "https://careers.veeva.com",
+      "score": 10
+    },
+    {
+      "key": "webfx.com",
+      "name": "WebFX",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/webfx.md",
+      "officialSource": "https://fxinternational.webfx.com/",
+      "score": 10
+    },
+    {
+      "key": "youneedabudget.com",
+      "name": "You Need A Budget",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/you-need-a-budget.md",
+      "officialSource": "https://www.ynab.com/careers",
+      "score": 10
+    },
+    {
+      "key": "instructure.com",
+      "name": "Instructure",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/instructure.md",
+      "officialSource": "https://www.instructure.com/about/careers",
+      "score": 9
+    },
+    {
+      "key": "a1autotransport.com",
+      "name": "A-1 Auto Transport",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/a-1-auto-transport.md",
+      "officialSource": "https://www.a1autotransport.com/",
+      "score": 5
+    },
+    {
+      "key": "annertech.com",
+      "name": "Annertech",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/annertech.md",
+      "officialSource": "https://www.annertech.com/careers",
+      "score": 5
+    },
+    {
+      "key": "appcues.com",
+      "name": "Appcues",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/appcues.md",
+      "officialSource": "https://www.appcues.com/company#jobs-open",
+      "score": 5
+    },
+    {
+      "key": "bigcartel.com",
+      "name": "Big Cartel",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/big-cartel.md",
+      "officialSource": "https://www.bigcartel.com/company/jobs",
+      "score": 5
+    },
+    {
+      "key": "checklyhq.com",
+      "name": "Checkly",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/checkly.md",
+      "officialSource": "https://www.checklyhq.com/careers/",
+      "score": 5
+    },
+    {
+      "key": "cratedb.com",
+      "name": "CrateDB",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/cratedb.md",
+      "officialSource": "https://cratedb.com/company/career",
+      "score": 5
+    },
+    {
+      "key": "dashboardhub.io",
+      "name": "DashboardHub",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dashboardhub.md",
+      "officialSource": "https://dashboardhub.io/",
+      "score": 5
+    },
+    {
+      "key": "dowjones.com",
+      "name": "Dow jones",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/dow-jones.md",
+      "officialSource": "https://dowjones.jobs/",
+      "score": 5
+    },
+    {
+      "key": "flip.id",
+      "name": "Flip",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/flip.md",
+      "officialSource": "https://career.flip.id/jobs",
+      "score": 5
+    },
+    {
+      "key": "fullfabric.com",
+      "name": "Full Fabric",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/full-fabric.md",
+      "officialSource": "https://www.fullfabric.com/company/careers",
+      "score": 5
+    },
+    {
+      "key": "gerencianet.com.br",
+      "name": "Gerencianet",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/gerencianet.md",
+      "officialSource": "https://sejaefi.gupy.io/",
+      "score": 5
+    },
+    {
+      "key": "impulso.team",
+      "name": "HE:labs",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/he-labs.md",
+      "officialSource": "https://impulso.team/",
+      "score": 5
+    },
+    {
+      "key": "hudl.com",
+      "name": "Hudl",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/hudl.md",
+      "officialSource": "https://public.hudl.com/jobs",
+      "score": 5
+    },
+    {
+      "key": "inshorts.com",
+      "name": "Inshorts",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/inshorts.md",
+      "officialSource": "https://inshorts.zohorecruit.com/careers",
+      "score": 5
+    },
+    {
+      "key": "intercom.io",
+      "name": "Intercom",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/intercom.md",
+      "officialSource": "https://fin.ai/careers",
+      "score": 5
+    },
+    {
+      "key": "wipro.com",
+      "name": "Wipro",
+      "source": "https://github.com/remoteintech/remote-jobs/blob/fa2253f1ed02cc4d8f59ab3ccc831b008cdd7189/src/companies/wipro.md",
+      "officialSource": "https://careers.wipro.com/careers-home/",
+      "score": 5
+    }
+  ]
+}

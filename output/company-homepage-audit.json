@@ -1,0 +1,2261 @@
+[
+  {
+    "name": "Athena Works",
+    "url": "https://athenaworks.com/",
+    "status": 200,
+    "finalUrl": "https://athenaworks.com/",
+    "title": "Home | Athenaworks"
+  },
+  {
+    "name": "Gorilla Logic",
+    "url": "https://gorillalogic.com/",
+    "status": 403,
+    "finalUrl": "https://gorillalogic.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Sezzle",
+    "url": "https://sezzle.com/",
+    "status": 200,
+    "finalUrl": "https://sezzle.com/",
+    "title": "Buy Now Pay Later | Pay in 4"
+  },
+  {
+    "name": "Newfire Global Partners",
+    "url": "https://newfireglobal.com/",
+    "status": 403,
+    "finalUrl": "https://newfireglobal.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "TransUnion",
+    "url": "https://transunion.com/",
+    "status": 403,
+    "finalUrl": "https://transunion.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Bitso",
+    "url": "https://bitso.com/",
+    "status": 200,
+    "finalUrl": "https://bitso.com/",
+    "title": "Crypto and Stock Investing App | Buy, Sell &amp; Earn | Bitso"
+  },
+  {
+    "name": "Lumenalta",
+    "url": "https://lumenalta.com/",
+    "status": 200,
+    "finalUrl": "https://lumenalta.com/",
+    "title": "Custom digital transformation solutions for innovation &amp; modernization | Digital transformation | Lumenalta"
+  },
+  {
+    "name": "MOURI Tech",
+    "url": "https://www.mouritech.com/",
+    "status": 200,
+    "finalUrl": "https://www.mouritech.com/",
+    "title": "MOURI Tech | Enterprise Global Solutions Provider | CMMI DEV/5"
+  },
+  {
+    "name": "SimSpace",
+    "url": "https://simspace.com/",
+    "status": 200,
+    "finalUrl": "https://simspace.com/",
+    "title": "SimSpace"
+  },
+  {
+    "name": "Bluelight Consulting",
+    "url": "https://bluelight.co/",
+    "status": 200,
+    "finalUrl": "https://bluelight.co/",
+    "title": "Bluelight | Leading Nearshore Software Development Company"
+  },
+  {
+    "name": "CodeRoad",
+    "url": "https://coderoad.com/",
+    "status": 200,
+    "finalUrl": "https://coderoad.com/",
+    "title": "Enterprise AI, Software Development, and Digital… | CodeRoad"
+  },
+  {
+    "name": "Kambda",
+    "url": "https://www.kambda.com/",
+    "status": 200,
+    "finalUrl": "https://www.kambda.com/",
+    "title": "Nearshore Software Development Team | Kambda"
+  },
+  {
+    "name": "Stord",
+    "url": "https://stord.com/",
+    "status": 200,
+    "finalUrl": "https://www.stord.com/",
+    "title": "Stord | Powering Commerce for the World’s Best Brands"
+  },
+  {
+    "name": "Terrific",
+    "url": "https://goterrific.com/",
+    "error": "EAI_AGAIN"
+  },
+  {
+    "name": "SearchAPI",
+    "url": "https://searchapi.io/",
+    "status": 200,
+    "finalUrl": "https://www.searchapi.io/",
+    "title": "Google Search API for real-time SERP scraping"
+  },
+  {
+    "name": "Nortal",
+    "url": "https://nortal.com/",
+    "status": 200,
+    "finalUrl": "https://nortal.com/",
+    "title": "Nortal "
+  },
+  {
+    "name": "ImagineX Consulting",
+    "url": "https://imaginexconsulting.com/",
+    "status": 200,
+    "finalUrl": "https://www.imaginexdigital.com/",
+    "title": "ImagineX | Software Engineering, Data &amp; AI Services"
+  },
+  {
+    "name": "First Factory",
+    "url": "https://firstfactory.com/",
+    "status": 200,
+    "finalUrl": "https://firstfactory.com/",
+    "title": "First Factory | Nearshore Software Company in Costa Rica"
+  },
+  {
+    "name": "Drivn Technologies",
+    "url": "https://drivn.com/",
+    "error": "EAI_AGAIN"
+  },
+  {
+    "name": "OfficeSpace Software",
+    "url": "https://officespacesoftware.com/",
+    "status": 403,
+    "finalUrl": "https://officespacesoftware.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "We Are TIMS",
+    "url": "https://wearetims.com/",
+    "status": 200,
+    "finalUrl": "https://www.wearetims.com/",
+    "title": "We Are TIMS — Talento LATAM para empresas europeas"
+  },
+  {
+    "name": "Oowlish",
+    "url": "https://oowlish.com/",
+    "status": 200,
+    "finalUrl": "https://www.oowlish.com/",
+    "title": "Oowlish - We Make Innovation Happen"
+  },
+  {
+    "name": "Viventium",
+    "url": "https://viventium.com/",
+    "status": 200,
+    "finalUrl": "https://viventium.com/",
+    "title": "HCM for Healthcare"
+  },
+  {
+    "name": "Snap Finance",
+    "url": "https://snapfinance.com/",
+    "status": 200,
+    "finalUrl": "https://snapfinance.com/",
+    "title": "Snap Finance - Perfect Credit Not Required"
+  },
+  {
+    "name": "FusionHit",
+    "url": "https://fusionhit.com/",
+    "status": 200,
+    "finalUrl": "https://fusionhit.com/",
+    "title": "Nearshore Software Development Company | FusionHit"
+  },
+  {
+    "name": "Ubiminds",
+    "url": "https://ubiminds.com/",
+    "status": 200,
+    "finalUrl": "https://ubiminds.com/en-us/",
+    "title": "Full-time-like Tech Talent from LatAm, Minus the Hassle"
+  },
+  {
+    "name": "3Pillar Global",
+    "url": "https://www.3pillar.ai/",
+    "status": 200,
+    "finalUrl": "https://www.3pillar.ai/",
+    "title": "3Pillar: Engineering the Agentic Enterprise | AI-Native, Human-Led"
+  },
+  {
+    "name": "BYDREC",
+    "url": "https://bydrec.com/",
+    "status": 200,
+    "finalUrl": "https://www.bydrec.com/",
+    "title": "Nearshore Software Engineers from Latin America | Bydrec"
+  },
+  {
+    "name": "CSC Generation",
+    "url": "https://cscgeneration.com/",
+    "status": 200,
+    "finalUrl": "https://www.cscgeneration.com/",
+    "title": "CSC / Generation"
+  },
+  {
+    "name": "Coderio",
+    "url": "https://coderio.com/",
+    "status": 200,
+    "finalUrl": "https://www.coderio.com/",
+    "title": "Enterprise-Grade Software Development - Coderio"
+  },
+  {
+    "name": "JBS Dev",
+    "url": "https://jbs.dev/",
+    "status": 200,
+    "finalUrl": "https://www.jbs.dev/",
+    "title": "JBS Dev | Strategic Technology Experts"
+  },
+  {
+    "name": "IT Accelerate",
+    "url": "https://itaccelerate.com/",
+    "status": 200,
+    "finalUrl": "https://www.itaccelerate.com/",
+    "title": " ITAccelerate | Global Software Development "
+  },
+  {
+    "name": "Auxis",
+    "url": "https://www.auxis.com/",
+    "status": 403,
+    "finalUrl": "https://www.auxis.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Arkkosoft",
+    "url": "https://arkkosoft.com/",
+    "status": 200,
+    "finalUrl": "https://arkkosoft.com/",
+    "title": "Arkkosoft - Arkkosoft"
+  },
+  {
+    "name": "AgileEngine",
+    "url": "https://agileengine.com/",
+    "status": 200,
+    "finalUrl": "https://agileengine.com/",
+    "title": "AgileEngine: Top Tech Solutions"
+  },
+  {
+    "name": "Automattic",
+    "url": "https://automattic.com/",
+    "status": 200,
+    "finalUrl": "https://automattic.com/",
+    "title": "Automattic &#8211; Making the web a better place"
+  },
+  {
+    "name": "ServiceNow",
+    "url": "https://servicenow.com/",
+    "status": 200,
+    "finalUrl": "https://www.servicenow.com/",
+    "title": "ServiceNow - Put AI to Work"
+  },
+  {
+    "name": "UA Talents",
+    "url": "https://uatalents.com/",
+    "status": 400,
+    "finalUrl": "https://axoncloud.okta.com/oauth2/default/v1/authorize?client_id=0oa22bial3kWN2aOJ1d8&redirect_uri=https%3A%2F%2Fuatalents.com%2Foauth2%2Fidpresponse&response_type=code&scope=openid%20email&state=6TclXj4gt7S8ZxmeBgxVoF4YLRFKeLwFPfuG6AODkxFFPq7dda76uOlo7kCwVwvw%2Ff3eKuMwPsZvCPfGvI6hg6bJUWST%2By9lKe0O2pIWYd9g8EbXwFVkgK25FKcrjrgswEq1yyBBcruJrQgLhaVG9j1%2F4xKY2uQXeGuMpe0IdHWzni0Bm83qgWPuVbUOcZ6Kqfi7QeoEcS1QQv%2F5CNqQ2rpSStl0Ea8qK6nbbAiPe5j4%2F9yEkA%3D%3D",
+    "title": "axoncloud - Bad Request"
+  },
+  {
+    "name": "Wizdaa",
+    "url": "https://wizdaa.com/",
+    "status": 200,
+    "finalUrl": "https://www.wizdaa.com/",
+    "title": "Wizdaa - Build Your Dream Dev Team in U.S. Time Zone at the Push of of Button"
+  },
+  {
+    "name": "Blankfactor",
+    "url": "https://blankfactor.com/",
+    "status": 200,
+    "finalUrl": "https://blankfactor.com/",
+    "title": "Blankfactor | Engineering Impact"
+  },
+  {
+    "name": "Cafeto Software",
+    "url": "https://cafeto.co/",
+    "status": 403,
+    "finalUrl": "https://cafeto.co/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Accenture",
+    "url": "https://www.accenture.com/",
+    "status": 200,
+    "finalUrl": "https://www.accenture.com/en",
+    "title": "Reinvented with Accenture"
+  },
+  {
+    "name": "3M",
+    "url": "https://3m.com/",
+    "status": 200,
+    "finalUrl": "https://www.3m.com/",
+    "title": "3M Science. Applied to Life. 3M United States"
+  },
+  {
+    "name": "Tebra",
+    "url": "https://tebra.com/",
+    "status": 200,
+    "finalUrl": "https://www.tebra.com/",
+    "title": "Tebra - EHR and practice management software built for private practices"
+  },
+  {
+    "name": "Avenga",
+    "url": "https://www.avenga.com/",
+    "status": 200,
+    "finalUrl": "https://www.avenga.com/",
+    "title": "Avenga – Software Development Company"
+  },
+  {
+    "name": "Amazon",
+    "url": "https://amazon.com/",
+    "status": 200,
+    "finalUrl": "https://www.amazon.com/",
+    "title": "&nbsp;"
+  },
+  {
+    "name": "Applaudo Studios",
+    "url": "https://applaudostudios.com/",
+    "status": 200,
+    "finalUrl": "https://www.applaudo.com/",
+    "title": "Nearshore Experts in AI, Cloud &amp; App Development | Applaudo"
+  },
+  {
+    "name": "Align Technology",
+    "url": "https://aligntech.com/",
+    "status": 200,
+    "finalUrl": "https://www.aligntech.com/",
+    "title": "Align Technology"
+  },
+  {
+    "name": "Cloudera",
+    "url": "https://www.cloudera.com/",
+    "status": 200,
+    "finalUrl": "https://www.cloudera.com/",
+    "title": "Cloudera | The hybrid platform for data &amp; AI"
+  },
+  {
+    "name": "Praxent",
+    "url": "https://praxent.com/",
+    "status": 200,
+    "finalUrl": "https://praxent.ai/",
+    "title": "AI Transformation for Financial Services | Praxent"
+  },
+  {
+    "name": "Canonical",
+    "url": "https://canonical.com/",
+    "status": 200,
+    "finalUrl": "https://canonical.com/",
+    "title": "Trusted open source for enterprises | Canonical"
+  },
+  {
+    "name": "Cloudflare",
+    "url": "https://www.cloudflare.com/",
+    "status": 200,
+    "finalUrl": "https://www.cloudflare.com/",
+    "title": "Cloudflare: Build for the agent era"
+  },
+  {
+    "name": "Capgemini",
+    "url": "https://www.capgemini.com/",
+    "status": 200,
+    "finalUrl": "https://www.capgemini.com/",
+    "title": "Capgemini - Make it real."
+  },
+  {
+    "name": "Akamai",
+    "url": "https://akamai.com/",
+    "status": 200,
+    "finalUrl": "https://www.akamai.com/es",
+    "title": "Cloud computing, seguridad y distribución de contenido (CDN) | Akamai"
+  },
+  {
+    "name": "BairesDev",
+    "url": "https://bairesdev.com/",
+    "status": 200,
+    "finalUrl": "https://www.bairesdev.com/",
+    "title": "BairesDev - Nearshore Software Development &amp; Staff Augmentation"
+  },
+  {
+    "name": "Broadcom",
+    "url": "https://broadcom.com/",
+    "status": 200,
+    "finalUrl": "https://www.broadcom.com/",
+    "title": "Broadcom Inc. | Connecting Everything"
+  },
+  {
+    "name": "Ciklum",
+    "url": "https://www.ciklum.com/",
+    "status": 200,
+    "finalUrl": "https://www.ciklum.com/",
+    "title": "Ciklum | AI-Powered Experience Engineering for the Digital Enterprise"
+  },
+  {
+    "name": "Crossover",
+    "url": "https://www.crossover.com/",
+    "status": 200,
+    "finalUrl": "https://www.crossover.com/",
+    "title": "Crossover"
+  },
+  {
+    "name": "Deel",
+    "url": "https://www.deel.com/",
+    "status": 200,
+    "finalUrl": "https://www.deel.com/",
+    "title": "Deel | Global Payroll, Compliance, HR Solutions | HRIS"
+  },
+  {
+    "name": "Critical Mass",
+    "url": "https://www.criticalmass.com/",
+    "status": 200,
+    "finalUrl": "https://www.criticalmass.com/",
+    "title": "Critical Mass | Digital Experience Design &amp; Marketing Agency"
+  },
+  {
+    "name": "Bosch",
+    "url": "https://bosch.com/",
+    "status": 200,
+    "finalUrl": "https://www.bosch.com/",
+    "title": "Invented for life | Bosch Global"
+  },
+  {
+    "name": "Distillery",
+    "url": "https://distillery.com/",
+    "status": 403,
+    "finalUrl": "https://distillery.com/",
+    "title": "Error 403 Forbidden"
+  },
+  {
+    "name": "Dev.Pro",
+    "url": "https://dev.pro/",
+    "status": 200,
+    "finalUrl": "https://dev.pro/",
+    "title": "Dev.Pro | Software Development Partner"
+  },
+  {
+    "name": "CommandLink",
+    "url": "https://www.commandlink.com/",
+    "status": 200,
+    "finalUrl": "https://www.commandlink.com/",
+    "title": "CommandLink | The #1 Enterprise IT Operations Platform"
+  },
+  {
+    "name": "Cloudbeds",
+    "url": "https://www.cloudbeds.com/",
+    "status": 200,
+    "finalUrl": "https://www.cloudbeds.com/",
+    "title": "#1 Award-Winning Hospitality Management System - Cloudbeds"
+  },
+  {
+    "name": "Cisco",
+    "url": "https://cisco.com/",
+    "status": 200,
+    "finalUrl": "https://www.cisco.com/",
+    "title": "AI Infrastructure, Secure Networking, and Software Solutions - Cisco"
+  },
+  {
+    "name": "CI&T",
+    "url": "https://ciandt.com/",
+    "status": 200,
+    "finalUrl": "https://ciandt.com/us/en-us",
+    "title": "CI&amp;T | Tech-Integrated Business Solutions"
+  },
+  {
+    "name": "DXC Technology",
+    "url": "https://dxc.com/",
+    "status": 200,
+    "finalUrl": "https://dxc.com/",
+    "title": "DXC Technology | Impossible Delivered | Enterprise Technology &amp; Innovation Solutions"
+  },
+  {
+    "name": "Docker",
+    "url": "https://www.docker.com/",
+    "status": 200,
+    "finalUrl": "https://www.docker.com/",
+    "title": "Docker | Secure Sandboxes for AI Agents"
+  },
+  {
+    "name": "Databricks",
+    "url": "https://www.databricks.com/",
+    "status": 200,
+    "finalUrl": "https://www.databricks.com/",
+    "title": "Databricks: Leading Data and AI Platform for Enterprises"
+  },
+  {
+    "name": "EPAM",
+    "url": "https://www.epam.com/",
+    "status": 403,
+    "finalUrl": "https://www.epam.com/",
+    "title": "Just a moment..."
+  },
+  {
+    "name": "Edify Software Consulting",
+    "url": "https://edify.cr/",
+    "status": 200,
+    "finalUrl": "https://edify.cr/",
+    "title": "Home | Edify Software Consulting"
+  },
+  {
+    "name": "Coforge",
+    "url": "https://coforge.com/",
+    "status": 200,
+    "finalUrl": "https://www.coforge.com/",
+    "title": "Coforge | Where AI Engineering Meets Industry Expertise"
+  },
+  {
+    "name": "GitLab",
+    "url": "https://about.gitlab.com/",
+    "status": 200,
+    "finalUrl": "https://about.gitlab.com/",
+    "title": "GitLab - Speed with control for agentic software engineering"
+  },
+  {
+    "name": "FullStack Labs",
+    "url": "https://www.fullstack.com/",
+    "status": 200,
+    "finalUrl": "https://www.fullstack.com/",
+    "title": "FullStack | AI Engineering Company for Production AI"
+  },
+  {
+    "name": "DataArt",
+    "url": "https://dataart.com/",
+    "status": 200,
+    "finalUrl": "https://www.dataart.com/",
+    "title": "AI Software Development &amp; Data Consulting Partner | DataArt"
+  },
+  {
+    "name": "Growth Acceleration Partners",
+    "url": "https://growthaccelerationpartners.com/",
+    "status": 403,
+    "finalUrl": "https://growthaccelerationpartners.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Katapult Labs",
+    "url": "https://katapultlabs.com/",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "Endava",
+    "url": "https://www.endava.com/",
+    "status": 200,
+    "finalUrl": "https://www.endava.com/",
+    "title": "Endava | Transforming businesses with intelligence"
+  },
+  {
+    "name": "Cognizant",
+    "url": "https://cognizant.com/",
+    "status": 200,
+    "finalUrl": "https://www.cognizant.com/us/en",
+    "title": "AI Builders Bridging the Gap from AI to Impact | Cognizant"
+  },
+  {
+    "name": "Grafana Labs",
+    "url": "https://grafana.com/",
+    "status": 200,
+    "finalUrl": "https://grafana.com/",
+    "title": "Full-stack observability for the agentic era | Grafana Labs"
+  },
+  {
+    "name": "Emerson",
+    "url": "https://www.emerson.com/",
+    "status": 200,
+    "finalUrl": "https://www.emerson.com/en/corporate",
+    "title": "Corporate"
+  },
+  {
+    "name": "Hitachi Solutions",
+    "url": "https://global.hitachi-solutions.com/",
+    "status": 403,
+    "finalUrl": "https://global.hitachi-solutions.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Elastic",
+    "url": "https://elastic.co/",
+    "status": 200,
+    "finalUrl": "https://www.elastic.co/",
+    "title": "Elastic: The search database for AI | Search, AI agents, Observability, and Security | Elastic"
+  },
+  {
+    "name": "Encora",
+    "url": "https://encora.com/",
+    "status": 200,
+    "finalUrl": "https://www.coforge.com/",
+    "title": "Coforge | Where AI Engineering Meets Industry Expertise"
+  },
+  {
+    "name": "HCLTech",
+    "url": "https://www.hcltech.com/",
+    "status": 200,
+    "finalUrl": "https://www.hcltech.com/",
+    "title": "HCLTech: Supercharging Progress | AI, Cloud and Engineering"
+  },
+  {
+    "name": "Fiserv",
+    "url": "https://fiserv.com/",
+    "status": 200,
+    "finalUrl": "https://www.fiserv.com/",
+    "title": "Financial Services Technology, Mobile Banking, Payments | Fiserv"
+  },
+  {
+    "name": "Improving",
+    "url": "https://www.improving.com/",
+    "status": 200,
+    "finalUrl": "https://www.improving.com/",
+    "title": "Enterprise AI, Data, &amp; Application Services | Improving"
+  },
+  {
+    "name": "GFT Technologies",
+    "url": "https://www.gft.com/",
+    "status": 200,
+    "finalUrl": "https://www.gft.com/cr/es",
+    "title": "GFT Technologies | Let&#x27;s Go Beyond The Hype_ | GFT Technologies Costa Rica"
+  },
+  {
+    "name": "Experian",
+    "url": "https://experian.com/",
+    "status": 200,
+    "finalUrl": "https://www.experian.com/",
+    "title": "Experian: Credit Report, FICO® Score &amp; Financial Tools"
+  },
+  {
+    "name": "Intertec International",
+    "url": "https://www.intertecintl.com/",
+    "status": 200,
+    "finalUrl": "https://www.intertecintl.com/",
+    "title": "Intertec International"
+  },
+  {
+    "name": "Globant",
+    "url": "https://globant.com/",
+    "status": 403,
+    "finalUrl": "https://www.globant.com/"
+  },
+  {
+    "name": "Infotree Global Solutions",
+    "url": "https://www.infotreeglobal.com/",
+    "status": 200,
+    "finalUrl": "https://www.infotreeglobal.com/",
+    "title": "Global Leaders in Staffing &amp; Payroll Solutions | Infotree Global Solutions"
+  },
+  {
+    "name": "Koombea",
+    "url": "https://www.koombea.com/",
+    "status": 200,
+    "finalUrl": "https://www.koombea.com/",
+    "title": "Custom Software Development Company | Koombea AI"
+  },
+  {
+    "name": "Konrad Group",
+    "url": "https://www.konrad.com/",
+    "status": 200,
+    "finalUrl": "https://www.konrad.com/",
+    "title": "Konrad® | AI, Strategy, Design &amp; Technology"
+  },
+  {
+    "name": "Equifax",
+    "url": "https://equifax.com/",
+    "status": 200,
+    "finalUrl": "https://www.equifax.com/",
+    "title": "Equifax | Credit Bureau | Check Your Credit"
+  },
+  {
+    "name": "MongoDB",
+    "url": "https://www.mongodb.com/",
+    "status": 200,
+    "finalUrl": "https://www.mongodb.com/",
+    "title": "MongoDB | The Intelligent Data Platform for the AI Era | MongoDB"
+  },
+  {
+    "name": "IBM",
+    "url": "https://www.ibm.com/",
+    "status": 404,
+    "finalUrl": "https://www.ibm.com/cr-*",
+    "title": "IBM notice: The page you requested cannot be displayed"
+  },
+  {
+    "name": "Huenei",
+    "url": "https://www.huenei.com/",
+    "status": 200,
+    "finalUrl": "https://www.huenei.com/",
+    "title": "Desarrollo de Software a Medida | Huenei IT Services"
+  },
+  {
+    "name": "NaNLABS",
+    "url": "https://www.nan-labs.com/",
+    "status": 200,
+    "finalUrl": "https://www.nan-labs.com/",
+    "title": "NaNLABS - AI-native Product Development &amp; Modernization"
+  },
+  {
+    "name": "CRG Solutions",
+    "url": "https://www.crgsolutions.co/",
+    "status": 200,
+    "finalUrl": "https://crgsolutions.co/",
+    "title": "CRG Solutions &#8211; Advanced Business Analytics Services by CRG Solutions"
+  },
+  {
+    "name": "Netskope",
+    "url": "https://www.netskope.com/",
+    "status": 403,
+    "finalUrl": "https://www.netskope.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Novacomp",
+    "url": "https://www.novacomp.net/",
+    "status": 200,
+    "finalUrl": "https://www.novacomp.net/",
+    "title": "Novacomp"
+  },
+  {
+    "name": "Moody's",
+    "url": "https://moodys.com/",
+    "status": 200,
+    "finalUrl": "https://www.moodys.com/",
+    "title": "Moody&#39;s - credit ratings, research, and data for global capital markets"
+  },
+  {
+    "name": "Microsoft",
+    "url": "https://microsoft.com/",
+    "status": 403,
+    "finalUrl": "https://www.microsoft.com/",
+    "title": "Microsoft"
+  },
+  {
+    "name": "Prodigious Latin America",
+    "url": "https://www.prodigious.com/",
+    "status": 403,
+    "finalUrl": "https://www.prodigious.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Postman",
+    "url": "https://www.postman.com/",
+    "status": 200,
+    "finalUrl": "https://www.postman.com/",
+    "title": "API engineering for your agents"
+  },
+  {
+    "name": "Johnson Controls",
+    "url": "https://johnsoncontrols.com/",
+    "status": 200,
+    "finalUrl": "https://www.johnsoncontrols.com/",
+    "title": "Johnson Controls | Johnson Controls"
+  },
+  {
+    "name": "Smartsheet",
+    "url": "https://www.smartsheet.com/",
+    "status": 200,
+    "finalUrl": "https://www.smartsheet.com/",
+    "title": "Work Management Platform | Smartsheet"
+  },
+  {
+    "name": "Remote",
+    "url": "https://remote.com/",
+    "status": 200,
+    "finalUrl": "https://remote.com/",
+    "title": "EOR, Payroll &amp; Compliance Platform - Worldwide | Remote"
+  },
+  {
+    "name": "Hewlett Packard Enterprise",
+    "url": "https://hpe.com/",
+    "status": 200,
+    "finalUrl": "https://www.hpe.com/us/en/home.html",
+    "title": " Hewlett Packard Enterprise (HPE)"
+  },
+  {
+    "name": "N-iX",
+    "url": "https://n-ix.com/",
+    "status": 200,
+    "finalUrl": "https://www.n-ix.com/",
+    "title": "N-iX - Software Development Company"
+  },
+  {
+    "name": "Sparq",
+    "url": "https://www.teamsparq.com/",
+    "status": 200,
+    "finalUrl": "https://www.teamsparq.com/",
+    "title": "AI-Native Digital Engineering Services Partner | Sparq"
+  },
+  {
+    "name": "Perficient",
+    "url": "https://perficient.com/",
+    "status": 429,
+    "finalUrl": "https://www.perficient.com/",
+    "title": "Vercel Security Checkpoint"
+  },
+  {
+    "name": "Sophilabs",
+    "url": "https://sophilabs.com/",
+    "status": 200,
+    "finalUrl": "https://sophilabs.com/",
+    "title": "AI Features, Shipped Inside Your Software | Sophilabs"
+  },
+  {
+    "name": "Tek Experts",
+    "url": "https://www.tek-experts.com/",
+    "error": "ENOTFOUND"
+  },
+  {
+    "name": "GSB Solutions",
+    "url": "https://gsbsolutions.com/",
+    "status": 200,
+    "finalUrl": "https://www.realmeatpet.com/",
+    "title": "The Real Meat Company"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "url": "https://paloaltonetworks.com/",
+    "status": 200,
+    "finalUrl": "https://www.paloaltonetworks.com/",
+    "title": "Leader in Cybersecurity Protection &amp; Software for the Modern Enterprises - Palo Alto Networks"
+  },
+  {
+    "name": "Terminal",
+    "url": "https://www.terminal.io/",
+    "status": 200,
+    "finalUrl": "https://www.terminal.io/",
+    "title": "Terminal - Hire AI Fluent Developers with our Smart Talent Platform - Terminal.io"
+  },
+  {
+    "name": "NTT DATA",
+    "url": "https://nttdata.com/",
+    "status": 404,
+    "finalUrl": "https://www.nttdata.com/",
+    "title": "We’re sorry, we cannot find that page | NTT DATA"
+  },
+  {
+    "name": "Thoughtworks",
+    "url": "https://www.thoughtworks.com/",
+    "status": 200,
+    "finalUrl": "https://www.thoughtworks.com/",
+    "title": "Thoughtworks: A leading technology consultancy | Thoughtworks "
+  },
+  {
+    "name": "Software Mind",
+    "url": "https://softwaremind.com/",
+    "status": 200,
+    "finalUrl": "https://softwaremind.com/",
+    "title": "Software Engineering Company – Software Mind"
+  },
+  {
+    "name": "Rootstack",
+    "url": "https://rootstack.com/",
+    "status": 200,
+    "finalUrl": "https://rootstack.com/en",
+    "title": "Nearshore Software Development &amp; AI Teams | Rootstack"
+  },
+  {
+    "name": "Intel",
+    "url": "https://intel.com/",
+    "status": 200,
+    "finalUrl": "https://www.intel.la/content/www/xl/es/homepage.html",
+    "title": "Intel Inside: creado para la IA"
+  },
+  {
+    "name": "Splunk",
+    "url": "https://www.splunk.com/",
+    "status": 200,
+    "finalUrl": "https://www.splunk.com/",
+    "title": "Splunk | Data Platform for Security, Observability &amp; AI"
+  },
+  {
+    "name": "TradeStation",
+    "url": "https://tradestation.com/",
+    "status": 403,
+    "finalUrl": "https://tradestation.com/",
+    "title": "ERROR: The request could not be satisfied"
+  },
+  {
+    "name": "OpenText",
+    "url": "https://opentext.com/",
+    "status": 200,
+    "finalUrl": "https://www.opentext.com/",
+    "title": "OpenText | Secure Information Management for AI"
+  },
+  {
+    "name": "Solvd",
+    "url": "https://www.solvd.com/",
+    "status": 200,
+    "finalUrl": "https://solvd.com/",
+    "title": "Solvd | AI Engineering Company"
+  },
+  {
+    "name": "Stryker",
+    "url": "https://stryker.com/",
+    "status": 200,
+    "finalUrl": "https://www.stryker.com/",
+    "title": "International homepage | Stryker"
+  },
+  {
+    "name": "UST",
+    "url": "https://www.ust.com/",
+    "status": 403,
+    "finalUrl": "https://www.ust.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Svitla Systems",
+    "url": "https://svitla.com/",
+    "status": 200,
+    "finalUrl": "https://svitla.com/",
+    "title": "Svitla Systems | Global Digital Solutions Company"
+  },
+  {
+    "name": "Vention",
+    "url": "https://ventionteams.com/",
+    "status": 200,
+    "finalUrl": "https://ventionteams.com/",
+    "title": "Software Development Company | Vention"
+  },
+  {
+    "name": "Superside",
+    "url": "https://superside.com/",
+    "status": 200,
+    "finalUrl": "https://www.superside.com/",
+    "title": "Superside: Your creative team’s creative team™"
+  },
+  {
+    "name": "HP Inc.",
+    "url": "https://hp.com/",
+    "status": 200,
+    "finalUrl": "https://www.hp.com/lamerica_nsc_cnt_amer-es/home.html",
+    "title": "Laptops, desktops, impresoras y mucho más | HP® América Central"
+  },
+  {
+    "name": "West Monroe",
+    "url": "https://www.westmonroe.com/",
+    "status": 200,
+    "finalUrl": "https://www.westmonroe.com/",
+    "title": "Global business and technology consulting firm | West Monroe"
+  },
+  {
+    "name": "Nearsure",
+    "url": "https://nearsure.com/",
+    "status": 200,
+    "finalUrl": "https://nortal.com/en-us/?ref_source=nearsure",
+    "title": "Nortal US"
+  },
+  {
+    "name": "Zscaler",
+    "url": "https://www.zscaler.com/",
+    "status": 200,
+    "finalUrl": "https://www.zscaler.com/",
+    "title": "Leading Cloud Enterprise Security Provider for Zero Trust"
+  },
+  {
+    "name": "Publicis Sapient",
+    "url": "https://publicissapient.com/",
+    "status": 200,
+    "finalUrl": "https://www.publicissapient.com/",
+    "title": "AI Solutions for the Enterprise"
+  },
+  {
+    "name": "Andela",
+    "url": "https://www.andela.com/",
+    "status": 200,
+    "finalUrl": "https://www.andela.com/",
+    "title": "The Human Layer Powering Production AI"
+  },
+  {
+    "name": "A.Team",
+    "url": "https://www.a.team/",
+    "status": 200,
+    "finalUrl": "https://www.a.team/",
+    "title": "Applied AI for Consumer Brands and CPG Teams | A.Team"
+  },
+  {
+    "name": "Arc",
+    "url": "https://arc.dev/",
+    "status": 200,
+    "finalUrl": "https://arc.dev/",
+    "title": "Hire the Top 2% of Talent | Arc"
+  },
+  {
+    "name": "Proxify",
+    "url": "https://proxify.io/",
+    "status": 403,
+    "finalUrl": "https://proxify.io/",
+    "title": "Just a moment..."
+  },
+  {
+    "name": "Howdy",
+    "url": "https://www.howdy.com/",
+    "status": 429,
+    "finalUrl": "https://www.howdy.com/",
+    "title": "Vercel Security Checkpoint"
+  },
+  {
+    "name": "Lemon.io",
+    "url": "https://lemon.io/",
+    "status": 200,
+    "finalUrl": "https://lemon.io/",
+    "title": "Hire TOP Software Developers for Startups — Lemon.io"
+  },
+  {
+    "name": "Modus Create",
+    "url": "https://moduscreate.com/",
+    "status": 200,
+    "finalUrl": "https://www.moduscreate.com/",
+    "title": "Digital product engineering partner | Modus Create"
+  },
+  {
+    "name": "Tecla",
+    "url": "https://www.tecla.io/",
+    "status": 200,
+    "finalUrl": "https://www.tecla.io/",
+    "title": "Hire Latin American Developers | Nearshore Staffing | Tecla"
+  },
+  {
+    "name": "World Kinect",
+    "url": "https://world-kinect.com/",
+    "status": 200,
+    "finalUrl": "https://www.worldfuel.com/",
+    "title": "World Fuel | Global Fuel Supply, Logistics &amp; Services"
+  },
+  {
+    "name": "Toptal",
+    "url": "https://www.toptal.com/",
+    "status": 403,
+    "finalUrl": "https://www.toptal.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Wind River",
+    "url": "https://windriver.com/",
+    "status": 200,
+    "finalUrl": "https://www.windriver.com/",
+    "title": "Wind River Software | Safe, Secure, Reliable"
+  },
+  {
+    "name": "Wizeline",
+    "url": "https://www.wizeline.com/",
+    "status": 200,
+    "finalUrl": "https://www.wizeline.ai/",
+    "title": "Nearshoring AI Engineering: Advisory Services | Wizeline"
+  },
+  {
+    "name": "Valtech",
+    "url": "https://www.valtech.com/",
+    "status": 200,
+    "finalUrl": "https://www.valtech.com/",
+    "title": "The experience innovation company"
+  },
+  {
+    "name": "Unisys",
+    "url": "https://unisys.com/",
+    "status": 200,
+    "finalUrl": "https://www.unisys.com/",
+    "title": "Global Technology Solutions &#x2013; Keep Breaking Through | Unisys"
+  },
+  {
+    "name": "Turing",
+    "url": "https://www.turing.com/",
+    "status": 200,
+    "finalUrl": "https://www.turing.com/"
+  },
+  {
+    "name": "Walmart Global Tech",
+    "url": "https://walmart.com/",
+    "status": 200,
+    "finalUrl": "https://www.walmart.com/",
+    "title": "Walmart | Save Money. Live better."
+  },
+  {
+    "name": "SoftServe",
+    "url": "https://softserveinc.com/",
+    "status": 200,
+    "finalUrl": "https://www.softserveinc.com/en-us",
+    "title": "SoftServe | Software Development &amp; Digital Services Company"
+  },
+  {
+    "name": "X-Team",
+    "url": "https://x-team.com/",
+    "status": 200,
+    "finalUrl": "https://x-team.com/",
+    "title": "X-Team: Elite, On-Demand Tech Talent"
+  },
+  {
+    "name": "Revelo",
+    "url": "https://www.revelo.com/",
+    "status": 200,
+    "finalUrl": "https://www.revelo.com/",
+    "title": "Revelo | Engineering Expertise for the AI Economy"
+  },
+  {
+    "name": "Braintrust",
+    "url": "https://usebraintrust.com/",
+    "status": 200,
+    "finalUrl": "https://www.usebraintrust.com/",
+    "title": "Braintrust — AI-Powered Talent Network for Enterprise"
+  },
+  {
+    "name": "Trust Wallet",
+    "url": "https://trustwallet.com/",
+    "status": 200,
+    "finalUrl": "https://trustwallet.com/",
+    "title": "Best Crypto Wallet for Web3, NFTs and DeFi | Trust Wallet"
+  },
+  {
+    "name": "Maze",
+    "url": "https://maze.co/",
+    "status": 200,
+    "finalUrl": "https://maze.co/",
+    "title": "Maze | User Research and Testing Platform"
+  },
+  {
+    "name": "Circle",
+    "url": "https://circle.so/",
+    "status": 200,
+    "finalUrl": "https://circle.so/",
+    "title": "Circle | A new era for digital businesses"
+  },
+  {
+    "name": "redbee",
+    "url": "https://redbee.io/",
+    "status": 200,
+    "finalUrl": "https://redbee.io/",
+    "title": "redbee"
+  },
+  {
+    "name": "CloudDevs",
+    "url": "https://clouddevs.com/",
+    "status": 200,
+    "finalUrl": "https://hiredevelopers.com/",
+    "title": "Hire Developers | Vetted and Ready in 24 Hours"
+  },
+  {
+    "name": "Private Identity",
+    "url": "https://privateid.com/",
+    "status": 200,
+    "finalUrl": "https://privateid.com/",
+    "title": "PrivateID - The best way to verify identity"
+  },
+  {
+    "name": "LumiMeds",
+    "url": "https://lumimeds.com/",
+    "status": 200,
+    "finalUrl": "https://lumimeds.com/",
+    "title": "Medical Weight Loss &amp; Health Plans | LumiMeds"
+  },
+  {
+    "name": "Zarenor",
+    "url": "https://www.zarenor.com/",
+    "status": 200,
+    "finalUrl": "https://www.zarenor.com/",
+    "title": "AI &amp; Software Consulting for Startups and Enterprises"
+  },
+  {
+    "name": "GeniusXLab",
+    "url": "https://www.geniusxlab.com/",
+    "status": 200,
+    "finalUrl": "https://www.geniusxlab.com/",
+    "title": "GeniusXLab | IT Consulting &amp; Digital Transformation"
+  },
+  {
+    "name": "Homera Health",
+    "url": "https://homerahealth.com/",
+    "status": 200,
+    "finalUrl": "https://homerahealth.com/",
+    "title": "Homera Health"
+  },
+  {
+    "name": "Clara",
+    "url": "https://clara.com/",
+    "status": 200,
+    "finalUrl": "https://www.clara.com/",
+    "title": "Clara | Spend Management for LatAm"
+  },
+  {
+    "name": "Railway",
+    "url": "https://railway.com/",
+    "status": 200,
+    "finalUrl": "https://railway.com/",
+    "title": "Railway | The all-in-one intelligent cloud provider"
+  },
+  {
+    "name": "Wand",
+    "url": "https://wand.ai/",
+    "status": 200,
+    "finalUrl": "https://wand.ai/",
+    "title": "Wand — A new workforce. A new operating era."
+  },
+  {
+    "name": "Lazer",
+    "url": "https://lazertech.com/",
+    "status": 403,
+    "finalUrl": "https://www.brandbucket.com/names/lazertech",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Infisical",
+    "url": "https://infisical.com/",
+    "status": 200,
+    "finalUrl": "https://infisical.com/",
+    "title": "Infisical | The modern security platform for developers and agents"
+  },
+  {
+    "name": "Correlation One",
+    "url": "https://correlation-one.com/",
+    "status": 200,
+    "finalUrl": "https://www.correlation-one.com/",
+    "title": "AI Investment to AI Impact - Correlation One "
+  },
+  {
+    "name": "Factored",
+    "url": "https://factored.ai/",
+    "status": 200,
+    "finalUrl": "https://www.factored.ai/",
+    "title": "Factored | Forward-Deployed AI &amp; Data Engineers"
+  },
+  {
+    "name": "TheyDo",
+    "url": "https://theydo.com/",
+    "status": 200,
+    "finalUrl": "https://www.theydo.com/",
+    "title": "TheyDo — The Experience Context Platform"
+  },
+  {
+    "name": "Fueled",
+    "url": "https://fueled.com/",
+    "status": 200,
+    "finalUrl": "https://fueled.com/",
+    "title": "Fueled &#183; Digital Strategy, Mobile Apps, AI, Enterprise Web &amp; CMS"
+  },
+  {
+    "name": "Lumimeds",
+    "url": "https://lumimeds.com/",
+    "status": 200,
+    "finalUrl": "https://lumimeds.com/",
+    "title": "Medical Weight Loss &amp; Health Plans | LumiMeds"
+  },
+  {
+    "name": "Atomix",
+    "url": "https://atomix.ai/",
+    "status": 200,
+    "finalUrl": "https://atomix.ai/",
+    "title": "Atomix | Property Lending Infrastructure Reimagined End-to-End"
+  },
+  {
+    "name": "Arionkoder",
+    "url": "https://arionkoder.com/",
+    "status": 200,
+    "finalUrl": "https://www.arionkoder.com/",
+    "title": "AI Consulting Firm — Strategy, Delivery and Trust"
+  },
+  {
+    "name": "TOGGL",
+    "url": "https://toggl.com/",
+    "status": 200,
+    "finalUrl": "https://toggl.com/",
+    "title": "Toggl: Time Tracking Software &amp; Capacity Planning Tool"
+  },
+  {
+    "name": "Hyperlink",
+    "url": "https://www.thehyperlink.io/",
+    "status": 200,
+    "finalUrl": "https://www.thehyperlink.io/",
+    "title": "Hyperlink — Dedicated Remote Staff from Lebanon for US Companies"
+  },
+  {
+    "name": "LI.FI",
+    "url": "https://li.fi/",
+    "status": 200,
+    "finalUrl": "https://li.fi/",
+    "title": "LI.FI - Liquidity Aggregation &amp; Orchestration across all Blockchains"
+  },
+  {
+    "name": "CodeAgento",
+    "url": "https://codeagento.com/",
+    "status": 200,
+    "finalUrl": "https://codeagento.com/",
+    "title": "CodeAgento | AI-Powered Cloud IDE | Web-Based Developer Environment | CodeAgento"
+  },
+  {
+    "name": "Umbrel",
+    "url": "https://umbrel.com/",
+    "status": 200,
+    "finalUrl": "https://umbrel.com/",
+    "title": "Umbrel - Personal home cloud and OS for self-hosting"
+  },
+  {
+    "name": "Universal Technologies",
+    "url": "https://universal-technologies.com/",
+    "status": 200,
+    "finalUrl": "https://universal-technologies.com/",
+    "title": "Universal Technologies | AI, Automation &amp; Software Delivery"
+  },
+  {
+    "name": "JetKVM (BuildJet)",
+    "url": "https://jetkvm.com/",
+    "status": 200,
+    "finalUrl": "https://jetkvm.com/",
+    "title": "JetKVM - Control any computer remotely"
+  },
+  {
+    "name": "Frenely",
+    "url": "https://frenely.com/",
+    "status": 200,
+    "finalUrl": "https://frenely.com/",
+    "title": "Frenely | AI Customer feedback management platform"
+  },
+  {
+    "name": "Infinity / Labrynth",
+    "url": "https://labrynth.ai/",
+    "status": 200,
+    "finalUrl": "https://www.labrynth.ai/",
+    "title": "AI Joint Venture Partner for Industry Leaders | Labrynth"
+  },
+  {
+    "name": "Somnia",
+    "url": "https://somnia.network/",
+    "status": 200,
+    "finalUrl": "https://somnia.network/",
+    "title": "Somnia - the Agentic L1 blockchain"
+  },
+  {
+    "name": "Hire Hangar",
+    "url": "https://hirehangar.com/",
+    "status": 200,
+    "finalUrl": "https://hirehangar.com/careers",
+    "title": "Hire Hangar Global Careers"
+  },
+  {
+    "name": "Coperniq",
+    "url": "https://coperniq.io/",
+    "status": 200,
+    "finalUrl": "https://coperniq.io/",
+    "title": "Coperniq"
+  },
+  {
+    "name": "Peec AI",
+    "url": "https://peec.ai/",
+    "status": 200,
+    "finalUrl": "https://peec.ai/",
+    "title": "Peec AI - AI Search Analytics for Marketing Teams"
+  },
+  {
+    "name": "Moovx",
+    "url": "https://moovx.com/",
+    "status": 200,
+    "finalUrl": "https://moovx.com/",
+    "title": "MoovX — Explore EVs, AI, Tech, and Space"
+  },
+  {
+    "name": "Truelogic",
+    "url": "https://truelogic.io/",
+    "status": 200,
+    "finalUrl": "https://www.truelogic.io/",
+    "title": "Nearshore AI Engineering Teams for US Companies | Truelogic"
+  },
+  {
+    "name": "WorkHero",
+    "url": "https://workhero.com/",
+    "status": 436,
+    "finalUrl": "https://workhero.com/"
+  },
+  {
+    "name": "Biodock",
+    "url": "https://biodock.ai/",
+    "status": 200,
+    "finalUrl": "https://www.biodock.ai/",
+    "title": "Home · Biodock"
+  },
+  {
+    "name": "Brale",
+    "url": "https://brale.xyz/",
+    "status": 200,
+    "finalUrl": "https://brale.xyz/",
+    "title": "Stablecoin Infrastructure: Issuance, Custody &amp; Payments | Brale"
+  },
+  {
+    "name": "SwiftGuest",
+    "url": "https://swiftguest.com/",
+    "status": 200,
+    "finalUrl": "https://swiftguest.com/",
+    "title": "SwiftGuest — Cloud Hotel PMS | Property Management System"
+  },
+  {
+    "name": "MediaLab",
+    "url": "https://medialab.la/",
+    "status": 200,
+    "finalUrl": "https://medialab.la/",
+    "title": "Consumer Internet Brands | Medialab"
+  },
+  {
+    "name": "Murano Global",
+    "url": "https://muranosoft.team/",
+    "status": 200,
+    "finalUrl": "https://muranosoft.team/",
+    "title": "Murano Global"
+  },
+  {
+    "name": "Playbook",
+    "url": "https://playbook.com/",
+    "status": 200,
+    "finalUrl": "https://www.playbook.com/",
+    "title": "Playbook | Your all-in-one media management solution"
+  },
+  {
+    "name": "Darwoft",
+    "url": "https://darwoft.com/",
+    "status": 200,
+    "finalUrl": "https://www.darwoft.com/",
+    "title": "Darwoft · US-based full-cycle Software Development Company"
+  },
+  {
+    "name": "Kodalab",
+    "url": "https://kodalab.ai/",
+    "status": 200,
+    "finalUrl": "https://kodalab.ai/",
+    "title": "Kodalab — AI-Native Software Company | Engineering &amp; Elite Tech Talent"
+  },
+  {
+    "name": "Sigma Software",
+    "url": "https://sigma.software/",
+    "status": 403,
+    "finalUrl": "https://sigma.software/",
+    "title": "403 Forbidden"
+  },
+  {
+    "name": "5Blue Software",
+    "url": "https://5bluesoftware.com/",
+    "error": "ENOTFOUND"
+  },
+  {
+    "name": "ThirstySprout (client confidential)",
+    "url": "https://thirstysprout.com/",
+    "status": 200,
+    "finalUrl": "https://www.thirstysprout.com/",
+    "title": "ThirstySprout: Hire Vetted AI &amp; Software Engineering Talent"
+  },
+  {
+    "name": "We Built It",
+    "url": "https://webuiltit.dev/",
+    "error": "ENOTFOUND"
+  },
+  {
+    "name": "Moodsurf",
+    "url": "https://www.moodsurftech.com/",
+    "status": 200,
+    "finalUrl": "https://www.moodsurftech.com/",
+    "title": "Modsurf — Specialized Software and Cloud Solutions Built for Your Business"
+  },
+  {
+    "name": "SunnyData",
+    "url": "https://sunnydata.ai/",
+    "status": 200,
+    "finalUrl": "https://www.sunnydata.ai/",
+    "title": "SunnyData - Building Data Engineering Excellence"
+  },
+  {
+    "name": "Nectir",
+    "url": "https://nectir.io/",
+    "status": 200,
+    "finalUrl": "https://www.nectir.io/",
+    "title": "Nectir AI — AI Assistants for Higher Ed and High Schools | Nectir"
+  },
+  {
+    "name": "TalentCross (client confidential)",
+    "url": "https://talentcross.com/",
+    "error": "ENOTFOUND"
+  },
+  {
+    "name": "Niuro",
+    "url": "https://niuro.io/",
+    "status": 200,
+    "finalUrl": "https://niuro.io/",
+    "title": "Niuro · The Talent Engineering Company"
+  },
+  {
+    "name": "Bavardio",
+    "url": "https://bavardio.com/",
+    "status": 200,
+    "finalUrl": "https://bavardio.com/",
+    "title": "Bavardio | AI-Native OSS/BSS for Service Providers"
+  },
+  {
+    "name": "LuxHyper",
+    "url": "https://luxhyper.com/",
+    "status": 200,
+    "finalUrl": "https://luxhyper.com/",
+    "title": "LuxHyper — The Registry of Hypercars · luxhyper.com"
+  },
+  {
+    "name": "Lynxiz",
+    "url": "https://lynxiz.com/",
+    "status": 200,
+    "finalUrl": "https://lynxiz.com/",
+    "title": "Digital Agency &amp; Creative Technology Studio | Lynxiz"
+  },
+  {
+    "name": "OnHires (client undisclosed)",
+    "url": "https://onhires.com/",
+    "status": 200,
+    "finalUrl": "https://www.onhires.com/en",
+    "title": "OnHires | Global tech recruitment &amp; staffing for fast-growing companies"
+  },
+  {
+    "name": "Astreon AI Group",
+    "url": "https://astreonaigroup.com/",
+    "status": 200,
+    "finalUrl": "https://astreonaigroup.com/",
+    "title": "Astreon AI Group | The AI consultancy that builds"
+  },
+  {
+    "name": "DevSavant",
+    "url": "https://devsavant.com/",
+    "status": 200,
+    "finalUrl": "https://devsavant.com/",
+    "title": "Your Operating Partner from Prototyping to High-Performing Teams - DevSavant"
+  },
+  {
+    "name": "Ruzora",
+    "url": "https://www.ruzora.com/",
+    "status": 200,
+    "finalUrl": "https://www.ruzora.com/",
+    "title": "Ruzora - Senior LATAM Engineers, Vetted Shortlist Within 72 Hours"
+  },
+  {
+    "name": "MrBeast",
+    "url": "https://mrbeast.com/",
+    "error": "CERT_HAS_EXPIRED"
+  },
+  {
+    "name": "TeamStation",
+    "url": "https://teamstation.dev/",
+    "status": 200,
+    "finalUrl": "https://teamstation.dev/",
+    "title": "LATAM AI Engineering Teams for CTOs &amp; CIOs | TeamStation"
+  },
+  {
+    "name": "South Geeks",
+    "url": "https://southgeeks.com/",
+    "status": 200,
+    "finalUrl": "https://www.southgeeks.com/",
+    "title": "Home"
+  },
+  {
+    "name": "Newfire Global",
+    "url": "https://newfireglobal.com/",
+    "status": 403,
+    "finalUrl": "https://newfireglobal.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Agility IO",
+    "url": "https://agilityio.com/",
+    "status": 200,
+    "finalUrl": "https://www.agilityio.com/",
+    "title": "Build Software at AI Speed | AgilityIO"
+  },
+  {
+    "name": "Azumo",
+    "url": "https://azumo.com/",
+    "status": 200,
+    "finalUrl": "https://azumo.com/",
+    "title": "Azumo: Top-Rated Software Development Company"
+  },
+  {
+    "name": "Techlumas",
+    "url": "https://techlumas.com/",
+    "status": 200,
+    "finalUrl": "https://techlumas.com/",
+    "title": "AI &#038; Custom Software Development Company | Techlumas"
+  },
+  {
+    "name": "Santex",
+    "url": "https://santexgroup.com/",
+    "status": 200,
+    "finalUrl": "https://santexgroup.com/",
+    "title": "Technology Integrators | Santex Group "
+  },
+  {
+    "name": "Confiz",
+    "url": "https://confiz.com/",
+    "status": 403,
+    "finalUrl": "https://confiz.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "TIMS (client confidential)",
+    "url": "https://wearetims.com/",
+    "status": 200,
+    "finalUrl": "https://www.wearetims.com/",
+    "title": "We Are TIMS — Talento LATAM para empresas europeas"
+  },
+  {
+    "name": "Roadway Moving",
+    "url": "https://roadwaymoving.com/",
+    "status": 200,
+    "finalUrl": "https://www.roadwaymoving.com/",
+    "title": "NYC Moving Company: 5-Star NYC Movers | Roadway Moving"
+  },
+  {
+    "name": "Mahisoft",
+    "url": "https://mahisoft.com/",
+    "status": 200,
+    "finalUrl": "https://mahisoft.com/",
+    "title": "Nearshore Software Development Without Headaches | Mahisoft"
+  },
+  {
+    "name": "Kubikware",
+    "url": "https://kubikware.com/",
+    "status": 200,
+    "finalUrl": "https://www.kubikware.com/",
+    "title": "Nearshore Software Development Since 2003 | Kubikware"
+  },
+  {
+    "name": "WiTi",
+    "url": "https://witi.cl/",
+    "status": 200,
+    "finalUrl": "https://www.witi.cl/",
+    "title": "WiTI | Tecnología pensada para innovar"
+  },
+  {
+    "name": "Spotter AI",
+    "url": "https://spotter.ai/",
+    "status": 200,
+    "finalUrl": "https://spotter.ai/",
+    "title": "Spotter.ai - AI-Powered Trucking, Fleet Management & Logistics Software"
+  },
+  {
+    "name": "Virtasant",
+    "url": "https://virtasant.com/",
+    "status": 200,
+    "finalUrl": "https://virtasant.com/",
+    "title": "Cloud Solutions, Cloud Experts | Virtasant"
+  },
+  {
+    "name": "Lancesoft",
+    "url": "https://lancesoft.com/",
+    "status": 200,
+    "finalUrl": "https://lancesoft.com/",
+    "title": "LanceSoft | Global Workforce Solutions"
+  },
+  {
+    "name": "Skilldlabs",
+    "url": "https://skilldlabs.com/",
+    "status": 200,
+    "finalUrl": "https://skilldlabs.com/",
+    "title": "Hire Software Engineers | Vetted LatAm Devs | SkilldLabs"
+  },
+  {
+    "name": "Zartis",
+    "url": "https://zartis.com/",
+    "status": 403,
+    "finalUrl": "https://zartis.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Miratech",
+    "url": "https://miratechgroup.com/",
+    "status": 200,
+    "finalUrl": "https://miratechgroup.com/",
+    "title": "35+ Years in Software Development, IT Consulting, and CX."
+  },
+  {
+    "name": "Jahnel Group",
+    "url": "https://jahnelgroup.com/",
+    "status": 200,
+    "finalUrl": "https://jahnelgroup.com/",
+    "title": "Jahnel Group — Where AI Becomes Reality"
+  },
+  {
+    "name": "Franki",
+    "url": "https://frankiapp.com/",
+    "status": 200,
+    "finalUrl": "https://frankiapp.com/",
+    "title": "Franki - Explore Life&#x27;s Experiences"
+  },
+  {
+    "name": "Infinity",
+    "url": "https://infinityconstellation.com/",
+    "status": 200,
+    "finalUrl": "https://www.infinityconstellation.com/",
+    "title": "Infinity Constellation | AI-Native Services Company Builder"
+  },
+  {
+    "name": "ThriveCart",
+    "url": "https://thrivecart.com/",
+    "status": 200,
+    "finalUrl": "https://thrivecart.com/",
+    "title": "The Creator Stack for Coursemakers &amp; Communities | ThriveCart"
+  },
+  {
+    "name": "GreenSlate",
+    "url": "https://greenslate.com/",
+    "status": 200,
+    "finalUrl": "https://greenslate.com/",
+    "title": "Entertainment Payroll &amp; Production Accounting | GreenSlate"
+  },
+  {
+    "name": "SPECTRAFORCE",
+    "url": "https://spectraforce.com/",
+    "status": 200,
+    "finalUrl": "https://spectraforce.com/",
+    "title": "Global Workforce &amp; Recruitment Solutions | SPECTRAFORCE"
+  },
+  {
+    "name": "GovWorx",
+    "url": "https://govworx.ai/",
+    "status": 200,
+    "finalUrl": "https://www.govworx.ai/",
+    "title": "GovWorx 911 Workforce Management Platform"
+  },
+  {
+    "name": "Abstra",
+    "url": "https://abstra.io/",
+    "status": 200,
+    "finalUrl": "https://www.abstra.io/",
+    "title": "Abstra - Finance Automation Platform"
+  },
+  {
+    "name": "DaCodes",
+    "url": "https://dacodes.com/",
+    "status": 200,
+    "finalUrl": "https://dacodes.com/",
+    "title": "DaCodes - Take control of your company's technological future"
+  },
+  {
+    "name": "Aubrant Digital",
+    "url": "https://aubrant.com/",
+    "status": 200,
+    "finalUrl": "https://aubrant.com/",
+    "title": "Aubrant Digital | Full-Lifecycle AI Software Engineering"
+  },
+  {
+    "name": "micro1",
+    "url": "https://micro1.ai/",
+    "status": 200,
+    "finalUrl": "https://www.micro1.ai/",
+    "title": "Data lab to train frontier models &amp; evaluate agents | micro1"
+  },
+  {
+    "name": "SeedTrust",
+    "url": "https://seedtrustescrow.com/",
+    "status": 200,
+    "finalUrl": "https://seedtrustescrow.com/",
+    "title": "SeedTrust Escrow"
+  },
+  {
+    "name": "Airtm",
+    "url": "https://airtm.com/",
+    "status": 403,
+    "finalUrl": "https://www.airtm.com/",
+    "title": "Just a moment..."
+  },
+  {
+    "name": "Devlane",
+    "url": "https://devlane.com/",
+    "status": 200,
+    "finalUrl": "https://www.devlane.com/",
+    "title": "Devlane | Software Development &amp; Staff Augmentation"
+  },
+  {
+    "name": "Zazmic",
+    "url": "https://zazmic.com/",
+    "status": 200,
+    "finalUrl": "https://zazmic.ai/",
+    "title": "AI Consulting Firm &amp; Google Cloud Partner | Zazmic"
+  },
+  {
+    "name": "Playbypoint",
+    "url": "https://playbypoint.com/",
+    "status": 403,
+    "finalUrl": "https://www.playbypoint.com/",
+    "title": "Just a moment..."
+  },
+  {
+    "name": "Oppizi",
+    "url": "https://oppizi.com/",
+    "status": 200,
+    "finalUrl": "https://oppizi.com/us/en/",
+    "title": "Oppizi - The agentic offline marketing platform"
+  },
+  {
+    "name": "McFadyen Digital",
+    "url": "https://mcfadyen.com/",
+    "status": 200,
+    "finalUrl": "https://mcfadyen.com/",
+    "title": "McFadyen Digital | B2B Commerce Systems Integrator &amp; AI Readiness"
+  },
+  {
+    "name": "AssureSoft",
+    "url": "https://assuresoft.com/",
+    "status": 200,
+    "finalUrl": "https://www.assuresoft.com/",
+    "title": "AI Productivity Powered by Expert Engineers | AssureSoft"
+  },
+  {
+    "name": "ActiveProspect",
+    "url": "https://activeprospect.com/",
+    "status": 403,
+    "finalUrl": "https://activeprospect.com/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "CommIT",
+    "url": "https://commit.us/",
+    "status": 200,
+    "finalUrl": "https://www.commit.us/",
+    "title": "Commit Us | Leading Innovation in AWS, AI, IoT, Data Analytics &amp; Cybersecurity Solutions"
+  },
+  {
+    "name": "iDelsoft",
+    "url": "https://idelsoft.com/",
+    "status": 200,
+    "finalUrl": "https://idelsoft.com/",
+    "title": "iDelsoft - Remote Talent Hiring"
+  },
+  {
+    "name": "Fujitsu",
+    "url": "https://fujitsu.com/",
+    "error": "ENOTFOUND"
+  },
+  {
+    "name": "Cargill",
+    "url": "https://cargill.com/",
+    "status": 200,
+    "finalUrl": "https://www.cargill.com/",
+    "title": "Creating a more food secure world | Cargill"
+  },
+  {
+    "name": "Teravision Technologies",
+    "url": "https://teravisiontech.com/",
+    "status": 200,
+    "finalUrl": "https://www.teravisiontech.com/",
+    "title": "Nearshore Software Development | Teravision"
+  },
+  {
+    "name": "Halo Media",
+    "url": "https://halopowered.com/",
+    "status": 200,
+    "finalUrl": "https://halopowered.com/",
+    "title": "Software Design, Strategy &amp; AI-Powered Platforms | Halo Media"
+  },
+  {
+    "name": "Able",
+    "url": "https://able.co/",
+    "status": 200,
+    "finalUrl": "https://able.co/",
+    "title": "Home | Able"
+  },
+  {
+    "name": "Veta Virtual",
+    "url": "https://vetavirtual.com/",
+    "status": 200,
+    "finalUrl": "https://vetavirtual.com/",
+    "title": "Veta Virtual | Transforming Business Relationships"
+  },
+  {
+    "name": "BNamericas",
+    "url": "https://bnamericas.com/",
+    "status": 403,
+    "finalUrl": "https://bnamericas.com/",
+    "title": "403 Forbidden"
+  },
+  {
+    "name": "Customertimes",
+    "url": "https://customertimes.com/",
+    "status": 200,
+    "finalUrl": "https://www.customertimes.com/",
+    "title": "Customertimes | Enterprise Digital Transformation"
+  },
+  {
+    "name": "Admios",
+    "url": "https://admios.com/",
+    "status": 200,
+    "finalUrl": "https://www.admios.com/",
+    "title": "Admios Nearshore Software Development"
+  },
+  {
+    "name": "Vetclaims.ai",
+    "url": "https://vetclaims.ai/",
+    "status": 200,
+    "finalUrl": "https://vetclaims.ai/",
+    "title": "VA Disability Claims Help | Flat-Fee Prep | VetClaims.ai"
+  },
+  {
+    "name": "Kake",
+    "url": "https://kake.com/",
+    "status": 200,
+    "finalUrl": "https://www.kake.com/",
+    "title": "KAKE | Wichita & Kansas Breaking News, Weather & Sports | Kansas News, Weather & Sports | KAKE | Wichita - KAKE"
+  },
+  {
+    "name": "Publicis Re:Sources",
+    "url": "https://publicisresources.com/",
+    "status": 200,
+    "finalUrl": "https://publicisresources.com/",
+    "title": "Publicis Resources &#8211; A Publicis Groupe Company"
+  },
+  {
+    "name": "FullStack",
+    "url": "https://fullstack.com/",
+    "status": 200,
+    "finalUrl": "https://www.fullstack.com/",
+    "title": "FullStack | AI Engineering Company for Production AI"
+  },
+  {
+    "name": "The Bridge",
+    "url": "https://thebridge.social/",
+    "error": "CERT_HAS_EXPIRED"
+  },
+  {
+    "name": "Infinite Computer Solutions",
+    "url": "https://infinite.com/",
+    "status": 200,
+    "finalUrl": "https://www.infinite.com/",
+    "title": "Infinite | Global Digital Engineering &amp; IT Services"
+  },
+  {
+    "name": "GoFasti",
+    "url": "https://gofasti.com/",
+    "status": 200,
+    "finalUrl": "https://www.gofasti.com/",
+    "title": "GoFasti | Hire top talent in Latin America"
+  },
+  {
+    "name": "Ampstek",
+    "url": "https://ampstek.com/",
+    "status": 200,
+    "finalUrl": "https://www.ampstek.com/",
+    "title": "Ampstek — Strategy, Talent, Technology"
+  },
+  {
+    "name": "Tekton Labs",
+    "url": "https://tektonlabs.com/",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "AYIGROUP",
+    "url": "https://ayi.group/",
+    "status": 200,
+    "finalUrl": "https://ayi.group/",
+    "title": "Home - ayi.group"
+  },
+  {
+    "name": "EVOL (TSnet)",
+    "url": "https://evol.biz/",
+    "status": 200,
+    "finalUrl": "https://evol.biz/",
+    "title": "EVOL | Expertos en ERP, Cloud, Automatización, Staffing y Soporte"
+  },
+  {
+    "name": "Softgic",
+    "url": "https://softgic.co/",
+    "status": 200,
+    "finalUrl": "https://softgic.co/",
+    "title": "Softgic &#8211; Estamos cambiando la forma de innovar"
+  },
+  {
+    "name": "Talent Connect",
+    "url": "https://talentconnect.ai/",
+    "status": 200,
+    "finalUrl": "https://talentconnect.ai/",
+    "title": "Top IT Talent Recruitment in 24 Hours | Talent Connect"
+  },
+  {
+    "name": "Pearl",
+    "url": "https://pearl.com/",
+    "status": 200,
+    "finalUrl": "https://www.pearl.com/",
+    "title": "The Super Agent for Independent Professionals | Pearl"
+  },
+  {
+    "name": "Zaelot",
+    "url": "https://zaelot.com/",
+    "status": 200,
+    "finalUrl": "https://www.zaelot.com/",
+    "title": "Zaelot | AI Consulting &amp; Technology Services"
+  },
+  {
+    "name": "Aubay",
+    "url": "https://aubay.com/",
+    "status": 200,
+    "finalUrl": "https://aubay.com/",
+    "title": "AUBAY : Experts en transformation digitale"
+  },
+  {
+    "name": "Cresol Cooperativa",
+    "url": "https://cresol.com.br/",
+    "status": 403,
+    "finalUrl": "https://cresol.com.br/",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "Backblaze",
+    "url": "https://backblaze.com/",
+    "status": 200,
+    "finalUrl": "https://www.backblaze.com/",
+    "title": "High-Performance Cloud Storage for AI Workloads | Backblaze"
+  },
+  {
+    "name": "Committed Staff",
+    "url": "https://committedstaff.com/",
+    "status": 200,
+    "finalUrl": "https://www.committedstaff.ai/",
+    "title": "home - Committed Staff AI"
+  },
+  {
+    "name": "Avenue Code",
+    "url": "https://avenuecode.com/",
+    "status": 200,
+    "finalUrl": "https://aircompany.ai/en/google-cloud/",
+    "title": "AI/R | Google Cloud"
+  },
+  {
+    "name": "WPS Digital",
+    "url": "https://wpsdigital.com.br/",
+    "error": "ENOTFOUND"
+  },
+  {
+    "name": "Scalepex",
+    "url": "https://scalepex.com/",
+    "status": 200,
+    "finalUrl": "https://scalepex.com/",
+    "title": "Scalepex | Transformational Consulting | Onshore &amp; Nearshore | BPO"
+  },
+  {
+    "name": "Bluelight",
+    "url": "https://bluelight.co/",
+    "status": 200,
+    "finalUrl": "https://bluelight.co/",
+    "title": "Bluelight | Leading Nearshore Software Development Company"
+  },
+  {
+    "name": "Thinkproject",
+    "url": "https://thinkproject.com/",
+    "status": 200,
+    "finalUrl": "https://www.thinkproject.com/",
+    "title": "Thinkproject | Powerful solutions for the built asset lifecycle"
+  },
+  {
+    "name": "Total Performance Consulting",
+    "url": "https://totalperformance.com/",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "Luxoft Singapore",
+    "url": "https://luxoft.com/",
+    "status": 200,
+    "finalUrl": "https://www.luxoft.com/",
+    "title": " Software Engineering and Digital Transformation Company | DXC Luxoft "
+  },
+  {
+    "name": "Imagemaker",
+    "url": "https://imagemaker.com/",
+    "status": 200,
+    "finalUrl": "https://www.imagemaker.com/",
+    "title": "Home | Imagemaker"
+  },
+  {
+    "name": "dti digital",
+    "url": "https://dtidigital.com.br/",
+    "status": 200,
+    "finalUrl": "https://www.dtidigital.com.br/",
+    "title": "dti digital | Unlocking digital value"
+  },
+  {
+    "name": "DBC Company",
+    "url": "https://dbccompany.com.br/",
+    "status": 200,
+    "finalUrl": "https://www.dbccompany.com.br/",
+    "title": "DBC Company - Onde pessoas e tecnologias se completam."
+  },
+  {
+    "name": "NETCOM Business Contact Center",
+    "url": "https://netcomcr.com/",
+    "error": "ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE"
+  },
+  {
+    "name": "Luxoft",
+    "url": "https://luxoft.com/",
+    "status": 200,
+    "finalUrl": "https://www.luxoft.com/",
+    "title": " Software Engineering and Digital Transformation Company | DXC Luxoft "
+  },
+  {
+    "name": "The Adecco Group",
+    "url": "https://adeccogroup.com/",
+    "status": 200,
+    "finalUrl": "https://www.adeccogroup.com/",
+    "title": "The Adecco Group | Home"
+  },
+  {
+    "name": "Sopra Steria",
+    "url": "https://soprasteria.com/",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "Appnovation",
+    "url": "https://appnovation.com/",
+    "status": 200,
+    "finalUrl": "https://www.appnovation.com/",
+    "title": "Appnovation · Appnovation"
+  },
+  {
+    "name": "Xe.com",
+    "url": "https://xe.com/",
+    "status": 200,
+    "finalUrl": "https://www.xe.com/",
+    "title": "Xe: Currency Exchange Rates and International Money Transfers"
+  },
+  {
+    "name": "Konrad",
+    "url": "https://konrad.com/",
+    "status": 200,
+    "finalUrl": "https://www.konrad.com/",
+    "title": "Konrad® | AI, Strategy, Design &amp; Technology"
+  },
+  {
+    "name": "SoftDesign",
+    "url": "https://softdesign.com.br/",
+    "status": 200,
+    "finalUrl": "https://www.softdesign.com.br/",
+    "title": "SoftDesign | Desenvolvimento de Software impulsionado por IA"
+  },
+  {
+    "name": "Lazer Technologies",
+    "url": "https://lazertech.com/",
+    "status": 403,
+    "finalUrl": "https://www.brandbucket.com/names/lazertech",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "name": "CookUnity",
+    "url": "https://cookunity.com/",
+    "status": 200,
+    "finalUrl": "https://www.cookunity.com/",
+    "title": "CookUnity: Save 50% Off 1st Week | Chef-Crafted Meal Delivery"
+  },
+  {
+    "name": "Concentrix",
+    "url": "https://concentrix.com/",
+    "status": 200,
+    "finalUrl": "https://www.concentrix.com/",
+    "title": "Concentrix | A Global Technology and Services Leader"
+  },
+  {
+    "name": "HF Solutions",
+    "url": "https://hfsolutions.cl/",
+    "error": "ENOTFOUND"
+  },
+  {
+    "name": "Accenture M?xico",
+    "url": "https://www.accenture.com/",
+    "status": 200,
+    "finalUrl": "https://www.accenture.com/en",
+    "title": "Reinvented with Accenture"
+  },
+  {
+    "name": "AspenView Technology Partners",
+    "url": "https://aspenviewtech.com/",
+    "status": 200,
+    "finalUrl": "https://aspenview.com/",
+    "title": "AspenView Technology Partners | Agile IT &amp; Software Teams"
+  },
+  {
+    "name": "Manulife",
+    "url": "https://manulife.com/",
+    "error": "TimeoutError"
+  },
+  {
+    "name": "Brex",
+    "url": "https://brex.com/",
+    "status": 200,
+    "finalUrl": "https://www.brex.com/",
+    "title": "Brex: The Modern Finance Software Platform | Spend Smarter"
+  },
+  {
+    "name": "Caseware",
+    "url": "https://caseware.com/",
+    "status": 200,
+    "finalUrl": "https://www.caseware.com/",
+    "title": "Caseware AI Platform | Caseware"
+  },
+  {
+    "name": "Topaz",
+    "url": "https://topazevolution.com/",
+    "status": 200,
+    "finalUrl": "https://www.topazevolution.com/",
+    "title": "Topaz: A 1° Plataforma Full Banking do Mundo"
+  },
+  {
+    "name": "Accenture Colombia",
+    "url": "https://www.accenture.com/",
+    "status": 200,
+    "finalUrl": "https://www.accenture.com/en",
+    "title": "Reinvented with Accenture"
+  },
+  {
+    "name": "Capgemini Engineering",
+    "url": "https://www.capgemini.com/",
+    "status": 200,
+    "finalUrl": "https://www.capgemini.com/",
+    "title": "Capgemini - Make it real."
+  },
+  {
+    "name": "Getdata (CL)",
+    "url": "https://getdata.cl/",
+    "status": 200,
+    "finalUrl": "https://www.getdata.cl/",
+    "title": "Getdata | Consultoría TI, Staffing & Software Factory en Chile"
+  },
+  {
+    "name": "Deloitte",
+    "url": "https://deloitte.com/",
+    "status": 200,
+    "finalUrl": "https://www.deloitte.com/latam/es/about/story/nuestros-marketplaces/deloitte-costa-rica.html",
+    "title": "Deloitte Costa Rica"
+  },
+  {
+    "name": "EY",
+    "url": "https://ey.com/",
+    "status": 200,
+    "finalUrl": "https://www.ey.com/es_ce",
+    "title": "EY - Centroamérica, Panamá y Rep. Dominicana | Shape the future with confidence."
+  },
+  {
+    "name": "Encora/Coforge",
+    "url": "https://encora.com/",
+    "status": 200,
+    "finalUrl": "https://www.coforge.com/",
+    "title": "Coforge | Where AI Engineering Meets Industry Expertise"
+  },
+  {
+    "name": "Minsait",
+    "url": "https://minsait.com/",
+    "status": 200,
+    "finalUrl": "https://www.minsait.com/es",
+    "title": "Minsait | Home"
+  },
+  {
+    "name": "Fitch Ratings",
+    "url": "https://fitchratings.com/",
+    "status": 200,
+    "finalUrl": "https://www.fitchratings.com/",
+    "title": "Fitch Ratings: Credit Ratings &amp; Analysis For Financial Markets"
+  },
+  {
+    "name": "Falabella",
+    "url": "https://falabella.com/",
+    "status": 200,
+    "finalUrl": "https://www.falabella.com/falabella-cl",
+    "title": "falabella.com | Todo lo que necesitas en un solo lugar"
+  },
+  {
+    "name": "Citi",
+    "url": "https://citigroup.com/",
+    "status": 200,
+    "finalUrl": "https://www.citigroup.com/global",
+    "title": "Citi | Global Investment Bank and Financial Services"
+  }
+]

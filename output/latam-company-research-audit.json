@@ -1,0 +1,3029 @@
+{
+  "target": 400,
+  "checkedOn": "2026-10-28",
+  "totalDirectoryEntries": 354,
+  "researchedEmployers": 60,
+  "remainingResearch": 340,
+  "outsourcing": 43,
+  "direct": 17,
+  "complete": false,
+  "limitation": "Employer sources were found during research; this check validates data integrity, not live vacancy availability or every country restriction.",
+  "remainingSavedCompanies": [
+    {
+      "name": "3M",
+      "website": "https://3m.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "3Pillar Global",
+      "website": "https://www.3pillar.ai/",
+      "tracks": [
+        "Python Backend"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "5Blue Software",
+      "website": "https://5bluesoftware.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote; location policy not stated"
+      ]
+    },
+    {
+      "name": "A.Team",
+      "website": "https://www.a.team/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Global / Costa Rica"
+      ]
+    },
+    {
+      "name": "Abstra",
+      "website": "https://abstra.io/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Accenture",
+      "website": "https://www.accenture.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica",
+        "Medellin, Antioquia, Colombia"
+      ]
+    },
+    {
+      "name": "Accenture México",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Monterrey, Nuevo León, Mexico"
+      ]
+    },
+    {
+      "name": "ActiveProspect",
+      "website": "https://activeprospect.com/",
+      "tracks": [
+        "Full-stack"
+      ],
+      "locations": [
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "Admios",
+      "website": "https://admios.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "AgileEngine",
+      "website": "https://agileengine.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Agility IO",
+      "website": "https://agilityio.com/",
+      "tracks": [
+        "React + Node Full Stack",
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote Latin America"
+      ]
+    },
+    {
+      "name": "Airtm",
+      "website": "https://airtm.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Akamai",
+      "website": "https://akamai.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Costa Rica / remote eligible"
+      ]
+    },
+    {
+      "name": "Align Technology",
+      "website": "https://aligntech.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Belén, Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "website": "https://amazon.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica / LATAM search"
+      ]
+    },
+    {
+      "name": "Ampstek",
+      "website": "https://ampstek.com/",
+      "tracks": [
+        "Full-stack"
+      ],
+      "locations": [
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "Anagram / Breeze",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Anywhere"
+      ]
+    },
+    {
+      "name": "Andela",
+      "website": "https://www.andela.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM / Costa Rica"
+      ]
+    },
+    {
+      "name": "Applaudo Studios",
+      "website": "https://applaudostudios.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Central America / LATAM"
+      ]
+    },
+    {
+      "name": "Appnovation",
+      "website": "https://appnovation.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Arc",
+      "website": "https://arc.dev/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Global / Costa Rica"
+      ]
+    },
+    {
+      "name": "Arkkosoft",
+      "website": "https://arkkosoft.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "AspenView Technology Partners",
+      "website": "https://aspenviewtech.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "AssureSoft",
+      "website": "https://assuresoft.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Astreon AI Group",
+      "website": "https://astreonaigroup.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote anywhere; visa sponsorship unavailable"
+      ]
+    },
+    {
+      "name": "Athena Works",
+      "website": "https://athenaworks.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM including Costa Rica"
+      ]
+    },
+    {
+      "name": "Atomix",
+      "website": "https://atomix.ai/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Anywhere in the world"
+      ]
+    },
+    {
+      "name": "Aubay",
+      "website": "https://aubay.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Île-de-France, France"
+      ]
+    },
+    {
+      "name": "Aubrant Digital",
+      "website": "https://aubrant.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Automattic",
+      "website": "https://automattic.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Global remote / Costa Rica"
+      ]
+    },
+    {
+      "name": "Auxis",
+      "website": "https://www.auxis.com/",
+      "tracks": [
+        ".NET Backend / Full Stack"
+      ],
+      "locations": [
+        "Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "Avenga",
+      "website": "https://www.avenga.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM / Americas search"
+      ]
+    },
+    {
+      "name": "Avenue Code",
+      "website": "https://avenuecode.com/",
+      "tracks": [
+        "Full-stack"
+      ],
+      "locations": [
+        "Remote LATAM"
+      ]
+    },
+    {
+      "name": "AYIGROUP",
+      "website": "https://ayi.group/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Argentina"
+      ]
+    },
+    {
+      "name": "Azumo",
+      "website": "https://azumo.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote Latin America; US timezone overlap"
+      ]
+    },
+    {
+      "name": "Backblaze",
+      "website": "https://backblaze.com/",
+      "tracks": [
+        "Software Engineering"
+      ],
+      "locations": [
+        "Colombia, Costa Rica, Mexico"
+      ]
+    },
+    {
+      "name": "BairesDev",
+      "website": "https://bairesdev.com/",
+      "tracks": [
+        "Java + React Full Stack",
+        "React / Frontend",
+        "Full-stack"
+      ],
+      "locations": [
+        "Worldwide / LATAM",
+        "Worldwide / LATAM eligible",
+        "Remote Costa Rica (LinkedIn CR remote listing)",
+        "Latin America",
+        "Montevideo, Montevideo, Uruguay",
+        "Greater Buenos Aires",
+        "Bogota, D.C., Capital District, Colombia",
+        "São Paulo, São Paulo, Brazil",
+        "Federal District, Venezuela",
+        "Cajamarca, Peru",
+        "Guayas, Ecuador",
+        "Nuevo León, Mexico",
+        "Honduras",
+        "Colombia",
+        "Valparaiso Region, Chile",
+        "Veracruz, Mexico",
+        "Mexico",
+        "Brazil"
+      ]
+    },
+    {
+      "name": "Bavardio",
+      "website": "https://bavardio.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Latin America, Central and South America"
+      ]
+    },
+    {
+      "name": "BC Tecnología",
+      "tracks": [
+        "Full-stack",
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Remote LATAM",
+        "Santiago, Santiago Metropolitan Region, Chile"
+      ]
+    },
+    {
+      "name": "Beyond Soluções",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "São Paulo, São Paulo, Brazil"
+      ]
+    },
+    {
+      "name": "Biodock",
+      "website": "https://biodock.ai/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Kazakhstan, Turkey, Uzbekistan, Tajikistan, Kyrgyzstan, Azerbaijan"
+      ]
+    },
+    {
+      "name": "Bitso",
+      "website": "https://bitso.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "LATAM / Costa Rica search"
+      ]
+    },
+    {
+      "name": "Blankfactor",
+      "website": "https://blankfactor.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "BNamericas",
+      "website": "https://bnamericas.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Anywhere in the world"
+      ]
+    },
+    {
+      "name": "Bosch",
+      "website": "https://bosch.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica / LATAM"
+      ]
+    },
+    {
+      "name": "Braintrust",
+      "website": "https://usebraintrust.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Global / Costa Rica"
+      ]
+    },
+    {
+      "name": "Brale",
+      "website": "https://brale.xyz/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Anywhere"
+      ]
+    },
+    {
+      "name": "Brex",
+      "website": "https://brex.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "São Paulo, São Paulo, Brazil"
+      ]
+    },
+    {
+      "name": "Broadcom",
+      "website": "https://broadcom.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "BYDREC",
+      "website": "https://bydrec.com/",
+      "tracks": [
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Canonical",
+      "website": "https://canonical.com/",
+      "tracks": [
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "Global remote / Americas"
+      ]
+    },
+    {
+      "name": "Careerswift",
+      "tracks": [
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "Worldwide"
+      ]
+    },
+    {
+      "name": "Cargill",
+      "website": "https://cargill.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Cencosud via BC Tecnolog�a",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Listing says remote worldwide"
+      ]
+    },
+    {
+      "name": "Ciklum",
+      "website": "https://www.ciklum.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM / Americas search"
+      ]
+    },
+    {
+      "name": "Circle",
+      "website": "https://circle.so/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote; workforce across 30+ countries",
+        "Anywhere"
+      ]
+    },
+    {
+      "name": "Cisco",
+      "website": "https://cisco.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Citi",
+      "website": "https://citigroup.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Mississauga, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Clara",
+      "website": "https://clara.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "Clera / Aleph",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Cloudbeds",
+      "website": "https://www.cloudbeds.com/",
+      "tracks": [
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "CloudDevs",
+      "website": "https://clouddevs.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Cloudera",
+      "website": "https://www.cloudera.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Costa Rica / remote eligible"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "website": "https://www.cloudflare.com/",
+      "tracks": [
+        "React / Frontend"
+      ],
+      "locations": [
+        "LATAM / remote search"
+      ]
+    },
+    {
+      "name": "CodeAgento",
+      "website": "https://codeagento.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote; worldwide not explicitly defined"
+      ]
+    },
+    {
+      "name": "Coderio",
+      "website": "https://coderio.com/",
+      "tracks": [
+        "Java + React Full Stack",
+        "Java Backend",
+        "Full-stack"
+      ],
+      "locations": [
+        "Argentina, Peru, Colombia, Chile, Mexico",
+        "Argentina or Uruguay",
+        "Remote LATAM"
+      ]
+    },
+    {
+      "name": "Coforge",
+      "website": "https://coforge.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "Cognizant",
+      "website": "https://cognizant.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica / LATAM"
+      ]
+    },
+    {
+      "name": "CommandLink",
+      "website": "https://www.commandlink.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "CommIT",
+      "website": "https://commit.us/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Committed Staff",
+      "website": "https://committedstaff.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Concentrix",
+      "website": "https://concentrix.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Alajuela, Alajuela, Costa Rica"
+      ]
+    },
+    {
+      "name": "Confiz",
+      "website": "https://confiz.com/",
+      "tracks": [
+        "Full Stack",
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Location to verify",
+        "San José Metropolitan Area",
+        "Monterrey, Nuevo León, Mexico"
+      ]
+    },
+    {
+      "name": "CookUnity",
+      "website": "https://cookunity.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "Coperniq",
+      "website": "https://coperniq.io/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote; allowed countries not specified"
+      ]
+    },
+    {
+      "name": "Correlation One",
+      "website": "https://correlation-one.com/",
+      "tracks": [
+        "React / Frontend"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "Cresol Cooperativa",
+      "website": "https://cresol.com.br/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Brazil"
+      ]
+    },
+    {
+      "name": "CRG Solutions",
+      "website": "https://www.crgsolutions.co/",
+      "tracks": [
+        "Python Backend"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Critical Mass",
+      "website": "https://www.criticalmass.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "Crossover",
+      "website": "https://www.crossover.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Worldwide incl. Costa Rica"
+      ]
+    },
+    {
+      "name": "Customertimes",
+      "website": "https://customertimes.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "DaCodes",
+      "website": "https://dacodes.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Databricks",
+      "website": "https://www.databricks.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Americas remote search"
+      ]
+    },
+    {
+      "name": "DBC Company",
+      "website": "https://dbccompany.com.br/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Brazil"
+      ]
+    },
+    {
+      "name": "Deel",
+      "website": "https://www.deel.com/",
+      "tracks": [
+        "React + Node Full Stack",
+        "Full Stack"
+      ],
+      "locations": [
+        "Global remote / LATAM",
+        "EMEA and listed European countries"
+      ]
+    },
+    {
+      "name": "Deloitte",
+      "website": "https://deloitte.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "San Jose, Costa Rica"
+      ]
+    },
+    {
+      "name": "Devlane",
+      "website": "https://devlane.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "DevSavant",
+      "website": "https://devsavant.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote Latin America"
+      ]
+    },
+    {
+      "name": "Distillery",
+      "website": "https://distillery.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Docker",
+      "website": "https://www.docker.com/",
+      "tracks": [
+        "React / Frontend"
+      ],
+      "locations": [
+        "Americas remote"
+      ]
+    },
+    {
+      "name": "Drivn Technologies",
+      "website": "https://drivn.com/",
+      "tracks": [
+        "React / Frontend"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "dti digital",
+      "website": "https://dtidigital.com.br/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Belo Horizonte, Minas Gerais, Brazil"
+      ]
+    },
+    {
+      "name": "DXC Technology",
+      "website": "https://dxc.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Edify Software Consulting",
+      "website": "https://edify.cr/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Elastic",
+      "website": "https://elastic.co/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Global remote / LATAM"
+      ]
+    },
+    {
+      "name": "Emerson",
+      "website": "https://www.emerson.com/",
+      "tracks": [
+        ".NET Backend / Full Stack",
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Escazú, Costa Rica",
+        "Remote Costa Rica (LinkedIn CR remote listing)",
+        "Escazú, San Jose, Costa Rica"
+      ]
+    },
+    {
+      "name": "Endava",
+      "website": "https://www.endava.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "EPAM",
+      "website": "https://www.epam.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Equifax",
+      "website": "https://equifax.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "EVOL (TSnet)",
+      "website": "https://evol.biz/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Lima, Peru"
+      ]
+    },
+    {
+      "name": "Experian",
+      "website": "https://experian.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "EY",
+      "website": "https://ey.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "São Paulo, São Paulo, Brazil",
+        "Rio de Janeiro, Rio de Janeiro, Brazil"
+      ]
+    },
+    {
+      "name": "Factored",
+      "website": "https://factored.ai/",
+      "tracks": [
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "Falabella",
+      "website": "https://falabella.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Santiago, Santiago Metropolitan Region, Chile"
+      ]
+    },
+    {
+      "name": "Find Job Latam",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Fiserv",
+      "website": "https://fiserv.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "Fitch Ratings",
+      "website": "https://fitchratings.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Monterrey, Nuevo León, Mexico"
+      ]
+    },
+    {
+      "name": "Ford México",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Naucalpan de Juárez, México, Mexico"
+      ]
+    },
+    {
+      "name": "Franki",
+      "website": "https://frankiapp.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Frenely",
+      "website": "https://frenely.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "EU / Americas"
+      ]
+    },
+    {
+      "name": "Fueled",
+      "website": "https://fueled.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Anywhere around the globe"
+      ]
+    },
+    {
+      "name": "Fujitsu",
+      "website": "https://fujitsu.com/",
+      "tracks": [],
+      "locations": [
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "FullStack Labs",
+      "website": "https://www.fullstack.com/",
+      "tracks": [
+        "Java + React Full Stack",
+        "Full-stack"
+      ],
+      "locations": [
+        "Latin America",
+        "Remote Costa Rica (LinkedIn CR remote listing)",
+        "Remote LATAM"
+      ]
+    },
+    {
+      "name": "FusionHit",
+      "website": "https://fusionhit.com/",
+      "tracks": [
+        "Java + React Full Stack",
+        "Full-stack"
+      ],
+      "locations": [
+        "Costa Rica",
+        "Remote LATAM"
+      ]
+    },
+    {
+      "name": "GeniusXLab",
+      "website": "https://www.geniusxlab.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote - Global"
+      ]
+    },
+    {
+      "name": "Getdata (CL)",
+      "website": "https://getdata.cl/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Provincia de Santiago, Santiago Metropolitan Region, Chile"
+      ]
+    },
+    {
+      "name": "GFT Technologies",
+      "website": "https://www.gft.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "GitLab",
+      "website": "https://about.gitlab.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Global remote / Costa Rica"
+      ]
+    },
+    {
+      "name": "GO | Tech Talent",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Argentina"
+      ]
+    },
+    {
+      "name": "GoFasti",
+      "website": "https://gofasti.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Gorilla Logic",
+      "website": "https://gorillalogic.com/",
+      "tracks": [
+        "Full Stack",
+        "React / Frontend",
+        "Python + React Full Stack",
+        "Full-stack",
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica or Colombia",
+        "Costa Rica / Colombia",
+        "Remote Colombia or Costa Rica",
+        "Remote Costa Rica (LinkedIn CR remote listing)",
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "GovWorx",
+      "website": "https://govworx.ai/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Grafana Labs",
+      "website": "https://grafana.com/",
+      "tracks": [
+        "React / Frontend"
+      ],
+      "locations": [
+        "Americas / LATAM"
+      ]
+    },
+    {
+      "name": "GreenSlate",
+      "website": "https://greenslate.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Growth Acceleration Partners",
+      "website": "https://growthaccelerationpartners.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Grupo Boticário",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Brazil"
+      ]
+    },
+    {
+      "name": "GSB Solutions",
+      "website": "https://gsbsolutions.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Halo Media",
+      "website": "https://halopowered.com/",
+      "tracks": [
+        "Back-end"
+      ],
+      "locations": [
+        "Remote LATAM"
+      ]
+    },
+    {
+      "name": "HCLTech",
+      "website": "https://www.hcltech.com/",
+      "tracks": [
+        "Java + React Full Stack",
+        "Full-stack"
+      ],
+      "locations": [
+        "Costa Rica",
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "Hewlett Packard Enterprise",
+      "website": "https://hpe.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "HF Solutions",
+      "website": "https://hfsolutions.cl/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Santiago, Santiago Metropolitan Region, Chile"
+      ]
+    },
+    {
+      "name": "Hire Hangar",
+      "website": "https://hirehangar.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote; US time-zone overlap"
+      ]
+    },
+    {
+      "name": "Hitachi Solutions",
+      "website": "https://global.hitachi-solutions.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Costa Rica / LATAM search"
+      ]
+    },
+    {
+      "name": "Homera Health",
+      "website": "https://homerahealth.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Costa Rica, Argentina, Brazil, Chile, Colombia, Mexico, Peru, Uruguay"
+      ]
+    },
+    {
+      "name": "Howdy",
+      "website": "https://www.howdy.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "HP Inc.",
+      "website": "https://hp.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "Huenei",
+      "website": "https://www.huenei.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Hyperlink",
+      "website": "https://www.thehyperlink.io/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote; confirm allowed countries"
+      ]
+    },
+    {
+      "name": "IBM",
+      "website": "https://www.ibm.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "ília",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Brazil"
+      ]
+    },
+    {
+      "name": "Imagemaker",
+      "website": "https://imagemaker.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Santiago Metropolitan Area",
+        "Chile"
+      ]
+    },
+    {
+      "name": "ImagineX Consulting",
+      "website": "https://imaginexconsulting.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Infinite Computer Solutions",
+      "website": "https://infinite.com/",
+      "tracks": [
+        "Full-stack"
+      ],
+      "locations": [
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "Infinity",
+      "website": "https://infinityconstellation.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Infinity / Labrynth",
+      "website": "https://labrynth.ai/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Infisical",
+      "website": "https://infisical.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Countries listed by employer; global team"
+      ]
+    },
+    {
+      "name": "Infotree Global Solutions",
+      "website": "https://www.infotreeglobal.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Intel",
+      "website": "https://intel.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Intertec International",
+      "website": "https://www.intertecintl.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "IT Accelerate",
+      "website": "https://itaccelerate.com/",
+      "tracks": [
+        ".NET Backend / Full Stack",
+        "Full Stack"
+      ],
+      "locations": [
+        "San José, Costa Rica",
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Jahnel Group",
+      "website": "https://jahnelgroup.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "JBS Dev",
+      "website": "https://jbs.dev/",
+      "tracks": [
+        "Full Stack",
+        "Java Backend"
+      ],
+      "locations": [
+        "Costa Rica residents only",
+        "Costa Rica residents"
+      ]
+    },
+    {
+      "name": "JetKVM (BuildJet)",
+      "website": "https://jetkvm.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Listed European countries"
+      ]
+    },
+    {
+      "name": "Johnson Controls",
+      "website": "https://johnsoncontrols.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica / remote search"
+      ]
+    },
+    {
+      "name": "Kake",
+      "website": "https://kake.com/",
+      "tracks": [
+        "Full-stack",
+        "Back-end"
+      ],
+      "locations": [
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "Kambda",
+      "website": "https://www.kambda.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Katapult Labs",
+      "website": "https://katapultlabs.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote Latin America",
+        "Remote anywhere in Latin America"
+      ]
+    },
+    {
+      "name": "Konrad Group",
+      "website": "https://www.konrad.com/",
+      "tracks": [
+        "Java Backend",
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Koombea",
+      "website": "https://www.koombea.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Kubikware",
+      "website": "https://kubikware.com/",
+      "tracks": [
+        "React + Node Full Stack",
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "Remote Latin America"
+      ]
+    },
+    {
+      "name": "Lancesoft",
+      "website": "https://lancesoft.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Lazer",
+      "website": "https://lazertech.com/",
+      "tracks": [
+        "Full Stack",
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Canada, Argentina, Brazil, Costa Rica, Ireland, Portugal, UK, Uruguay, USA",
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Lemon.io",
+      "website": "https://lemon.io/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM eligible"
+      ]
+    },
+    {
+      "name": "LI.FI",
+      "website": "https://li.fi/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "EMEA only"
+      ]
+    },
+    {
+      "name": "LPS",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Indaiatuba, São Paulo, Brazil"
+      ]
+    },
+    {
+      "name": "Lumenalta",
+      "website": "https://lumenalta.com/",
+      "tracks": [
+        "React + Node Full Stack",
+        "Python + React Full Stack",
+        "React / Frontend"
+      ],
+      "locations": [
+        "Latin America including Costa Rica"
+      ]
+    },
+    {
+      "name": "LuxHyper",
+      "website": "https://luxhyper.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote; eligible hiring countries not stated"
+      ]
+    },
+    {
+      "name": "Luxoft Singapore",
+      "website": "https://luxoft.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Singapore, Singapore"
+      ]
+    },
+    {
+      "name": "Lynxiz",
+      "website": "https://lynxiz.com/",
+      "tracks": [
+        "TypeScript Full Stack"
+      ],
+      "locations": [
+        "Worldwide remote listing"
+      ]
+    },
+    {
+      "name": "Mahisoft",
+      "website": "https://mahisoft.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Manulife",
+      "website": "https://manulife.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Toronto, Ontario, Canada",
+        "Waterloo, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Maze",
+      "website": "https://maze.co/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote; preference for Netherlands, UK, Ireland, Spain, Portugal"
+      ]
+    },
+    {
+      "name": "McFadyen Digital",
+      "website": "https://mcfadyen.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "MediaLab",
+      "website": "https://medialab.la/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Argentina or Mexico"
+      ]
+    },
+    {
+      "name": "micro1",
+      "website": "https://micro1.ai/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "website": "https://microsoft.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica / remote eligible"
+      ]
+    },
+    {
+      "name": "Minsait",
+      "website": "https://minsait.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Lima, Peru"
+      ]
+    },
+    {
+      "name": "Miratech",
+      "website": "https://miratechgroup.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Modus Create",
+      "website": "https://moduscreate.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "website": "https://www.mongodb.com/",
+      "tracks": [
+        "React / Frontend"
+      ],
+      "locations": [
+        "LATAM / remote search"
+      ]
+    },
+    {
+      "name": "Moodsurf",
+      "website": "https://www.moodsurftech.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote; eligible countries not specified"
+      ]
+    },
+    {
+      "name": "Moody's",
+      "website": "https://moodys.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Moovx",
+      "website": "https://moovx.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote anywhere in Latin America"
+      ]
+    },
+    {
+      "name": "Murano Global",
+      "website": "https://muranosoft.team/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote; verify country eligibility"
+      ]
+    },
+    {
+      "name": "NaNLABS",
+      "website": "https://www.nan-labs.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Nearsure",
+      "website": "https://nearsure.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Nectir",
+      "website": "https://nectir.io/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Open anywhere in Latin America"
+      ]
+    },
+    {
+      "name": "NETCOM Business Contact Center",
+      "website": "https://netcomcr.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "San José, San Jose, Costa Rica"
+      ]
+    },
+    {
+      "name": "Netskope",
+      "website": "https://www.netskope.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Niuro",
+      "website": "https://niuro.io/",
+      "tracks": [
+        "TypeScript Full Stack",
+        "Full Stack",
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote LATAM",
+        "Remote worldwide listing",
+        "Remote Latin America"
+      ]
+    },
+    {
+      "name": "Novacomp",
+      "website": "https://www.novacomp.net/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "NTT DATA",
+      "website": "https://nttdata.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica / LATAM"
+      ]
+    },
+    {
+      "name": "OfficeSpace Software",
+      "website": "https://officespacesoftware.com/",
+      "tracks": [
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "OnHires (client undisclosed)",
+      "website": "https://onhires.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Listed European countries"
+      ]
+    },
+    {
+      "name": "OpenText",
+      "website": "https://opentext.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Oppizi",
+      "website": "https://oppizi.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Palo Alto Networks",
+      "website": "https://paloaltonetworks.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Pearl",
+      "website": "https://pearl.com/",
+      "tracks": [
+        "Full-stack"
+      ],
+      "locations": [
+        "Remote LATAM"
+      ]
+    },
+    {
+      "name": "Peec AI",
+      "website": "https://peec.ai/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Worldwide within ±3 hours CET"
+      ]
+    },
+    {
+      "name": "Perficient",
+      "website": "https://perficient.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "Performa Centric",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Playbook",
+      "website": "https://playbook.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Poland"
+      ]
+    },
+    {
+      "name": "Playbypoint",
+      "website": "https://playbypoint.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Postman",
+      "website": "https://www.postman.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Americas / remote search"
+      ]
+    },
+    {
+      "name": "Private Identity",
+      "website": "https://privateid.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote / location verify"
+      ]
+    },
+    {
+      "name": "Prodigious Latin America",
+      "website": "https://www.prodigious.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Proxify",
+      "website": "https://proxify.io/",
+      "tracks": [
+        "Java + React Full Stack",
+        "Full-stack",
+        "Back-end"
+      ],
+      "locations": [
+        "Global / Costa Rica",
+        "Remote Costa Rica (LinkedIn CR remote listing)",
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Publicis Re:Sources",
+      "website": "https://publicisresources.com/",
+      "tracks": [
+        "Full-stack"
+      ],
+      "locations": [
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "Publicis Sapient",
+      "website": "https://publicissapient.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica / LATAM search"
+      ]
+    },
+    {
+      "name": "Railway",
+      "website": "https://railway.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Anywhere in the world"
+      ]
+    },
+    {
+      "name": "Recruiter Outreach — Company Not Provided",
+      "tracks": [
+        ".NET Backend / Full Stack"
+      ],
+      "locations": [
+        "Remote — Costa Rica"
+      ]
+    },
+    {
+      "name": "redbee",
+      "website": "https://redbee.io/",
+      "tracks": [
+        "Java + React Full Stack",
+        "Full Stack"
+      ],
+      "locations": [
+        "Argentina / outside AMBA remote",
+        "Argentina"
+      ]
+    },
+    {
+      "name": "Remote",
+      "website": "https://remote.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Global remote / Costa Rica"
+      ]
+    },
+    {
+      "name": "Revelo",
+      "website": "https://www.revelo.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Roadway Moving",
+      "website": "https://roadwaymoving.com/",
+      "tracks": [
+        "React + PHP Full Stack"
+      ],
+      "locations": [
+        "Global remote listing; US Eastern time overlap"
+      ]
+    },
+    {
+      "name": "Rootstack",
+      "website": "https://rootstack.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "SearchAPI",
+      "website": "https://searchapi.io/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "LATAM / Costa Rica search"
+      ]
+    },
+    {
+      "name": "SeedTrust",
+      "website": "https://seedtrustescrow.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "ServiceNow",
+      "website": "https://servicenow.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "Sigma Software",
+      "website": "https://sigma.software/",
+      "tracks": [
+        "Python + React Full Stack",
+        "TypeScript Full Stack"
+      ],
+      "locations": [
+        "Brazil listing; wider LATAM eligibility not stated",
+        "LATAM: Argentina, Brazil, Colombia listed",
+        "LATAM: Argentina, Brazil, Colombia"
+      ]
+    },
+    {
+      "name": "SimSpace",
+      "website": "https://simspace.com/",
+      "tracks": [
+        "Full Stack",
+        "React / Frontend",
+        "Java Backend",
+        "Backend"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Skilldlabs",
+      "website": "https://skilldlabs.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Smartsheet",
+      "website": "https://www.smartsheet.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Snap Finance",
+      "website": "https://snapfinance.com/",
+      "tracks": [
+        "Other Software"
+      ],
+      "locations": [
+        "Alajuela, Costa Rica"
+      ]
+    },
+    {
+      "name": "SoftDesign",
+      "website": "https://softdesign.com.br/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Brazil"
+      ]
+    },
+    {
+      "name": "Softgic",
+      "website": "https://softgic.co/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Medellin, Antioquia, Colombia"
+      ]
+    },
+    {
+      "name": "SoftServe",
+      "website": "https://softserveinc.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "Solvd",
+      "website": "https://www.solvd.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Somnia",
+      "website": "https://somnia.network/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote; Europe or Asia preferred"
+      ]
+    },
+    {
+      "name": "Sophilabs",
+      "website": "https://sophilabs.com/",
+      "tracks": [
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Sopra Steria",
+      "website": "https://soprasteria.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Paris, Île-de-France, France"
+      ]
+    },
+    {
+      "name": "South Geeks",
+      "website": "https://southgeeks.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote; LATAM-focused recruiting firm"
+      ]
+    },
+    {
+      "name": "Sparq",
+      "website": "https://www.teamsparq.com/",
+      "tracks": [
+        "Other Software",
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica",
+        "Hojancha, Guanacaste, Costa Rica"
+      ]
+    },
+    {
+      "name": "SPECTRAFORCE",
+      "website": "https://spectraforce.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Splunk",
+      "website": "https://www.splunk.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica / remote eligible"
+      ]
+    },
+    {
+      "name": "Spotter AI",
+      "website": "https://spotter.ai/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Stord",
+      "website": "https://stord.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "LATAM / Costa Rica search"
+      ]
+    },
+    {
+      "name": "Stryker",
+      "website": "https://stryker.com/",
+      "tracks": [
+        ".NET Backend / Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "SunnyData",
+      "website": "https://sunnydata.ai/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Argentina"
+      ]
+    },
+    {
+      "name": "Superside",
+      "website": "https://superside.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Global remote / LATAM"
+      ]
+    },
+    {
+      "name": "Svitla Systems",
+      "website": "https://svitla.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "SwiftGuest",
+      "website": "https://swiftguest.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote; location policy to confirm"
+      ]
+    },
+    {
+      "name": "Talent Connect",
+      "website": "https://talentconnect.ai/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Buenos Aires, Buenos Aires Province, Argentina"
+      ]
+    },
+    {
+      "name": "Tebra",
+      "website": "https://tebra.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "Techlumas",
+      "website": "https://techlumas.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote worldwide listing"
+      ]
+    },
+    {
+      "name": "Tecla",
+      "website": "https://www.tecla.io/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Tek Experts",
+      "website": "https://www.tek-experts.com/",
+      "tracks": [
+        "React / Frontend"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "Teravision Technologies",
+      "website": "https://teravisiontech.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Terminal",
+      "website": "https://www.terminal.io/",
+      "tracks": [
+        "Java + React Full Stack",
+        "Full-stack"
+      ],
+      "locations": [
+        "LATAM",
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "The Adecco Group",
+      "website": "https://adeccogroup.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Mexico"
+      ]
+    },
+    {
+      "name": "The Bridge",
+      "website": "https://thebridge.social/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "TheyDo",
+      "website": "https://theydo.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "European Economic Area"
+      ]
+    },
+    {
+      "name": "Thinkproject",
+      "website": "https://thinkproject.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Pune Division, Maharashtra, India"
+      ]
+    },
+    {
+      "name": "ThirstySprout (client confidential)",
+      "website": "https://thirstysprout.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote EMEA and LATAM"
+      ]
+    },
+    {
+      "name": "Thoughtworks",
+      "website": "https://www.thoughtworks.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "ThriveCart",
+      "website": "https://thrivecart.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "TOGGL",
+      "website": "https://toggl.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Locations listed in Europe; timezone UTC-4 to UTC+4"
+      ]
+    },
+    {
+      "name": "Topaz",
+      "website": "https://topazevolution.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Bogota, D.C., Capital District, Colombia"
+      ]
+    },
+    {
+      "name": "Toptal",
+      "website": "https://www.toptal.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Global remote / Costa Rica"
+      ]
+    },
+    {
+      "name": "Total Performance Consulting",
+      "website": "https://totalperformance.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "TradeStation",
+      "website": "https://tradestation.com/",
+      "tracks": [
+        ".NET Backend / Full Stack"
+      ],
+      "locations": [
+        "Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "TransUnion",
+      "website": "https://transunion.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Trust Wallet",
+      "website": "https://trustwallet.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote Global; work authorization required"
+      ]
+    },
+    {
+      "name": "Turing",
+      "website": "https://www.turing.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Global / Costa Rica"
+      ]
+    },
+    {
+      "name": "Turtle Trax S.A.",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Guadalajara, Jalisco, Mexico"
+      ]
+    },
+    {
+      "name": "UA Talents",
+      "website": "https://uatalents.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "Ubiminds",
+      "website": "https://ubiminds.com/",
+      "tracks": [
+        ".NET Backend / Full Stack",
+        "Python + React Full Stack",
+        "Full Stack"
+      ],
+      "locations": [
+        "Latin America",
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Umbrel",
+      "website": "https://umbrel.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Work from anywhere in the world"
+      ]
+    },
+    {
+      "name": "Unisys",
+      "website": "https://unisys.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "Universal Technologies",
+      "website": "https://universal-technologies.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "Remote Americas"
+      ]
+    },
+    {
+      "name": "UST",
+      "website": "https://www.ust.com/",
+      "tracks": [
+        "Java + React Full Stack",
+        "Full-stack"
+      ],
+      "locations": [
+        "Costa Rica / LATAM",
+        "Remote Costa Rica (LinkedIn CR remote listing)",
+        "Heredia, Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "Valtech",
+      "website": "https://www.valtech.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Latin America"
+      ]
+    },
+    {
+      "name": "Vention",
+      "website": "https://ventionteams.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "Veta Virtual",
+      "website": "https://vetavirtual.com/",
+      "tracks": [
+        "Full-stack"
+      ],
+      "locations": [
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "Vetclaims.ai",
+      "website": "https://vetclaims.ai/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Anywhere in the world"
+      ]
+    },
+    {
+      "name": "Virtasant",
+      "website": "https://virtasant.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Viventium",
+      "website": "https://viventium.com/",
+      "tracks": [
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Walmart Global Tech",
+      "website": "https://walmart.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Heredia, Costa Rica"
+      ]
+    },
+    {
+      "name": "Wand",
+      "website": "https://wand.ai/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote, Global Timezone"
+      ]
+    },
+    {
+      "name": "We Built It",
+      "website": "https://webuiltit.dev/",
+      "tracks": [
+        "Full Stack",
+        "React + TypeScript Full Stack"
+      ],
+      "locations": [
+        "Global remote listing"
+      ]
+    },
+    {
+      "name": "West Monroe",
+      "website": "https://www.westmonroe.com/",
+      "tracks": [
+        "Python + React Full Stack"
+      ],
+      "locations": [
+        "Heredia, Costa Rica",
+        "Remote Costa Rica (LinkedIn CR remote listing)"
+      ]
+    },
+    {
+      "name": "Wind River",
+      "website": "https://windriver.com/",
+      "tracks": [
+        "Python Backend"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "WiTi",
+      "website": "https://witi.cl/",
+      "tracks": [
+        "React + Go Full Stack"
+      ],
+      "locations": [
+        "Remote worldwide listing"
+      ]
+    },
+    {
+      "name": "Wizeline",
+      "website": "https://www.wizeline.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "LATAM"
+      ]
+    },
+    {
+      "name": "WorkHero",
+      "website": "https://workhero.com/",
+      "tracks": [
+        "React + Node Full Stack"
+      ],
+      "locations": [
+        "USA or International remote; 4-hour US Eastern overlap"
+      ]
+    },
+    {
+      "name": "World Kinect",
+      "website": "https://world-kinect.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "San José, Costa Rica"
+      ]
+    },
+    {
+      "name": "WPS Digital",
+      "website": "https://wpsdigital.com.br/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Campinas, São Paulo, Brazil"
+      ]
+    },
+    {
+      "name": "X-Team",
+      "website": "https://x-team.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Global remote / Costa Rica"
+      ]
+    },
+    {
+      "name": "Xe.com",
+      "website": "https://xe.com/",
+      "tracks": [
+        "Java + React Full Stack"
+      ],
+      "locations": [
+        "Santiago, Santiago Metropolitan Region, Chile"
+      ]
+    },
+    {
+      "name": "Zaelot",
+      "website": "https://zaelot.com/",
+      "tracks": [
+        "Back-end"
+      ],
+      "locations": [
+        "Anywhere in the world"
+      ]
+    },
+    {
+      "name": "Zarenor",
+      "website": "https://www.zarenor.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Remote - Global"
+      ]
+    },
+    {
+      "name": "Zartis",
+      "website": "https://zartis.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Zazmic",
+      "website": "https://zazmic.com/",
+      "tracks": [
+        "Full Stack"
+      ],
+      "locations": [
+        "Location to verify"
+      ]
+    },
+    {
+      "name": "Zscaler",
+      "website": "https://www.zscaler.com/",
+      "tracks": [
+        "Java Backend"
+      ],
+      "locations": [
+        "Costa Rica"
+      ]
+    }
+  ]
+}

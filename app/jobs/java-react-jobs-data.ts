@@ -1,4 +1,5 @@
-import { JAVA_REACT_CAMPAIGN_JOBS } from "../(page_routes)/cv/data/cv-campaign-java-react";
+import companyResearch from "./data/latam-company-research.json";
+import { JAVA_REACT_CAMPAIGN_JOBS } from "./data/cv-campaign-java-react";
 import { JOB_SEARCH_RECORDS, type JobSearchRecord } from "./data/job-search-records";
 import { NEW_JOB_SEARCH_RECORDS } from "./data/job-search-new";
 import { OCTOBER_2026_JOB_SEARCH_RECORDS } from "./data/job-search-october-2026";
@@ -7,10 +8,7 @@ import { CLOSED_JOB_ID_SET } from "./data/closed-jobs";
 import { isVerifiedOpenJobCurrent } from "./data/open-jobs";
 import { RESEARCHED_JOBS, type ResearchedJob } from "./java-react-jobs-researched";
 import { DEFAULT_REMOTE_LOCATION } from "./java-react-jobs-constants";
-import { createCvBacklogJobs } from "./java-react-jobs-cv";
-import { MONGO_BACKLOG_JOBS } from "./data/job-mongo-imports";
-import { mergeJobSources } from "./java-react-jobs-merge";
-import type { ApplicationStatus } from "../(page_routes)/cv/applications";
+import type { ApplicationStatus } from "./applications";
 import type { JobLead } from "./java-react-jobs-types";
 
 type CvMatch = Pick<JobLead, "cvPath" | "cvLabel" | "match" | "matchReason"> & {
@@ -109,6 +107,31 @@ function ratingFor(id: string): Pick<JobLead, "rating10" | "ratingReason"> {
   return JOB_RATINGS[id] ?? { rating10: 0, ratingReason: "Not rated yet; run scripts/rate_jobs.py" };
 }
 
+/** Comparable posting address: LinkedIn job id, or the URL without scheme, query or trailing slash. */
+function postingKey(url: string): string {
+  const clean = url.trim().toLowerCase().split(/[?#]/)[0].replace(/\/$/, "");
+  const linkedIn = /linkedin\.com\/jobs\/view\/(?:[^/]*-)?(\d+)/.exec(clean);
+  return linkedIn ? `linkedin:${linkedIn[1]}` : clean.replace(/^https?:\/\/(www\.)?/, "");
+}
+
+function roleKey(company: string, title: string): string {
+  return `${normalized(company)}|${normalized(title)}`;
+}
+
+/** LinkedIn search results that are not already tracked by company+role or posting URL. */
+function uniqueResearchedJobs(): ResearchedJob[] {
+  const urls = new Set(ALL_JOB_SEARCH_RECORDS.map((job) => job.url).filter(Boolean).map(postingKey));
+  const roles = new Set(ALL_JOB_SEARCH_RECORDS.map((job) => roleKey(job.company, job.title)));
+  return RESEARCHED_JOBS.filter((job) => {
+    const url = postingKey(job.url);
+    const role = roleKey(job.company, job.title);
+    if (urls.has(url) || roles.has(role)) return false;
+    urls.add(url);
+    roles.add(role);
+    return true;
+  });
+}
+
 function researchedJobLead(job: ResearchedJob): JobLead {
   const record = {
     id: job.id,
@@ -204,10 +227,33 @@ export function createDefaultJobs(): JobLead[] {
       ...ratingFor(job.id),
     } satisfies JobLead;
   });
-  const merged = mergeJobSources(tracked, RESEARCHED_JOBS.map(researchedJobLead), createCvBacklogJobs(), [...MONGO_BACKLOG_JOBS]);
-  return merged.map((job) => ({ ...job, ...(JOB_RATINGS[job.id] ?? {}) }));
+  return [...tracked, ...uniqueResearchedJobs().map(researchedJobLead)];
 }
 
 export const JOB_TRACKS = [
   ...new Set([...ALL_JOB_SEARCH_RECORDS.map((job) => job.track), "Java + React Full Stack"].filter(Boolean)),
 ].sort((a, b) => a.localeCompare(b));
+
+/** Complete search history for the directory; shortlist eligibility never limits this list. */
+export function createAllSearchedJobs(): JobLead[] {
+  const tracked = createDefaultJobs();
+  const ids = new Set(tracked.map(job => job.id));
+  const omittedResearch = RESEARCHED_JOBS.filter(job => !ids.has(job.id)).map(researchedJobLead);
+  const tailored = campaignJobs.map(job => ({
+    ...researchedJobLead({ id: `campaign:${job.key}`, company: job.company, title: job.postingTitle, location: job.location, postedOn: "", url: job.jobUrl, match: "search" }),
+    applicationSlug: `java-react-2026/${job.key}`,
+    cvPath: `/cv/cv-archive/java-react-2026/${job.key}`,
+    sources: "Tailored CV campaign",
+    sourceNotes: job.proof,
+  }));
+  const employerResearch = companyResearch.map((job, index) => ({
+    ...researchedJobLead({ id: `employer-research:${index}`, company: job.company, title: job.role, location: job.region, postedOn: "", url: job.source, match: "search" }),
+    track: job.track,
+    workMode: job.workMode,
+    sourceNotes: job.notes,
+    sources: "Employer hiring research",
+    firstSeen: job.checkedOn,
+    lastSeen: job.checkedOn,
+  }));
+  return [...tracked, ...omittedResearch, ...tailored, ...employerResearch];
+}

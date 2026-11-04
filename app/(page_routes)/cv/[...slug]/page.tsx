@@ -3,7 +3,7 @@ import { notFound, redirect } from "next/navigation";
 import { isCvSlug } from "../data/cv-data";
 import { cvVariantBySlug, cvVariants } from "../variants";
 
-const FEATURE_ROUTES = ["cover-letter", "jobs", "java-react-jobs", "stats", "archive", "cv-archive", "profile", "scraper"] as const;
+const FEATURE_ROUTES = ["cover-letter", "jobs/comp", "jobs/mid-level", "jobs", "java-react-jobs", "stats", "archive", "cv-archive", "profile", "scraper"] as const;
 
 export const dynamicParams = true;
 
@@ -13,7 +13,7 @@ export function generateStaticParams() {
       slug: variant.slug.split("/"),
     })),
     ...cvVariants.map((variant) => ({ slug: ["cv-archive", ...(variant.slug || "master").split("/")] })),
-    ...FEATURE_ROUTES.map((route) => ({ slug: [route] })),
+    ...FEATURE_ROUTES.map((route) => ({ slug: route.split("/") })),
   ];
 }
 
@@ -30,6 +30,8 @@ export async function generateMetadata({
   if (route === "profile") return { title: "My CV Experience", robots: { index: false, follow: false } };
   if (["scraper", "scrapper", "srapper"].includes(route)) return { title: "CV Job & Form Scanner", robots: { index: false, follow: false } };
 
+  if (route === "jobs/mid-level") return { title: "Semi-senior / Mid-level jobs | CV", robots: { index: false, follow: false } };
+  if (route === "jobs/comp") return { title: "Company directory | CV", robots: { index: false, follow: false } };
   if (route === "cover-letter") return { title: "Cover letter editor" };
   if (route === "jobs" || route === "java-react-jobs") {
     return {
@@ -64,8 +66,16 @@ export default async function CvSlugPage({
     return <CvProfileEditor />;
   }
 
-  if (route === "jobs" || route === "java-react-jobs") redirect("/jobs");
-  if (route === "archive") redirect("/jobs/archive");
+  if (route === "jobs/mid-level") {
+    const { MidLevelJobs } = await import("../components/MidLevelJobs");
+    return <MidLevelJobs />;
+  }
+  if (route === "jobs/comp") redirect("/comp");
+  if (route === "archive") redirect("/comp");
+  if (route === "jobs") {
+    const { JavaReactJobsClient } = await import("../components/JavaReactJobsClient");
+    return <JavaReactJobsClient view="active" />;
+  }
   if (route === "cv-archive") {
     const { CvArchive } = await import("../cv/CvArchive");
     return <CvArchive />;
@@ -87,6 +97,9 @@ export default async function CvSlugPage({
   if (route === "cover-letter") {
     const { CoverLetterWorkspace } = await import("../cover/CoverLetterWorkspace");
     return <CoverLetterWorkspace />;
+  }
+  if (route === "java-react-jobs") {
+    redirect("/cv/jobs");
   }
   if (route === "stats") {
     const { default: CvStatsPage } = await import("../cv/CvStatsPage");

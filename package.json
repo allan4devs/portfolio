@@ -14,7 +14,8 @@
   "license": "ISC",
   "author": "",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
+    "view": "electron scripts/local-viewer.cjs",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx",
@@ -69,6 +70,7 @@
     "@types/react-dom": "^19.0.3",
     "@types/three": "^0.172.0",
     "@types/ws": "^8.5.13",
+    "electron": "^45.1.0",
     "eslint": "^9.18.0",
     "eslint-config-next": "^15.1.6",
     "postcss": "^8.4.49",

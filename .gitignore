@@ -1,5 +1,6 @@
 node_modules/
 .next/
+.next-dev/
 out/
 build/
 next-env.d.ts
@@ -17,6 +18,11 @@ yarn-error.log*
 
 .vercel
 tmp/
+
+# Downloaded Comp research inputs (the curated catalog and audit summaries are tracked separately)
+output/remoteintech-source/
+output/remoteintech-profiles.json
+output/comp-feed-*.json
 
 # Local video-editor media library (keep large source media out of Git)
 app/(page_routes)/video-generator/videos-reel1/*

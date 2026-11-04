@@ -1,0 +1,201 @@
+[
+  {
+    "name": "10Pearls",
+    "url": "https://10pearls.com/join-our-team/",
+    "status": 200,
+    "finalUrl": "https://10pearls.com/join-our-team/"
+  },
+  {
+    "name": "Admios",
+    "url": "https://www.admios.com/careers",
+    "status": 200,
+    "finalUrl": "https://www.admios.com/careers"
+  },
+  {
+    "name": "AssureSoft",
+    "url": "https://www.assuresoft.com/careers",
+    "status": 200,
+    "finalUrl": "https://www.assuresoft.com/careers"
+  },
+  {
+    "name": "Auxis",
+    "url": "https://www.auxis.com/careers/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Azumo",
+    "url": "https://azumo.com/join-our-team",
+    "status": 200,
+    "finalUrl": "https://azumo.com/join-our-team"
+  },
+  {
+    "name": "BairesDev",
+    "url": "https://www.bairesdev.com/join-us/",
+    "status": 200,
+    "finalUrl": "https://www.bairesdev.com/join-us/"
+  },
+  {
+    "name": "Bluelight Consulting",
+    "url": "https://bluelight.co/careers",
+    "status": 200,
+    "finalUrl": "https://bluelight.co/careers"
+  },
+  {
+    "name": "BYDREC",
+    "url": "https://www.bydrec.com/techjobs",
+    "status": 200,
+    "finalUrl": "https://www.bydrec.com/techjobs"
+  },
+  {
+    "name": "Cafeto Software",
+    "url": "https://cafetosoftware.com/job-openings-apply/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Cheesecake Labs",
+    "url": "https://cheesecakelabs.com/careers",
+    "status": 200,
+    "finalUrl": "https://cheesecakelabs.com/careers"
+  },
+  {
+    "name": "CloudDevs",
+    "url": "https://hiredevelopers.com/jobs/",
+    "status": 200,
+    "finalUrl": "https://hiredevelopers.com/jobs/"
+  },
+  {
+    "name": "CodeRoad",
+    "url": "https://coderoad.com/careers",
+    "status": 200,
+    "finalUrl": "https://coderoad.com/careers"
+  },
+  {
+    "name": "Devlane",
+    "url": "https://www.devlane.com/about-us/careers",
+    "status": 200,
+    "finalUrl": "https://www.devlane.com/about-us/careers"
+  },
+  {
+    "name": "Distillery",
+    "url": "https://distillery.com/open-positions/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "First Factory",
+    "url": "https://firstfactory.com/careers",
+    "status": 200,
+    "finalUrl": "https://firstfactory.com/careers"
+  },
+  {
+    "name": "FusionHit",
+    "url": "https://fusionhit.com/careers/",
+    "status": 200,
+    "finalUrl": "https://fusionhit.com/careers/"
+  },
+  {
+    "name": "Gorilla Logic",
+    "url": "https://gorillalogic.com/careers/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "HatchWorks AI",
+    "url": "https://hatchworks.com/careers/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Ideaware",
+    "url": "https://ideaware.co/careers/",
+    "status": 200,
+    "finalUrl": "https://ideaware.co/careers/"
+  },
+  {
+    "name": "Intertec International",
+    "url": "https://www.intertecintl.com/careers?hsLang=en",
+    "status": 200,
+    "finalUrl": "https://www.intertecintl.com/careers"
+  },
+  {
+    "name": "Koombea",
+    "url": "https://www.koombea.com/company/careers/",
+    "status": 200,
+    "finalUrl": "https://www.koombea.com/company/careers/"
+  },
+  {
+    "name": "Kubikware",
+    "url": "https://secondbrain.kubikware.com/#/jobs",
+    "status": 200,
+    "finalUrl": "https://secondbrain.kubikware.com/#/jobs"
+  },
+  {
+    "name": "Mahisoft",
+    "url": "https://mahisoft.com/careers/",
+    "status": 200,
+    "finalUrl": "https://mahisoft.com/careers/"
+  },
+  {
+    "name": "N-iX",
+    "url": "https://careers.n-ix.com/",
+    "status": 200,
+    "finalUrl": "https://careers.n-ix.com/"
+  },
+  {
+    "name": "Oowlish",
+    "url": "https://www.oowlish.com/careers",
+    "status": 200,
+    "finalUrl": "https://www.oowlish.com/careers"
+  },
+  {
+    "name": "Rootstack",
+    "url": "https://rootstack.com/en/jobs",
+    "status": 200,
+    "finalUrl": "https://rootstack.com/en/jobs"
+  },
+  {
+    "name": "Scalepex",
+    "url": "https://scalepex.com/careers/",
+    "status": 200,
+    "finalUrl": "https://scalepex.com/careers/"
+  },
+  {
+    "name": "Softtek",
+    "url": "https://www.softtek.com/careers?hsLang=en",
+    "status": 200,
+    "finalUrl": "https://www.softtek.com/careers?hsLang=en"
+  },
+  {
+    "name": "South Geeks",
+    "url": "https://www.southgeeks.com/careers",
+    "status": 200,
+    "finalUrl": "https://www.southgeeks.com/careers"
+  },
+  {
+    "name": "Tecla",
+    "url": "https://www.tecla.io/about/careers",
+    "status": 200,
+    "finalUrl": "https://www.tecla.io/about/careers"
+  },
+  {
+    "name": "Truelogic",
+    "url": "https://www.truelogic.io/careers",
+    "status": 200,
+    "finalUrl": "https://www.truelogic.io/careers"
+  },
+  {
+    "name": "Ubiminds",
+    "url": "https://ubiminds.com/en-us/careers/",
+    "status": 200,
+    "finalUrl": "https://ubiminds.com/en-us/careers/"
+  },
+  {
+    "name": "Uruit",
+    "url": "https://uruit.com/careers/",
+    "status": 200,
+    "finalUrl": "https://uruit.com/careers/"
+  },
+  {
+    "name": "Wizeline",
+    "url": "https://www.wizeline.ai/careers/",
+    "status": 200,
+    "finalUrl": "https://www.wizeline.ai/careers/"
+  }
+]
